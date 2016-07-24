@@ -69,7 +69,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYS
 CAPTION "Панель задач"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    GROUPBOX "Свойства панели задач", IDC_STATIC, 6, 6, 240, 104
+    GROUPBOX "Оформление панели задач", IDC_STATIC, 6, 6, 240, 104
     CONTROL "", IDC_TASKBARPROP_TASKBARBITMAP, "Static", SS_BITMAP | SS_SUNKEN, 13, 18, 224, 21
     AUTOCHECKBOX "&Закрепить панель задач", IDC_TASKBARPROP_LOCK, 13, 45, 200, 10
     AUTOCHECKBOX "&Автоматически скрывать панель задач", IDC_TASKBARPROP_HIDE, 13, 58, 200, 10
@@ -158,9 +158,9 @@ FONT 8, "MS Shell Dlg"
     AUTOCHECKBOX     "&Выделять недавно установленные программы", IDC_HIGHLIGHT, 14, 35, 224, 10
     LTEXT            "&Элементы меню \"Пуск\":", IDC_STATIC, 7, 53, 238, 8
     CONTROL          "StartMenuSe&ttings", IDC_ITEMS, "SysTreeView32", WS_BORDER | 0x00000001, 7, 63, 238, 67, WS_EX_CLIENTEDGE
-    GROUPBOX         "Recent documents ", IDC_STATIC, 7, 133, 238, 56
-    LTEXT            "Select this option to provide quick access to the documents you opened most recently.  Clearing this list does not delete the documents.", IDC_STATIC, 14, 144, 224, 21
-    AUTOCHECKBOX     "List my most &recently opened documents", IDC_RECENTLY, 14, 168, 147, 10
+    GROUPBOX         "Недавние документы ", IDC_STATIC, 7, 133, 238, 56
+    LTEXT            "Этот список обеспечивает быстрый доступ к недавно использовавшимся документам, его очистка не приводит к удаление документов.", IDC_STATIC, 14, 144, 224, 21
+    AUTOCHECKBOX     "Отображать список &недавно использовавшихся документов.", IDC_RECENTLY, 14, 168, 147, 10
     PUSHBUTTON       "&Очистить список", IDC_CLEAR, 182, 168, 55, 14
 }
 
