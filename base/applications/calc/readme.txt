@@ -22,8 +22,6 @@ http://www.microsoft.com/downloads/details.aspx?familyid=00535334-c8a6-452f-9aa0
 INSTALLATION
 =============
 CALC.CHM must be copied under %systemroot%\Help directory.
-For Microsoft Windows's users, it can be \Windows\Help or \WinNT\Help.
-For ReactOS's users, it must be \ReactOS\Help (at the moment the Help directory doesn't exists, so it must be created manually).
 
 NOTES TO REACTOS'S USERS
 =========================

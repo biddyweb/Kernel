@@ -23,7 +23,7 @@ HINSTANCE ConSrvDllInstance = NULL;
 /* Memory */
 HANDLE ConSrvHeap = NULL;   // Our own heap.
 
-// Windows Server 2003 table from http://j00ru.vexillium.org/csrss_list/api_list.html#Windows_2k3
+// Table from http://j00ru.vexillium.org/csrss_list/api_list.html#Windows_2k3
 PCSR_API_ROUTINE ConsoleServerApiDispatchTable[ConsolepMaxApiNumber - CONSRV_FIRST_API_NUMBER] =
 {
     SrvOpenConsole,

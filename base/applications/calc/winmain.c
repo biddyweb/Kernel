@@ -233,7 +233,7 @@ static void load_config(void)
     calc.layout = CALC_LAYOUT_STANDARD;
     calc.usesep = FALSE;
 
-    /* Get the configuration based on what version of Windows that's being used */
+    /* Get the configuration based on what version of OS that's being used */
     if (RegOpenKeyEx(HKEY_CURRENT_USER, TEXT("SOFTWARE\\Microsoft\\Calc"), 0, KEY_QUERY_VALUE, &hKey) == ERROR_SUCCESS)
     {
         /* Try to load last selected layout */
