@@ -1270,7 +1270,7 @@ DlgProc(HWND hDlg,
 
                     txtRc.left = bmpRc.right / 4;
                     txtRc.top = txtRc.bottom - 5;
-                    txtRc.right = bmpRc.right * 3 / 4;
+                    txtRc.right = bmpRc.right * 4 / 5;
                     txtRc.bottom = pInfo->headerbitmap.bmHeight * 9 / 10;
 
                     if (LoadStringW(hInst,
