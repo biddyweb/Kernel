@@ -12,7 +12,7 @@ static MUI_ENTRY ruRULanguagePageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -58,19 +58,19 @@ static MUI_ENTRY ruRUWelcomePageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Добро пожаловать в программу установки ReactOS",
+        "Добро пожаловать в программу установки",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "На этой стадии будут скопированы файлы операционной системы ReactOS",
+        "На этой стадии будут скопированы файлы операционной системы",
         TEXT_STYLE_NORMAL
     },
     {
@@ -82,37 +82,37 @@ static MUI_ENTRY ruRUWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Нажмите ENTER для установки ReactOS.",
+        "\x07  Нажмите ENTER для установки.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Нажмите R для восстановления ReactOS.",
+        "\x07  Нажмите R для восстановления.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  Нажмите L для просмотра лицензионного соглашения ReactOS",
+        "\x07  Нажмите L для просмотра лицензионного соглашения",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  Нажмите F3 для выхода из программы установки ReactOS.",
+        "\x07  Нажмите F3 для выхода из программы установки.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "Для дополнительной информации о ReactOS посетите:",
+        "Для дополнительной информации о системе посетите:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.ru",
+        "http://www.Greentea.ru",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -134,13 +134,13 @@ static MUI_ENTRY ruRUIntroPageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS находится в ранней стадии разработки и не поддерживает все",
+        "Данный проект находится на ранней стадии разработки и не поддерживает все",
         TEXT_STYLE_NORMAL
     },
     {
@@ -170,13 +170,13 @@ static MUI_ENTRY ruRUIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Нажмите ENTER для установки ReactOS.",
+        "\x07  Нажмите ENTER для установки.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  Нажмите F3 для выхода из установки ReactOS.",
+        "\x07  Нажмите F3 для выхода из установки.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -198,7 +198,7 @@ static MUI_ENTRY ruRULicensePageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -210,7 +210,7 @@ static MUI_ENTRY ruRULicensePageEntries[] =
     {
         8,
         8,
-        "ReactOS лицензирована в соответствии с Открытым лицензионным",
+        "Данная система лицензирована в соответствии с Открытым лицензионным",
         TEXT_STYLE_NORMAL
     },
     {
@@ -228,7 +228,7 @@ static MUI_ENTRY ruRULicensePageEntries[] =
     {
         8,
         11,
-        "Все программное обеспечение входящее в систему ReactOS выпущено",
+        "Все программное обеспечение входящее в систему выпущено",
         TEXT_STYLE_NORMAL
     },
     {
@@ -258,7 +258,7 @@ static MUI_ENTRY ruRULicensePageEntries[] =
     {
         8,
         17,
-        "Лицензия ReactOS разрешает передачу продукта третьим лицам.",
+        "Лицензия разрешает передачу продукта третьим лицам.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -270,7 +270,7 @@ static MUI_ENTRY ruRULicensePageEntries[] =
     {
         8,
         19,
-        "лицензионного соглашения GNU вместе с ReactOS, посетите",
+        "лицензионного соглашения GNU, посетите",
         TEXT_STYLE_NORMAL
     },
     {
@@ -322,7 +322,7 @@ static MUI_ENTRY ruRUDevicePageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -415,13 +415,13 @@ static MUI_ENTRY ruRURepairPageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS находится в ранней стадии разработки и не поддерживает все",
+        "Данный проект находится в ранней стадии разработки и не поддерживает все",
         TEXT_STYLE_NORMAL
     },
     {
@@ -479,7 +479,7 @@ static MUI_ENTRY ruRUComputerPageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -531,7 +531,7 @@ static MUI_ENTRY ruRUFlushPageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -571,13 +571,13 @@ static MUI_ENTRY ruRUQuitPageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS установлен не полностью",
+        "Система установлена не полностью",
         TEXT_STYLE_NORMAL
     },
     {
@@ -617,7 +617,7 @@ static MUI_ENTRY ruRUDisplayPageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -668,13 +668,13 @@ static MUI_ENTRY ruRUSuccessPageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Основные компоненты ReactOS были успешно установлены.",
+        "Основные компоненты были успешно установлены.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -714,7 +714,7 @@ static MUI_ENTRY ruRUBootPageEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -761,7 +761,7 @@ static MUI_ENTRY ruRUSelectPartitionEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -785,7 +785,7 @@ static MUI_ENTRY ruRUSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Нажмите ENTER для установки ReactOS на выделенный раздел.",
+        "\x07  Нажмите ENTER для установки на выделенный раздел.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -831,13 +831,13 @@ static MUI_ENTRY ruRUConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "You have chosen to delete the system partition.",
+        "Вы хотите удалить системный раздел.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -849,7 +849,7 @@ static MUI_ENTRY ruRUConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -861,49 +861,49 @@ static MUI_ENTRY ruRUConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         14,
-        "Delete a system partition only when you are sure that there are no such",
+        "Удаляйте системный раздел, когда уверены, что на нем нет важных программ",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         15,
-        "programs on the partition, or when you are sure you want to delete them.",
+        "или когда вы уверены, что они не нужны.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         16,
-        "When you delete the partition, you might not be able to boot the",
+        "Когда вы удалите системный раздел, вы не сможете загрузить",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "компьютер с жесткого диска, пока не завершится установка.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         20,
-        "\x07  Press ENTER to delete the system partition. You will be asked",
+        "\x07  Нажмите ENTER чтобы удалить системный раздел. Вы должны будете подтвердить",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "   to confirm the deletion of the partition again later.",
+        "   удаление позже снова.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         24,
-        "\x07  Press ESC to return to the previous page. The partition will",
+        "\x07  Нажмите ESC чтобы вернуться к предыдущей странице. Раздел не",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "   not be deleted.",
+        "   будет удален.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -925,7 +925,7 @@ static MUI_ENTRY ruRUFormatPartitionEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -959,13 +959,13 @@ static MUI_ENTRY ruRUInstallDirectoryEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Установка файлов ReactOS на выбранный раздел. Выберите директорию,",
+        "Установка файлов на выбранный раздел. Выберите директорию,",
         TEXT_STYLE_NORMAL
     },
     {
@@ -983,7 +983,7 @@ static MUI_ENTRY ruRUInstallDirectoryEntries[] =
     {
         6,
         15,
-        "символов, а за тем наберите новое имя директории для установки ReactOS.",
+        "символов, а за тем наберите новое имя директории для установки системы.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1011,7 +1011,7 @@ static MUI_ENTRY ruRUFileCopyEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1023,7 +1023,7 @@ static MUI_ENTRY ruRUFileCopyEntries[] =
     {
         0,
         13,
-        "ReactOS в установочную директорию.",
+        "в установочную директорию.",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1051,13 +1051,13 @@ static MUI_ENTRY ruRUBootLoaderEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Установка загрузчика ReactOS:",
+        "Установка загрузчика:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1103,7 +1103,7 @@ static MUI_ENTRY ruRUKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1155,7 +1155,7 @@ static MUI_ENTRY ruRULayoutSettingsEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1208,13 +1208,13 @@ static MUI_ENTRY ruRUPrepareCopyEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Подготовка вашего компьютера к копированию файлов ReactOS. ",
+        "Подготовка вашего компьютера к копированию файлов. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1237,7 +1237,7 @@ static MUI_ENTRY ruRUSelectFSEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1284,7 +1284,7 @@ static MUI_ENTRY ruRUDeletePartitionEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1330,7 +1330,7 @@ static MUI_ENTRY ruRURegistryEntries[] =
     {
         4,
         3,
-        " Установка ReactOS " KERNEL_VERSION_STR,
+        " Установка Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1362,10 +1362,10 @@ MUI_ERROR ruRUErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS не был полностью установлен на ваш\n"
+        "Система не была полностью установлен на ваш\n"
         "компьютер. Если вы выйдите из установки сейчас,\n"
         "то вам нужно запустить программу установки снова,\n"
-        "если вы хотите установить ReactOS\n"
+        "если вы хотите завершить установку\n"
         "  \x07  Нажмите ENTER для продолжения установки.\n"
         "  \x07  Нажмите F3 выхода из установки.",
         "F3 = Выход  ENTER = Продолжить"
@@ -1427,8 +1427,8 @@ MUI_ERROR ruRUErrorEntries[] =
     },
     {
         //ERROR_WARN_PARTITION,
-        "Найден по крайней мере один жесткий диск, который содержит раздел\n"
-        "неподдерживаемый ReactOS!\n"
+        "Найден по крайней мере один жесткий диск, который содержит\n"
+        "неподдерживаемый раздел!\n"
         "\n"
         "Создание или удаление разделов может нарушить таблицу разделов.\n"
         "\n"
@@ -1572,7 +1572,7 @@ MUI_ERROR ruRUErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "Выбранный раздел слишком мал для установки ReactOS.\n"
+        "Выбранный раздел слишком мал для установки системы.\n"
         "Установочный раздел должен иметь по крайней мере %lu MB пространства.\n"
         "\n"
         "  * Нажмите любую клавишу для продолжения.",
@@ -1735,13 +1735,13 @@ MUI_STRING ruRUStrings[] =
     {STRING_PARTFORMAT,
     "Этот раздел будет отформатирован далее."},
     {STRING_NONFORMATTEDPART,
-    "Вы выбрали установку ReactOS на новый неотформатированный раздел."},
+    "Вы выбрали установку на новый неотформатированный раздел."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "Системный раздел не отформатирован."},
     {STRING_NONFORMATTEDOTHERPART,
     "Новый раздел не отформатирован."},
     {STRING_INSTALLONPART,
-    "ReactOS устанавливается на раздел:"},
+    "Установка производится на раздел:"},
     {STRING_CHECKINGPART,
     "Программа установки проверяет выбранный раздел."},
     {STRING_CONTINUE,
