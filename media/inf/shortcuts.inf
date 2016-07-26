@@ -10,7 +10,7 @@ AccessoriesShortcuts=2, %ACCESSORIES%
 SystemToolsShortcuts=2, %ACCESSORIES%\%SYSTOOLS%
 AccessibilityShortcuts=2, %ACCESSORIES%\%ACCESSIBILITY%
 EntertainmentShortcuts=2, %ACCESSORIES%\%ENTERTAINMENT%
-CommunicationsShortcuts=2, %ACCESSORIES%\%COMMUNICATIONS%
+CommunicationsShortcuts=2, %ACCESSORIES%
 GamesShortcuts=2, %GAMES%
 
 [DesktopShortcuts]
