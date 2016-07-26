@@ -13,7 +13,7 @@ EntertainmentShortcuts=2, %ACCESSORIES%\%ENTERTAINMENT%
 CommunicationsShortcuts=2, %ACCESSORIES%\%COMMUNICATIONS%
 GamesShortcuts=2, %GAMES%
 
-[DesktopShortcut]
+[DesktopShortcuts]
 %SystemRoot%\readme.txt, %README_TITLE%, %README_DESC%, 0
 %SystemRoot%\system32\cmd.exe, %CMD_TITLE%, %CMD_DESC%, 0, %HOMEDRIVE%%HOMEPATH%
 %SystemRoot%\system32\rapps.exe, %RAPPS_TITLE_SHORT%, %RAPPS_DESC%, 0
