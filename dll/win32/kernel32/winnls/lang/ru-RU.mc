@@ -333,7 +333,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NOT_SUPPORTED
 Language=Russian
-ERROR_NOT_SUPPORTED - The request is not supported.
+ERROR_NOT_SUPPORTED - Запрос не поддерживается.
 .
 
 MessageId=51
@@ -373,7 +373,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_DEV_NOT_EXIST
 Language=Russian
-ERROR_DEV_NOT_EXIST - The specified network resource or device is no longer available.
+ERROR_DEV_NOT_EXIST - Сетевой ресурс или устройство более не доступно.
 .
 
 MessageId=56
@@ -381,7 +381,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_TOO_MANY_CMDS
 Language=Russian
-ERROR_TOO_MANY_CMDS - The network BIOS command limit has been reached.
+ERROR_TOO_MANY_CMDS - Достигнут лимит сетевых команд BIOS.
 .
 
 MessageId=57
@@ -389,7 +389,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_ADAP_HDW_ERR
 Language=Russian
-ERROR_ADAP_HDW_ERR - A network adapter hardware error occurred.
+ERROR_ADAP_HDW_ERR - Произошла аппаратная ошибка сетевого адаптера.
 .
 
 MessageId=58
@@ -397,7 +397,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_BAD_NET_RESP
 Language=Russian
-ERROR_BAD_NET_RESP - The specified server cannot perform the requested operation.
+ERROR_BAD_NET_RESP - Указанный сервер не может выполнить требуемую операцию.
 .
 
 MessageId=59
@@ -405,7 +405,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_UNEXP_NET_ERR
 Language=Russian
-ERROR_UNEXP_NET_ERR - An unexpected network error occurred.
+ERROR_UNEXP_NET_ERR - Произошла неожиданная сетевая ошибка.
 .
 
 MessageId=60
@@ -413,7 +413,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_BAD_REM_ADAP
 Language=Russian
-ERROR_BAD_REM_ADAP - The remote adapter is not compatible.
+ERROR_BAD_REM_ADAP - Удаленный адаптер не совместим.
 .
 
 MessageId=61
@@ -421,7 +421,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_PRINTQ_FULL
 Language=Russian
-ERROR_PRINTQ_FULL - The printer queue is full.
+ERROR_PRINTQ_FULL - Очередь принтера заполнена.
 .
 
 MessageId=62
@@ -429,7 +429,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NO_SPOOL_SPACE
 Language=Russian
-ERROR_NO_SPOOL_SPACE - Space to store the file waiting to be printed is not available on the server.
+ERROR_NO_SPOOL_SPACE - Пространство для хранения файлов, ожидающих вывода на печать, не доступно на сервере.
 .
 
 MessageId=63
@@ -437,7 +437,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_PRINT_CANCELLED
 Language=Russian
-ERROR_PRINT_CANCELLED - Your file waiting to be printed was deleted.
+ERROR_PRINT_CANCELLED - Ваш файл, находившийся в очереди вывода на печать, был удален.
 .
 
 MessageId=64
@@ -445,7 +445,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NETNAME_DELETED
 Language=Russian
-ERROR_NETNAME_DELETED - The specified network name is no longer available.
+ERROR_NETNAME_DELETED - Указанное сетевое имя более не доступно.
 .
 
 MessageId=65
@@ -453,7 +453,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NETWORK_ACCESS_DENIED
 Language=Russian
-ERROR_NETWORK_ACCESS_DENIED - Network access is denied.
+ERROR_NETWORK_ACCESS_DENIED - Доступ к сети запрещен.
 .
 
 MessageId=66
@@ -461,7 +461,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_BAD_DEV_TYPE
 Language=Russian
-ERROR_BAD_DEV_TYPE - The network resource type is not correct.
+ERROR_BAD_DEV_TYPE - Неверный тип сетевого ресурса.
 .
 
 MessageId=67
@@ -493,7 +493,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_SHARING_PAUSED
 Language=Russian
-ERROR_SHARING_PAUSED - The remote server has been paused or is in the process of being started.
+ERROR_SHARING_PAUSED - Удаленный сервер приостановлен или находится в процессе запуска.
 .
 
 MessageId=71
@@ -509,7 +509,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_REDIR_PAUSED
 Language=Russian
-ERROR_REDIR_PAUSED - The specified printer or disk device has been paused.
+ERROR_REDIR_PAUSED - Указанное устройство (принтер или диск) было приостановлено.
 .
 
 MessageId=80
@@ -533,7 +533,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_FAIL_I24
 Language=Russian
-ERROR_FAIL_I24 - Fail on INT 24.
+ERROR_FAIL_I24 - Ошибка прерывания INT 24.
 .
 
 MessageId=84
@@ -541,7 +541,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_OUT_OF_STRUCTURES
 Language=Russian
-ERROR_OUT_OF_STRUCTURES - Storage to process this request is not available.
+ERROR_OUT_OF_STRUCTURES - Хранилище для обработки данного запроса не доуступно.
 .
 
 MessageId=85
@@ -549,7 +549,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_ALREADY_ASSIGNED
 Language=Russian
-ERROR_ALREADY_ASSIGNED - The local device name is already in use.
+ERROR_ALREADY_ASSIGNED - Имя локального устройства уже используется.
 .
 
 MessageId=86
@@ -557,7 +557,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INVALID_PASSWORD
 Language=Russian
-ERROR_INVALID_PASSWORD - The specified network password is not correct.
+ERROR_INVALID_PASSWORD - Неверный сетевой пароль.
 .
 
 MessageId=87
@@ -573,7 +573,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NET_WRITE_FAULT
 Language=Russian
-ERROR_NET_WRITE_FAULT - A write fault occurred on the network.
+ERROR_NET_WRITE_FAULT - Ошибка сетевой записи.
 .
 
 MessageId=89
@@ -581,7 +581,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NO_PROC_SLOTS
 Language=Russian
-ERROR_NO_PROC_SLOTS - The system cannot start another process at this time.
+ERROR_NO_PROC_SLOTS - Система не может запустить другой процесс в это время.
 .
 
 MessageId=100
@@ -589,7 +589,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_TOO_MANY_SEMAPHORES
 Language=Russian
-ERROR_TOO_MANY_SEMAPHORES - Cannot create another system semaphore.
+ERROR_TOO_MANY_SEMAPHORES - Не удается создать еще один системный семафор.
 .
 
 MessageId=101
@@ -597,7 +597,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_EXCL_SEM_ALREADY_OWNED
 Language=Russian
-ERROR_EXCL_SEM_ALREADY_OWNED - The exclusive semaphore is owned by another process.
+ERROR_EXCL_SEM_ALREADY_OWNED - Исключительный семафор принадлежит другому процессу.
 .
 
 MessageId=102
@@ -605,7 +605,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_SEM_IS_SET
 Language=Russian
-ERROR_SEM_IS_SET - The semaphore is set and cannot be closed.
+ERROR_SEM_IS_SET - Семафор установлен и не может быть закрыт.
 .
 
 MessageId=103
@@ -613,7 +613,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_TOO_MANY_SEM_REQUESTS
 Language=Russian
-ERROR_TOO_MANY_SEM_REQUESTS - The semaphore cannot be set again.
+ERROR_TOO_MANY_SEM_REQUESTS - Семафор не может быть установлен повторно.
 .
 
 MessageId=104
@@ -621,7 +621,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INVALID_AT_INTERRUPT_TIME
 Language=Russian
-ERROR_INVALID_AT_INTERRUPT_TIME - Cannot request exclusive semaphores at interrupt time.
+ERROR_INVALID_AT_INTERRUPT_TIME - Невозможно запросить эксклюзивные семафоры во время прерывания.
 .
 
 MessageId=105
@@ -629,7 +629,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_SEM_OWNER_DIED
 Language=Russian
-ERROR_SEM_OWNER_DIED - The previous ownership of this semaphore has ended.
+ERROR_SEM_OWNER_DIED - Прежнее владение этим семафором закончилось.
 .
 
 MessageId=106
@@ -645,7 +645,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_DISK_CHANGE
 Language=Russian
-ERROR_DISK_CHANGE - The program stopped because an alternate diskette was not inserted.
+ERROR_DISK_CHANGE - Программа остановлена, так как другая дискета не вставлена.
 .
 
 MessageId=108
@@ -653,7 +653,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_DRIVE_LOCKED
 Language=Russian
-ERROR_DRIVE_LOCKED - The disk is in use or locked by another process.
+ERROR_DRIVE_LOCKED - Диск занят или заблокирован другим процессом.
 .
 
 MessageId=109
@@ -661,7 +661,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_BROKEN_PIPE
 Language=Russian
-ERROR_BROKEN_PIPE - The pipe has been ended.
+ERROR_BROKEN_PIPE - Канал был закрыт.
 .
 
 MessageId=110
@@ -685,7 +685,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_DISK_FULL
 Language=Russian
-ERROR_DISK_FULL - There is not enough space on the disk.
+ERROR_DISK_FULL - На диске недостаточно места.
 .
 
 MessageId=113
@@ -693,7 +693,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NO_MORE_SEARCH_HANDLES
 Language=Russian
-ERROR_NO_MORE_SEARCH_HANDLES - No more internal file identifiers available.
+ERROR_NO_MORE_SEARCH_HANDLES - Больше нет доступных внутренних файловых идентификаторов.
 .
 
 MessageId=114
@@ -701,7 +701,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INVALID_TARGET_HANDLE
 Language=Russian
-ERROR_INVALID_TARGET_HANDLE - The target internal file identifier is incorrect.
+ERROR_INVALID_TARGET_HANDLE - Некорректный целевой внутренний идентификатор файла.
 .
 
 MessageId=117
@@ -725,7 +725,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_BAD_DRIVER_LEVEL
 Language=Russian
-ERROR_BAD_DRIVER_LEVEL - The system does not support the command requested.
+ERROR_BAD_DRIVER_LEVEL - Система не поддерживает запрашиваемую команду.
 .
 
 MessageId=120
@@ -741,7 +741,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_SEM_TIMEOUT
 Language=Russian
-ERROR_SEM_TIMEOUT - The semaphore timeout period has expired.
+ERROR_SEM_TIMEOUT - Истек период ожидания семафора.
 .
 
 MessageId=122
@@ -765,7 +765,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INVALID_LEVEL
 Language=Russian
-ERROR_INVALID_LEVEL - The system call level is not correct.
+ERROR_INVALID_LEVEL - Уровень системного вызова не является правильным.
 .
 
 MessageId=125
@@ -797,7 +797,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_WAIT_NO_CHILDREN
 Language=Russian
-ERROR_WAIT_NO_CHILDREN - There are no child processes to wait for.
+ERROR_WAIT_NO_CHILDREN - Нет дочерних процессов для ожидания.
 .
 
 MessageId=129
