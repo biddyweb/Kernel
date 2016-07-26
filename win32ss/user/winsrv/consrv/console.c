@@ -710,7 +710,7 @@ ConSrvInitConsole(OUT PHANDLE NewConsoleHandle,
     Console->InsertMode = ConsoleInfo->InsertMode;
     Console->QuickEdit  = ConsoleInfo->QuickEdit;
 
-    /* Popup windows */
+    /* Popups */
     InitializeListHead(&Console->PopupWindows);
 
     /* Colour table */

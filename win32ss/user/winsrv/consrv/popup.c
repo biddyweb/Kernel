@@ -2,7 +2,7 @@
  * LICENSE:         GPL - See COPYING in the top level directory
  * PROJECT:         ReactOS Console Server DLL
  * FILE:            win32ss/user/winsrv/consrv/popup.c
- * PURPOSE:         Console popup windows
+ * PURPOSE:         Console popups
  * PROGRAMMERS:     Hermes Belusca-Maito (hermes.belusca@sfr.fr)
  *
  * NOTE:            Strongly inspired by the DrawBox function
