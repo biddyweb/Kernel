@@ -6,6 +6,7 @@
 *.exe
 *.iso
 *.7z
+*.psd
 
 ## Systems temporal files
 *DS_Store
