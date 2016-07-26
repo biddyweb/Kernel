@@ -7,7 +7,7 @@ BEGIN
     MENUITEM "&Большие значки", FCIDM_SHVIEW_BIGICON
     MENUITEM "&Мелкие значки", FCIDM_SHVIEW_SMALLICON
     MENUITEM "&Список", FCIDM_SHVIEW_LISTVIEW
-    MENUITEM "&Подробно", FCIDM_SHVIEW_REPORTVIEW
+    MENUITEM "&Таблица", FCIDM_SHVIEW_REPORTVIEW
 END
 
 /* shellview background menu */
@@ -20,7 +20,7 @@ BEGIN
             MENUITEM "&Большие значки", FCIDM_SHVIEW_BIGICON
             MENUITEM "&Мелкие значки", FCIDM_SHVIEW_SMALLICON
             MENUITEM "&Список", FCIDM_SHVIEW_LISTVIEW
-            MENUITEM "&Подробно", FCIDM_SHVIEW_REPORTVIEW
+            MENUITEM "&Таблица", FCIDM_SHVIEW_REPORTVIEW
         END
         MENUITEM SEPARATOR
         POPUP "Упорядочить &значки"
