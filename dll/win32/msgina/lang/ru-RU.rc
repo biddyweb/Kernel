@@ -1,4 +1,4 @@
-/* Russian translation by Dmitry Chapyshev, 2007.06.17, Kudratov Olimjon (olim98@bk.ru) */
+/* Russian translation by Dmitry Chapyshev, 2007.06.17, Kudratov Olimjon (olim98@bk.ru) and Greentea OS Team*/
 
 LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 
@@ -31,7 +31,7 @@ BEGIN
     EDITTEXT IDC_USERNAME, 60, 57, 155, 14, ES_AUTOHSCROLL
     LTEXT "Пароль:", IDC_STATIC, 6, 78, 52, 8
     EDITTEXT IDC_PASSWORD, 60, 76, 155, 14, ES_AUTOHSCROLL | ES_PASSWORD
-    LTEXT "Log on to:", IDC_STATIC, 6, 96, 52, 8
+    LTEXT "Войти на:", IDC_STATIC, 6, 96, 52, 8
     COMBOBOX IDC_LOGON_TO, 60, 95, 155, 14, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     PUSHBUTTON "OK", IDOK, 106, 122, 50, 14, BS_DEFPUSHBUTTON
     PUSHBUTTON "Отмена", IDCANCEL, 160, 122, 50, 14
@@ -171,7 +171,7 @@ BEGIN
     IDS_CHANGEPWDTITLE "Сменить пароль"
     IDS_NONMATCHINGPASSWORDS "Введенные пароли не совпадают. Введите одинаковый пароль в оба поля"
     IDS_PASSWORDCHANGED "Ваш пароль был изменен."
-    IDS_LOGONTITLE "Logon Message"
+    IDS_LOGONTITLE "Сообщение входа в систему"
     IDS_LOGONWRONGUSERORPWD "Системе не удается войти. Проверьте правильность имени пользователя и домена и повторите ввод. Пароли вводятся с учетом регистра"
     IDS_LOGONUSERDISABLED "Ваш аккаунт отключен. Пожалуйста, обратитесь к системному администратору."
     IDS_PASSWORDMUSTCHANGE "Вы должны сменить пароль при следующем входе."
