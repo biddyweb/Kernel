@@ -179,15 +179,15 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_APPTITLE "Менеджер приложений ReactOS"
+    IDS_APPTITLE "Менеджер приложений"
     IDS_SEARCH_TEXT "Поиск..."
     IDS_INSTALL "Установить"
     IDS_UNINSTALL "Удалить"
     IDS_MODIFY "Изменить"
     IDS_APPS_COUNT "Количество: %d"
-    IDS_WELCOME_TITLE "Добро пожаловать в ""Менеджер приложений ReactOS""!\n\n"
-    IDS_WELCOME_TEXT "Выберите категорию слева и приложение для установки или удаления.\nСайт ReactOS: "
-    IDS_WELCOME_URL "http://www.reactos.org"
+    IDS_WELCOME_TITLE "Добро пожаловать в ""Менеджер приложений""!\n\n"
+    IDS_WELCOME_TEXT "Выберите категорию слева и приложение для установки или удаления.\nСайт проекта: "
+    IDS_WELCOME_URL "https://osgreentea.github.io"
     IDS_INSTALLED "Установленные"
     IDS_AVAILABLEFORINST "Доступно для установки"
     IDS_UPDATES "Обновления"
@@ -201,6 +201,6 @@ BEGIN
     IDS_CERT_DOES_NOT_MATCH "Ошибка проверки SSL сертификата."
     IDS_INTEG_CHECK_TITLE "Проверка целостности приложения..."
     IDS_INTEG_CHECK_FAIL "Приложение не прошло проверку целостности, возможно оно было повреждено или подменено. Запуск приложения не рекомендуется."
-    IDS_INTERRUPTED_DOWNLOAD "The download was interrupted. Check connection to Internet."
-    IDS_UNABLE_TO_WRITE "Unable to write to disk. Disk may be at capacity."
+    IDS_INTERRUPTED_DOWNLOAD "Загрузка прервана. Проверьте подключение к интернету."
+    IDS_UNABLE_TO_WRITE "Невозможно произвести запись. Возможно диск переполнен."
 END
