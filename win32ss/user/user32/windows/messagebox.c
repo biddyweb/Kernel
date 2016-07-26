@@ -457,8 +457,7 @@ MessageBoxTimeoutIndirectW(
         MessageBeep(MB_OK);
         break;
       default:
-        /* By default, Windows 95/98/NT does not associate an icon to message boxes.
-         * So ReactOS should do the same.
+        /* By default, do not associate an icon to message boxes.
          */
         Icon = (HICON)0;
         MessageBeep(MB_OK);

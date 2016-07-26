@@ -1536,7 +1536,7 @@ IsWindowVisible(HWND hWnd)
 BOOL WINAPI
 IsWindowEnabled(HWND hWnd)
 {
-    // AG: I don't know if child windows are affected if the parent is
+    // AG: I don't know if childs are affected if the parent is
     // disabled. I think they stop processing messages but stay appearing
     // as enabled.
 

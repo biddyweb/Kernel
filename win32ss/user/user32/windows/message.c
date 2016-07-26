@@ -2964,7 +2964,7 @@ User32CallWindowProcFromKernel(PVOID Arguments, ULONG ArgumentLength)
  */
 BOOL WINAPI SetMessageQueue(int cMessagesMax)
 {
-  /* Function does nothing on 32 bit windows */
+  /* Function does nothing on 32 bit */
   return TRUE;
 }
 typedef DWORD (WINAPI * RealGetQueueStatusProc)(UINT flags);
