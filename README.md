@@ -12,3 +12,5 @@ What is ReactOS?
 ReactOS™ is an Open Source effort to develop a quality operating system that is
 compatible with applications and drivers written for the Microsoft® Windows™ NT
 family of operating systems (NT4, 2000, XP, 2003, Vista, Seven).
+
+Please visit this link for more information https://github.com/OSGreentea/Greentea
