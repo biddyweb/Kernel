@@ -1700,7 +1700,7 @@ main (
     int persistent_hide=0;
     int power_mode=StartStop_Power_NoChg;
 
-    printf("Console ATA control utility for Windows NT3.51/NT4/2000/XP/2003\n"
+    printf("Console ATA control utility\n"
            "Version 0." UNIATA_VER_STR ", Copyright (c) Alexander A. Telyatnikov, 2003-2012\n"
            "Home site: http://alter.org.ua\n");
 

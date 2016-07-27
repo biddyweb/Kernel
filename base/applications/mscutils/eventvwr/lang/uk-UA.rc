@@ -16,7 +16,7 @@ BEGIN
         MENUITEM SEPARATOR
         MENUITEM "В&ихід", IDM_EXIT
     END
-    POPUP    "&Вигляд"
+    POPUP "&Вигляд"
     BEGIN
         MENUITEM "&Newest first", IDM_LIST_NEWEST
         MENUITEM "&Oldest first", IDM_LIST_OLDEST
@@ -24,7 +24,7 @@ BEGIN
         MENUITEM "&Оновити\tF5", IDM_REFRESH
     END
     MENUITEM "&Властивості", IDM_OPTIONS
-    POPUP    "&Допомога"
+    POPUP "&Допомога"
     BEGIN
         MENUITEM "Д&опомога", IDM_HELP
         MENUITEM SEPARATOR
