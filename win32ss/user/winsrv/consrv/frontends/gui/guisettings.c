@@ -247,7 +247,7 @@ Quit:
 
 /*
  * Function for dealing with the undocumented message and structure used by
- * Windows' console.dll for setting console info.
+ * console.dll for setting console info.
  * See http://www.catch22.net/sites/default/source/files/setconsoleinfo.c
  * and http://www.scn.rain.com/~neighorn/PDF/MSBugPaper.pdf
  * for more information.

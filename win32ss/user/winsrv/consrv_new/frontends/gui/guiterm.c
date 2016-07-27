@@ -1034,7 +1034,7 @@ GuiConsoleHandleClose(PGUI_CONSOLE_DATA GuiData)
     // TODO: Prompt for termination ? (Warn the user about possible apps running in this console)
 
     /*
-     * FIXME: Windows will wait up to 5 seconds for the thread to exit.
+     * FIXME: Should wait up to 5 seconds for the thread to exit.
      * We shouldn't wait here, though, since the console lock is entered.
      * A copy of the thread list probably needs to be made.
      */

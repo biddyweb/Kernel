@@ -12,7 +12,7 @@
 /* STRUCTURES *****************************************************************/
 
 /*
- * Undocumented message and structure used by Windows' console.dll
+ * Undocumented message and structure used by console.dll
  * for setting console info.
  * See http://www.catch22.net/sites/default/source/files/setconsoleinfo.c
  * and http://www.scn.rain.com/~neighorn/PDF/MSBugPaper.pdf
