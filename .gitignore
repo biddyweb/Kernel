@@ -11,6 +11,7 @@
 *.iso
 *.7z
 *.psd
+*.pdn
 
 ## Systems temporal files
 *DS_Store
