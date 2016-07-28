@@ -1244,7 +1244,7 @@ DlgProc(HWND hDlg,
                                     szBuffer,
                                     sizeof(szBuffer) / sizeof(WCHAR)))
                     {
-                        lf.lfHeight = 24;
+                        lf.lfHeight = 18;
                         lf.lfCharSet = OEM_CHARSET;
                         lf.lfQuality = DEFAULT_QUALITY;
                         lf.lfWeight = FW_MEDIUM;
@@ -1256,7 +1256,7 @@ DlgProc(HWND hDlg,
                             hFontOld = SelectObject(hdc, hFont);
 
                             DPtoLP(hdc, (PPOINT)&txtRc, 2);
-                            SetTextColor(hdc, RGB(255,255,255));
+                            SetTextColor(hdc, RGB(0,51,153));
                             SetBkMode(hdc, TRANSPARENT);
                             DrawTextW(hdc,
                                       szBuffer,
@@ -1278,7 +1278,7 @@ DlgProc(HWND hDlg,
                                     szBuffer,
                                     sizeof(szBuffer) / sizeof(WCHAR)))
                     {
-                        lf.lfHeight = 30;
+                        lf.lfHeight = 18;
                         lf.lfCharSet = OEM_CHARSET;
                         lf.lfQuality = DEFAULT_QUALITY;
                         lf.lfWeight = FW_EXTRABOLD;
@@ -1290,7 +1290,7 @@ DlgProc(HWND hDlg,
                             hFontOld = SelectObject(hdc, hFont);
 
                             DPtoLP(hdc, (PPOINT)&txtRc, 2);
-                            SetTextColor(hdc, RGB(255,255,255));
+                            SetTextColor(hdc, RGB(0,51,153));
                             SetBkMode(hdc, TRANSPARENT);
                             DrawTextW(hdc,
                                       szBuffer,
