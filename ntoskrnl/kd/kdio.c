@@ -239,9 +239,9 @@ KdpInitDebugLog(PKD_DISPATCH_TABLE DispatchTable,
         /* Initialize spinlock */
         KeInitializeSpinLock(&KdpDebugLogSpinLock);
 
-        /* Display separator + ReactOS version at start of the debug log */
+        /* Display separator + GreenteaOS version at start of the debug log */
         DPRINT1("---------------------------------------------------------------\n");
-        DPRINT1("ReactOS "KERNEL_VERSION_STR" (Build "KERNEL_VERSION_BUILD_STR")\n");
+        DPRINT1("GreenTeaOS "KERNEL_VERSION_STR" (Build "KERNEL_VERSION_BUILD_STR")\n");
         MemSizeMBs = MmNumberOfPhysicalPages * PAGE_SIZE / 1024 / 1024;
         DPRINT1("%u System Processor [%u MB Memory]\n", KeNumberProcessors, MemSizeMBs);
     }
@@ -374,7 +374,7 @@ KdpSerialInit(PKD_DISPATCH_TABLE DispatchTable,
 
         /* Display separator + ReactOS version at start of the debug log */
         DPRINT1("-----------------------------------------------------\n");
-        DPRINT1("ReactOS "KERNEL_VERSION_STR" (Build "KERNEL_VERSION_BUILD_STR")\n");
+        DPRINT1("GreenTeaOS "KERNEL_VERSION_STR" (Build "KERNEL_VERSION_BUILD_STR")\n");
         MemSizeMBs = KdpGetMemorySizeInMBs(KeLoaderBlock);
         DPRINT1("%u System Processor [%u MB Memory]\n", KeNumberProcessors, MemSizeMBs);
         DPRINT1("Command Line: %s\n", KeLoaderBlock->LoadOptions);
@@ -549,7 +549,7 @@ KdpScreenInit(PKD_DISPATCH_TABLE DispatchTable,
 
         /* Display separator + ReactOS version at start of the debug log */
         DPRINT1("-----------------------------------------------------\n");
-        DPRINT1("ReactOS "KERNEL_VERSION_STR" (Build "KERNEL_VERSION_BUILD_STR")\n");
+        DPRINT1("GreenTeaOS "KERNEL_VERSION_STR" (Build "KERNEL_VERSION_BUILD_STR")\n");
         MemSizeMBs = MmNumberOfPhysicalPages * PAGE_SIZE / 1024 / 1024;
         DPRINT1("%u System Processor [%u MB Memory]\n", KeNumberProcessors, MemSizeMBs);
         DPRINT1("Command Line: %s\n", KeLoaderBlock->LoadOptions);
