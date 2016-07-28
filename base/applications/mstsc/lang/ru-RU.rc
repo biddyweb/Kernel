@@ -6,19 +6,19 @@ IDD_GENERAL DIALOGEX 0, 0, 242, 175
 STYLE DS_SHELLFONT | WS_CHILD
 FONT 8, "MS Shell Dlg", 0, 0, 0x0
 BEGIN
-    GROUPBOX "Параметры входа", IDC_STATIC, 7, 7, 228, 89
-    GROUPBOX "Параметры подключения", IDC_STATIC, 7, 103, 228, 65
+    GROUPBOX "Параметры входа", IDC_STATIC, 7, 7, 228, 70
+    GROUPBOX "Параметры подключения", IDC_STATIC, 7, 80, 228, 65
     ICON "", IDC_LOGONICON, 15, 19, 20, 20
     LTEXT "Введите имя удаленного компьютера.", IDC_STATIC, 47, 24, 160, 8
     LTEXT "Компьютер:", IDC_STATIC, 32, 41, 41, 8
     LTEXT "Пользователь:", IDC_STATIC, 32, 58, 67, 8
     COMBOBOX IDC_SERVERCOMBO, 86, 39, 141, 13, CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
     EDITTEXT IDC_NAMEEDIT, 86, 55, 141, 14, WS_TABSTOP | ES_AUTOHSCROLL
-    PUSHBUTTON "Сохр&анить", IDC_SAVE, 49, 139, 50, 14
-    PUSHBUTTON "Со&хранить как...", IDC_SAVEAS, 103, 139, 70, 14
-    PUSHBUTTON "&Открыть...", IDC_OPEN, 177, 139, 50, 14
-    ICON "", IDC_CONNICON, 16, 114, 20, 20
-    LTEXT "Сохранение текущих параметров подключения в RDP-файл или открытие сохраненного подключения.", IDC_STATIC, 45, 115, 185, 20
+    PUSHBUTTON "Сохр&анить", IDC_SAVE, 49, 125, 50, 14
+    PUSHBUTTON "Со&хранить как...", IDC_SAVEAS, 103, 125, 70, 14
+    PUSHBUTTON "&Открыть...", IDC_OPEN, 177, 125, 50, 14
+    ICON "", IDC_CONNICON, 16, 95, 20, 20
+    LTEXT "Сохранение текущих параметров подключения в RDP-файл или открытие сохраненного подключения.", IDC_STATIC, 45, 95, 172, 30
 END
 
 IDD_DISPLAY DIALOGEX 0, 0, 242, 175
