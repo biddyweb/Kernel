@@ -178,6 +178,21 @@ USB\ROOT_HUB.DeviceDesc = "Concentrateur racine"
 PCI\VEN_8086&DEV_7020&CC_0C0300.DeviceDesc = "Contrôleur USB  Intel 82371SB PIIX3"
 PCI\VEN_8086&DEV_7112&CC_0C0300.DeviceDesc = "Contrôleur USB  Intel 82371AB/EB/MB PIIX4"
 
+[Strings.0410]
+ReactOS = "ReactOS Team"
+USBClassName = "USB Controllers"
+
+GenericMfg = "(Drive USB generico)"
+PCI\CC_0C0300.DeviceDesc = "UHCI USB controller"
+PCI\CC_0C0310.DeviceDesc = "OHCI USB controller"
+PCI\CC_0C0320.DeviceDesc = "EHCI USB controller"
+USB\ROOT_HUB.DeviceDesc = "Hub principale"
+
+IntelMfg = "Intel"
+PCI\VEN_8086&DEV_7020&CC_0C0300.DeviceDesc = "Intel 82371SB PIIX3 USB controller"
+PCI\VEN_8086&DEV_7112&CC_0C0300.DeviceDesc = "Intel 82371AB/EB/MB PIIX4 USB controller"
+
+
 [Strings.0411]
 USBClassName = "USB コントローラ"
 

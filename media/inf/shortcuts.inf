@@ -862,6 +862,8 @@ WINMINE_TITLE=WineMine
 WINMINE_DESC=Campo minato
 SPIDER_TITLE=Spider
 SPIDER_DESC=Spider
+README_TITLE=Leggimi
+README_DESC=ReactOS Leggimi
 
 ; Japanese
 [Strings.0411]
