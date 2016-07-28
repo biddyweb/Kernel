@@ -1,6 +1,10 @@
 ## Cheat for quick sync
 .svn
 
+## Notepads
+.idea
+.vscode
+
 ## This should NOT be here!
 *.dll
 *.exe
