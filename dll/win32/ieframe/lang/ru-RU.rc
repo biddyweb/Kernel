@@ -60,7 +60,7 @@ STRINGTABLE
     IDS_FINDINGRESOURCE     "Поиск %s"
     IDS_BEGINDOWNLOADDATA   "Начало закачивания %s"
     IDS_ENDDOWNLOADDATA     "Закачивание %s"
-    IDS_SENDINGREQUEST      "Опрашивание %s"
+    IDS_SENDINGREQUEST      "Запрос %s"
 }
 
 

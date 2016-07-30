@@ -28,12 +28,12 @@ STRINGTABLE
 {
     IDS_CERT_POLICY "Политика сертификата"
     IDS_POLICY_ID "Идентификатор политики: "
-    IDS_POLICY_QUALIFIER_INFO "Policy Qualifier Info"
-    IDS_POLICY_QUALIFIER_ID "Policy Qualifier Id="
+    IDS_POLICY_QUALIFIER_INFO "Информация про спецификатор политики"
+    IDS_POLICY_QUALIFIER_ID "Id Спецификатора политики ="
     IDS_CPS "CPS" /* Certification Practice Statement */
     IDS_USER_NOTICE "Пользовательское уведомление"
     IDS_QUALIFIER "Спецификатор"
-    IDS_NOTICE_REF "Notice Reference"
+    IDS_NOTICE_REF "Ссылка на уведомление"
     IDS_ORGANIZATION "Организация="
     IDS_NOTICE_NUM "Номер уведомления="
     IDS_NOTICE_TEXT "Текст уведомления="

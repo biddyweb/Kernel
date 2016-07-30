@@ -191,19 +191,19 @@ IDR_BROWSE_CONTEXT_MENU MENU
 
     POPUP "" /* Debug */
     {
-        MENUITEM "Trace Tags",         IDM_TRACETAGS
-        MENUITEM "Resource Failures",  IDM_RESOURCEFAILURES
-        MENUITEM "Dump Tracking Info", IDM_DUMPTRACKINGINFO
-        MENUITEM "Debug Break",        IDM_DEBUGBREAK
-        MENUITEM "Debug View",         IDM_DEBUGVIEW
-        MENUITEM "Dump Tree",          IDM_DUMPTREE
-        MENUITEM "Dump Lines",         IDM_DUMPLINES
-        MENUITEM "Dump DisplayTree",   IDM_DUMPDISPLAYTREE
-        MENUITEM "Dump FormatCaches",  IDM_DUMPFORMATCACHES
-        MENUITEM "Dump LayoutRects",   IDM_DUMPLAYOUTRECTS
-        MENUITEM "Memory Monitor",     IDM_MEMORYMONITOR
-        MENUITEM "Performance Meters", IDM_PERFORMANCEMETERS
-        MENUITEM "Save HTML",          IDM_SAVEHTML
+        MENUITEM "Отслежиать теги",         IDM_TRACETAGS
+        MENUITEM "Ошибки ресурсов",  IDM_RESOURCEFAILURES
+        MENUITEM "Вывести трекинг", IDM_DUMPTRACKINGINFO
+        MENUITEM "Отладить точку останова",        IDM_DEBUGBREAK
+        MENUITEM "Отладочный вид",         IDM_DEBUGVIEW
+        MENUITEM "Вывести дерево",          IDM_DUMPTREE
+        MENUITEM "Вывести строки",         IDM_DUMPLINES
+        MENUITEM "Вывести дерево отображения",   IDM_DUMPDISPLAYTREE
+        MENUITEM "Вывести кеши форматов",  IDM_DUMPFORMATCACHES
+        MENUITEM "Вывести прямоугольники",   IDM_DUMPLAYOUTRECTS
+        MENUITEM "Память",     IDM_MEMORYMONITOR
+        MENUITEM "Производительность", IDM_PERFORMANCEMETERS
+        MENUITEM "Сохранить HTML",          IDM_SAVEHTML
         MENUITEM SEPARATOR
         MENUITEM "Вид об&зора",        IDM_BROWSEMODE
         MENUITEM "Из&менить вид",      IDM_EDITMODE
