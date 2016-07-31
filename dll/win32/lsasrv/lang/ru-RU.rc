@@ -36,11 +36,11 @@ BEGIN
     IDS_ALIAS_RID_POWER_USERS "Опытные пользователи"
     IDS_ALIAS_RID_ACCOUNT_OPS "Операторы аккаунтов"
     IDS_ALIAS_RID_SYSTEM_OPS "Операторы сервера"
-    IDS_ALIAS_RID_PRINT_OPS "Print Operators"
+    IDS_ALIAS_RID_PRINT_OPS "Операторы печати"
     IDS_ALIAS_RID_BACKUP_OPS "Операторы архива"
     IDS_ALIAS_RID_REPLICATOR "Репликаторы"
     IDS_ALIAS_RID_RAS_SERVERS "RAS и IAS серверы"
-    IDS_ALIAS_RID_PREW2KCOMPACCESS "Pre-Windows 2000 Compatible Access"
+    IDS_ALIAS_RID_PREW2KCOMPACCESS "Pre-Windows 2000 совместимый доступ"
     IDS_ALIAS_RID_REMOTE_DESKTOP_USERS "Пользователи удаленного рабочего стола"
     IDS_ALIAS_RID_NETWORK_CONFIGURATION_OPS "Операторы настройки сети"
 END

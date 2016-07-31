@@ -28,8 +28,8 @@ STRINGTABLE
 {
     IDS_CERTIFICATE "Сертификат"
     IDS_CERTIFICATEINFORMATION "Информация о сертификате"
-    IDS_CERT_INFO_BAD_SIG "This certificate has an invalid signature. The certificate may have been altered or corrupted."
-    IDS_CERT_INFO_UNTRUSTED_CA "This root certificate is not trusted. To trust it, add it to your system's trusted root certificate store."
+    IDS_CERT_INFO_BAD_SIG "Этот сертификат имеет недопустимую подпись. Сертификат может быть изменен или поврежден."
+    IDS_CERT_INFO_UNTRUSTED_CA "Этот корневой сертификат не является доверенным. Чтобы доверять ему, добавте его в доверенное корневое хранилище сертификатов системы."
     IDS_CERT_INFO_UNTRUSTED_ROOT "This certificate could not be validated to a trusted root certificate."
     IDS_CERT_INFO_PARTIAL_CHAIN "This certificate's issuer could not be found."
     IDS_CERT_INFO_BAD_PURPOSES "All the intended purposes of this certificate could not be verified."
