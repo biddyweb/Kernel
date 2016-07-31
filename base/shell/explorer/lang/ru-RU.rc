@@ -143,9 +143,9 @@ FONT 8, "MS Shell Dlg"
     DEFPUSHBUTTON    "&Игнорировать", IDIGNORE, 215, 60, 50, 14
     PUSHBUTTON       "&Переименовать", IDC_FILE_RENAME, 159, 60, 50, 14
     LTEXT            "", IDC_STATIC, 7, 51, 258, 1, NOT WS_GROUP
-    AUTOCHECKBOX     "&Не делать эту приверку во время запуска", IDC_NOTCHECK, 7, 62, 139, 10
+    AUTOCHECKBOX     "&Не делать эту проверку во время запуска", IDC_NOTCHECK, 7, 62, 139, 10
     ICON             32515, IDC_STATIC, 7, 7, 21, 20
-    LTEXT            "There is a file or folder on your computer called %s which could cause certain applications to not function correctly.  Renaming it to %s would solve this problem.  Would you like to rename it now?", IDC_STATIC, 34, 7, 224, 37
+    LTEXT            "Есть файл или папка на компьютере с именем %s, это может привести к тому, что некоторые приложения будут работать некорректно.  Переименование в %s решит эту проблему.  Выполнить переименование?", IDC_STATIC, 34, 7, 224, 37
 }
 
 IDD_MODERNSTART_ADVANCED DIALOGEX 0, 0, 251, 198, 0

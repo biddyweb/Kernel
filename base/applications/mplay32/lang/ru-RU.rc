@@ -18,7 +18,7 @@ BEGIN
     END
     POPUP "&Отображение"
     BEGIN
-        MENUITEM "Одно-оконный &режим", IDM_SWITCHVIEW
+        MENUITEM "Однооконный &режим", IDM_SWITCHVIEW
     END
     POPUP "&Устройство"
     BEGIN

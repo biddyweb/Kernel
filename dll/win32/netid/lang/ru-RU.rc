@@ -31,7 +31,7 @@ BEGIN
     LTEXT "Полное имя компьютера:", 1016, 7, 72, 218, 10
     EDITTEXT 1001, 7, 82, 219, 14, ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
     PUSHBUTTON "&Дополнительно...", 1003, 150, 102, 75, 14
-    GROUPBOX "Является членом", 1018, 7, 119, 219, 73
+    GROUPBOX "Является участником", 1018, 7, 119, 219, 73
     AUTORADIOBUTTON "до&мена:", 1008, 17, 132, 192, 10, WS_GROUP
     AUTORADIOBUTTON "рабочей &группы:", 1004, 17, 161, 191, 10
     EDITTEXT 116, 28, 144, 181, 14, ES_AUTOHSCROLL | WS_GROUP

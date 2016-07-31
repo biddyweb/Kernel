@@ -29,5 +29,5 @@ STRINGTABLE
 {
 	IDS_NAME	"WINE-MS-RLE"
 	IDS_DESCRIPTION	"Видео кодек Wine MS-RLE"
-	IDS_ABOUT       "Видео кодек Wine MS-RLE\nCopyright 2002 by Michael Gьnnewig"
+	IDS_ABOUT       "Видео кодек Wine MS-RLE\nКопирайт 2002 Michael Gьnnewig"
 }
