@@ -276,10 +276,10 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_PROGRESS_INFO_START "ReactOS запускает службу"
-    IDS_PROGRESS_INFO_STOP "ReactOS останавливает службу"
-    IDS_PROGRESS_INFO_PAUSE "ReactOS приостанавливает службу"
-    IDS_PROGRESS_INFO_RESUME "ReactOS возобновляет службу"
+    IDS_PROGRESS_INFO_START "Система запускает службу"
+    IDS_PROGRESS_INFO_STOP "Система останавливает службу"
+    IDS_PROGRESS_INFO_PAUSE "Система приостанавливает службу"
+    IDS_PROGRESS_INFO_RESUME "Система возобновляет службу"
     IDS_CREATE_SUCCESS "Создание службы успешно завершено"
     IDS_DELETE_SUCCESS "Удаление службы успешно завершено"
     IDS_CREATE_REQ "* = обязательные поля"

@@ -31,11 +31,11 @@ BEGIN
     IDS_RUNNINGLOGONSCRIPTS "Выполняются скрипты входа в систему..."
     IDS_LOADINGYOURPERSONALSETTINGS "Загружаются персональные настройки..."
     IDS_CLOSINGNETWORKCONNECTIONS "Отключаются сетевые соединения..."
-    IDS_REACTOSISSHUTTINGDOWN "ReactOS завершает работу.."
+    IDS_REACTOSISSHUTTINGDOWN "Система завершает работу.."
     IDS_PREPARETOSTANDBY "Подготовка к переходу в режим ожидания..."
     IDS_PREPARETOHIBERNATE "Подготовка к переходу в спящий режим..."
     IDS_SAVEYOURSETTINGS "Сохраняются настройки..."
-    IDS_REACTOSISSTARTINGUP "ReactOS загружается..."
+    IDS_REACTOSISSTARTINGUP "Система загружается..."
 END
 
 STRINGTABLE

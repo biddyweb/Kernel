@@ -19,7 +19,7 @@ BEGIN
     IDS_UNKNOWN_HOST "Неизвестный узел %1.\n\0"
     IDS_SETSOCKOPT_FAILED "Ошибка setsockopt (%1!d!).\n\0"
     IDS_COULD_NOT_CREATE_SOCKET "Не удалось создать сокет (#%1!d!).\n\0"
-    IDS_COULD_NOT_INIT_WINSOCK "Не удается инициализировать интерфейс ReactOS Sockets.\n\0"
+    IDS_COULD_NOT_INIT_WINSOCK "Не удается инициализировать интерфейс сокетов.\n\0"
     IDS_DEST_MUST_BE_SPECIFIED "Необходимо указать адрес IP.\n\0"
     IDS_BAD_PARAMETER "Неверный параметр %1.\n\0"
     IDS_BAD_OPTION_FORMAT "Неверный формат опции %1.\n\0"

@@ -105,7 +105,7 @@ STYLE DS_SHELLFONT | WS_BORDER | WS_DLGFRAME | WS_SYSMENU | DS_MODALFRAME
 CAPTION "О программе"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT "Менеджер приложений ReactOS\nАвторские права (C) 2009\nДмитрий Чапышев (dmitry@reactos.org)", IDC_STATIC, 48, 7, 130, 39
+    LTEXT "Менеджер приложений\nАвторские права (C) 2009\nДмитрий Чапышев (dmitry@reactos.org)", IDC_STATIC, 48, 7, 130, 39
     PUSHBUTTON "Закрыть", IDOK, 133, 46, 50, 14
     ICON IDI_MAIN, IDC_STATIC, 10, 10, 7, 30
 END
@@ -179,14 +179,14 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_APPTITLE "Менеджер приложений ReactOS"
+    IDS_APPTITLE "Менеджер приложений"
     IDS_SEARCH_TEXT "Поиск..."
     IDS_INSTALL "Установить"
     IDS_UNINSTALL "Удалить"
     IDS_MODIFY "Изменить"
     IDS_APPS_COUNT "Количество: %d"
-    IDS_WELCOME_TITLE "Добро пожаловать в ""Менеджер приложений ReactOS""!\n\n"
-    IDS_WELCOME_TEXT "Выберите категорию слева и приложение для установки или удаления.\nСайт ReactOS: "
+    IDS_WELCOME_TITLE "Добро пожаловать в ""Менеджер приложений""!\n\n"
+    IDS_WELCOME_TEXT "Выберите категорию слева и приложение для установки или удаления.\nСайт проекта: "
     IDS_WELCOME_URL "http://www.reactos.org"
     IDS_INSTALLED "Установленные"
     IDS_AVAILABLEFORINST "Доступно для установки"

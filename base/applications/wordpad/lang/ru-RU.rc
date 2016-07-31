@@ -90,7 +90,7 @@ BEGIN
     END
     POPUP "&Справка"
     BEGIN
-        MENUITEM "&О Wine Wordpad",      ID_ABOUT
+        MENUITEM "&О программе...",      ID_ABOUT
     END
 END
 
