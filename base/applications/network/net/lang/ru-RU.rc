@@ -85,7 +85,7 @@ BEGIN
     IDS_LOCALGROUP_ALIASES "Псевдонимы для \\\\%s"
     IDS_LOCALGROUP_ALIAS_NAME "Имя псевдонима"
     IDS_LOCALGROUP_COMMENT "Комментарий"
-    IDS_LOCALGROUP_MEMBERS "Члены"
+    IDS_LOCALGROUP_MEMBERS "Участники"
 
     IDS_USER_ACCOUNTS "Учетные записи пользователей для \\\\%s"
     IDS_USER_NAME "Имя пользователя"
@@ -106,8 +106,8 @@ BEGIN
     IDS_USER_HOME_DIR "Основной каталог"
     IDS_USER_LAST_LOGON "Последний вход"
     IDS_USER_LOGON_HOURS "Разрешенные часы входа"
-    IDS_USER_LOCAL_GROUPS "Членство в локальных группах"
-    IDS_USER_GLOBAL_GROUPS "Членство в глобальных группах"
+    IDS_USER_LOCAL_GROUPS "Участие в локальных группах"
+    IDS_USER_GLOBAL_GROUPS "Участие в глобальных группах"
 
     IDS_USER_ENTER_PASSWORD1 "Введите пароль для пользователя: "
     IDS_USER_ENTER_PASSWORD2 "Повторите ввод пароля для подтверждения: "
