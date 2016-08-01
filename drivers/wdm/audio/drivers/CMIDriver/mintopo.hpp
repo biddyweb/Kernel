@@ -41,7 +41,7 @@ private:
     UInt32              functrl1Register, chformatRegister, legacyRegister, miscctrlRegister;
     UInt32              NodeCache[2*KSNODE_TOPO_INVALID];
     UInt32              masterMuteDummy;
-    BOOLEAN             settingsLoaded;  // workaround for the fucking XP mixer
+    BOOLEAN             settingsLoaded;  // workaround for the XP mixer
 
     NTSTATUS ProcessResources(PRESOURCELIST ResourceList);
 public:

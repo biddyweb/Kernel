@@ -343,7 +343,7 @@ GdiQueryTable(VOID)
 BOOL GdiIsHandleValid(HGDIOBJ hGdiObj)
 {
     PGDI_TABLE_ENTRY Entry = GdiHandleTable + GDI_HANDLE_GET_INDEX(hGdiObj);
-// We are only looking for TYPE not the rest here, and why is FullUnique filled up with CRAP!?
+// We are only looking for TYPE not the rest here, and why is FullUnique filled up with garbage!?
 // DPRINT1("FullUnique -> %x\n", Entry->FullUnique);
     if((Entry->Type & GDI_ENTRY_BASETYPE_MASK) != 0 &&
             ( (Entry->Type << GDI_ENTRY_UPPER_SHIFT) & GDI_HANDLE_TYPE_MASK ) ==

@@ -5065,7 +5065,6 @@ Thu Nov 22 12:09:56 CET 2001 Daniel Veillard <daniel@veillard.com>
 Wed Nov 21 16:29:04 CET 2001 Daniel Veillard <daniel@veillard.com>
 
 	* configure.in libexslt/Makefile.am: trying to fix more Makefiles
-	  crapola
 	* libxslt/transform.c: small fix.
 
 Tue Nov 13 16:16:41 CET 2001 Daniel Veillard <daniel@veillard.com>
@@ -5090,7 +5089,7 @@ Sat Nov 10 14:01:44 CET 2001 Daniel Veillard <daniel@veillard.com>
 	* breakpoint/*.[hc]: finished cleaning up contributed code
 	* doc/*: updated and rebuilt the documentation
 	* xsltproc/xsltproc.c: cleanup of the timing code
-	* xsltproc/Makefile.am: auto* sucks
+	* xsltproc/Makefile.am: auto* is not good
 	* libxslt/transform.c: added a missing include
 
 Mon Nov  5 14:29:26 CET 2001 Daniel Veillard <daniel@veillard.com>

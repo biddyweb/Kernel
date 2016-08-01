@@ -328,7 +328,7 @@ DWORD WINAPI AdapterDiscoveryThread(LPVOID Context) {
                     /* We're still active so we stay in the list */
                     ifi = &Adapter->DhclientInfo;
 
-                    /* This is a hack because IP helper API sucks */
+                    /* This is a hack because IP helper API is weird */
                     if (IsReconnectHackNeeded(Adapter, &Table->table[i]))
                     {
                         /* This handles a disconnect/reconnect */

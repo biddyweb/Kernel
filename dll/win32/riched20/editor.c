@@ -136,7 +136,7 @@
   + WM_CUT
   + WM_GETDLGCODE (the current implementation is incomplete)
   + WM_GETTEXT (ANSI&Unicode)
-  + WM_GETTEXTLENGTH (ANSI version sucks)
+  + WM_GETTEXTLENGTH (ANSI version is weird)
   + WM_HSCROLL
   + WM_PASTE
   + WM_SETFONT

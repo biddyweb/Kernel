@@ -1489,7 +1489,7 @@ ImageList_DrawIndirect (IMAGELISTDRAWPARAMS *pimldp)
         hImageListDC = saturate_image(himl, pimldp->hdcDst, pimldp->x, pimldp->y,
                                       pt.x, pt.y, cx, cy, pimldp->rgbFg);
 
-        /* shitty way of getting subroutines to blit at the right place (top left corner),
+        /* weird way of getting subroutines to blit at the right place (top left corner),
            as our modified imagelist only contains a single image for performance reasons */
         pt.x = 0;
         pt.y = 0;

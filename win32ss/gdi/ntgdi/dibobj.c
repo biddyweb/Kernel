@@ -1066,7 +1066,7 @@ NtGdiGetDIBitsInternal(
     /* Use maximum size */
     cjMaxInfo = min(cjMaxInfo, sizeof(BITMAPV5HEADER) + 256 * sizeof(RGBQUAD));
 
-    // HACK: the underlying code sucks and doesn't care for the size, so we
+    // HACK: the underlying code doesn't care for the size, so we
     // give it the maximum ever needed
     cjAlloc = sizeof(BITMAPV5HEADER) + 256 * sizeof(RGBQUAD);
 

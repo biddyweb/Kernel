@@ -1355,11 +1355,11 @@ UniataFindBusMasterController(
     }
 
     /*
-     * the Cypress chip is a mess, it contains two ATA functions, but
+     * the Cypress chip contains two ATA functions, but
      * both channels are visible on the first one.
      * simply ignore the second function for now, as the right
      * solution (ignoring the second channel on the first function)
-     * doesn't work with the crappy ATA interrupt setup on the alpha.
+     * doesn't work with the ATA interrupt setup on the alpha.
      */
     if (dev_id == 0xc6931080 && slotData.u.bits.FunctionNumber > 1) {
         KdPrint2((PRINT_PREFIX "dev_id == 0xc6931080 && FunctionNumber > 1 => exit_findbm\n"));
@@ -1769,7 +1769,7 @@ UniataFindBusMasterController(
             statusByte = GetDmaStatus(deviceExtension, c);
             KdPrint2((PRINT_PREFIX "  DMA status %#x\n", statusByte));
             if(statusByte & BM_STATUS_INTR) {
-                // bullshit, we have DMA interrupt, but had never initiate DMA operation
+                // actually, we have DMA interrupt, but had never initiate DMA operation
                 KdPrint2((PRINT_PREFIX "  clear unexpected DMA intr\n"));
                 AtapiDmaDone(deviceExtension, 0, c, NULL);
                 GetBaseStatus(chan, statusByte);

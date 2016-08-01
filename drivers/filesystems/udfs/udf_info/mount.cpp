@@ -1053,7 +1053,7 @@ UDFFindAnchor(
             if(!OS_SUCCESS(status = UDFReadTagged(Vcb,Buf,
                 Vcb->Anchor[i], Vcb->Anchor[i], &ident))) {
 
-                // Fucking MRW...
+                // MRW...
                 if(!IsMRW && (i<2) &&
                    (Vcb->CompatFlags & UDF_VCB_IC_MRW_ADDR_PROBLEM)) {
                     if(OS_SUCCESS(status = UDFReadTagged(Vcb,Buf,

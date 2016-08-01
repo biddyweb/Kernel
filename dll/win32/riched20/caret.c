@@ -538,7 +538,7 @@ void ME_InsertTextFromCursor(ME_TextEditor *editor, int nCursor,
 
   while (len)
   {
-    /* FIXME this sucks - no respect for unicode (what else can be a line separator in unicode?) */
+    /* FIXME this is not good - no respect for unicode (what else can be a line separator in unicode?) */
     while(pos - str < len && *pos != '\r' && *pos != '\n' && *pos != '\t')
       pos++;
 

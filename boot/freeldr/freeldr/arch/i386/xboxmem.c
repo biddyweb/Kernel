@@ -57,7 +57,7 @@ XboxMemInit(VOID)
           /* Definitely looks like there is memory */
           if (0 == memcmp(MembaseLow, ControlRegion, TEST_SIZE))
             {
-              /* Hell, we find the Test-string at 0x0 too ! */
+              /* We find the Test-string at 0x0 too ! */
               InstalledMemoryMb = 64;
             }
           else

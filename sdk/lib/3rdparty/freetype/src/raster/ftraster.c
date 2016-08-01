@@ -904,7 +904,7 @@
   /*                                                                       */
   /* <Note>                                                                */
   /*    This routine is the `beef' of this component.  It is  _the_ inner  */
-  /*    loop that should be optimized to hell to get the best performance. */
+  /*    loop that should be optimized to get the best performance. */
   /*                                                                       */
   static void
   Split_Conic( TPoint*  base )
@@ -940,7 +940,7 @@
   /*                                                                       */
   /* <Note>                                                                */
   /*    This routine is the `beef' of the component.  It is one of _the_   */
-  /*    inner loops that should be optimized like hell to get the best     */
+  /*    inner loops that should be optimized to get the best     */
   /*    performance.                                                       */
   /*                                                                       */
   static void

@@ -333,7 +333,7 @@ interface IBindCtx : IUnknown
     DWORD dwTickCountDeadline;
   } BIND_OPTS, *LPBIND_OPTS;
 
-  /* FIXME: C++ crap */
+  /* FIXME: C++ */
   typedef struct tagBIND_OPTS2 {
     DWORD cbStruct;
     DWORD grfFlags;

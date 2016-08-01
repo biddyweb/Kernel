@@ -202,7 +202,7 @@ BlImgUnallocateImageBuffer (
     _In_ ULONG ImageFlags
     )
 {
-    EfiPrintf(L"leaking the shit out of %p\r\n", ImageBase);
+    EfiPrintf(L"leaking of %p\r\n", ImageBase);
     return STATUS_NOT_IMPLEMENTED;
 }
 
@@ -980,10 +980,10 @@ ImgpLoadPEImage (
             /* Are we in the first iteration? */
             if (!First)
             {
-                /* FUCK YOU BINUTILS */
+                /* BINUTILS SPECIFIC */
                 if ((*(PULONG)&Section->Name == 'ler.') && (RawSize < AlignSize))
                 {
-                    /* Piece of shit won't build relocations when you tell it to,
+                    /* This won't build relocations when you tell it to,
                      * either by using --emit-relocs or --dynamicbase. People online
                      * have found out that by using -pie-executable you can get this
                      * to happen, but then it turns out that the .reloc section is

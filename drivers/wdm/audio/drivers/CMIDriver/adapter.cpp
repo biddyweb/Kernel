@@ -235,7 +235,7 @@ StartDevice(PDEVICE_OBJECT DeviceObject, PIRP Irp, PRESOURCELIST ResourceList)
 		return ntStatus;
 	}
 	if (!IoIsWdmVersionAvailable(6,0)) {
-		// this shit fixes the fucking XP mixer and breaks the vista mixer, so we have to check for vista here
+		// this fixes the XP mixer and breaks the vista mixer, so we have to check for vista here
 		ntStatus = PcRegisterPhysicalConnection(DeviceObject, unknownWave, PIN_WAVE_AC3_RENDER_SOURCE, unknownTopology, PIN_SPDIF_AC3_SOURCE);
 		if (!NT_SUCCESS(ntStatus)) {
 			DBGPRINT(("Cannot connect topology and wave miniport (ac3)!"));
@@ -284,7 +284,7 @@ CopyResourceDescriptor(PIO_RESOURCE_DESCRIPTOR pInResDescriptor, PIO_RESOURCE_DE
 	switch (pInResDescriptor->Type) {
 		case CmResourceTypePort:
 		case CmResourceTypePort | CmResourceTypeNonArbitrated:  // huh?
-/*			// filter crap
+/*			// filter
 			if ((pInResDescriptor->u.Port.Length == 0) ||
 			    ( (pInResDescriptor->u.Port.MinimumAddress.HighPart == pInResDescriptor->u.Port.MaximumAddress.HighPart) && (pInResDescriptor->u.Port.MinimumAddress.LowPart == pInResDescriptor->u.Port.MaximumAddress.LowPart) ) ) {
 				return FALSE;

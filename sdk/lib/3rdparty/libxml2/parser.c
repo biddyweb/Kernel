@@ -12097,14 +12097,13 @@ xmlParseTryOrFinish(xmlParserCtxtPtr ctxt, int terminate) {
 		break;
             case XML_PARSER_DTD: {
 	        /*
-		 * Sorry but progressive parsing of the internal subset
+		 * Sorry, but progressive parsing of the internal subset
 		 * is not expected to be supported. We first check that
 		 * the full content of the internal subset is available and
 		 * the parsing is launched only at that point.
 		 * Internal subset ends up with "']' S? '>'" in an unescaped
 		 * section and not in a ']]>' sequence which are conditional
-		 * sections (whoever argued to keep that crap in XML deserve
-		 * a place in hell !).
+		 * sections.
 		 */
 		int base, i;
 		xmlChar *buf;
@@ -12164,7 +12163,7 @@ xmlParseTryOrFinish(xmlParserCtxtPtr ctxt, int terminate) {
 		        if ((unsigned int) base +1 >= use)
 			    break;
 			if (buf[base + 1] == ']') {
-			    /* conditional crap, skip both ']' ! */
+			    /* conditional, skip both ']' ! */
 			    base++;
 			    continue;
 			}

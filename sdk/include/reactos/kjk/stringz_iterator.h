@@ -46,7 +46,7 @@ namespace kjk
 		template<class CharT2> friend stringz_iterator<CharT2> stringz_end(const CharT2 *);
 		template<class Traits2, class CharT2> friend stringz_iterator<CharT2, Traits2> stringz_end(const CharT2 *);
 
-		// FIXME: this sucks because GCC sucks
+		// FIXME: this is hack for GCC
 		typedef const Type * pointer_;
 		typedef const Type& reference_;
 

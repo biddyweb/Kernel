@@ -180,7 +180,7 @@ static HICON SIC_OverlayShortcutImage(HICON SourceIcon, BOOL large)
      * if the underlying icon don't have any alpha channel information. (16bpp only icon for instance).
      * But if the underlying icon has alpha channel information, then we must mark the overlay information
      * as opaque.
-     * NOTE: This code sucks(tm) and should belong to the ImageList implementation.
+     * NOTE: This code should belong to the ImageList implementation.
      * NOTE2: there are better ways to do this.
      */
     if(ShortcutBitmapInfo.bmBitsPixel == 32)

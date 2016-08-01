@@ -742,7 +742,7 @@ static DWORD SHNotifyCopyFileW(FILE_OPERATION *op, LPCWSTR src, LPCWSTR dest, BO
         SetFileAttributesW(dest, attribs & ~FILE_ATTRIBUTE_READONLY);
         if (GetFileAttributesW(dest) & FILE_ATTRIBUTE_READONLY)
         {
-            TRACE("[shell32, SHNotifyCopyFileW] STILL SHIT\n");
+            TRACE("[shell32, SHNotifyCopyFileW] STILL BROKEN\n");
         }
     }
 

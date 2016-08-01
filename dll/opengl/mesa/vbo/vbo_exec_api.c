@@ -168,7 +168,7 @@ static void vbo_exec_copy_to_current( struct vbo_exec_context *exec )
       }
    }
 
-   /* Colormaterial -- this kindof sucks.
+   /* Colormaterial -- this kindof weird.
     */
    if (ctx->Light.ColorMaterialEnabled &&
        exec->vtx.attrsz[VBO_ATTRIB_COLOR]) {

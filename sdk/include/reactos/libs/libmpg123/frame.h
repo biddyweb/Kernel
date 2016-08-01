@@ -288,7 +288,7 @@ struct mpg123_handle_struct
 	int decoder_change;
 	int delayed_change;
 	long clip;
-	/* the meta crap */
+	/* meta */
 	int metaflags;
 	unsigned char id3buf[128];
 #ifndef NO_ID3V2

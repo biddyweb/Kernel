@@ -67,7 +67,6 @@ EXTENSIONS:
 
 - Add Xlink recognition/API
   => started adding an xlink.[ch] with a unified API for XML and HTML.
-     it's crap :-(
 
 - Implement XSchemas
   => Really need to be done <grin/>
@@ -185,7 +184,7 @@ Done:
 - Language identification code, productions [33] to [38]
   => done, the check has been added and report WFness errors
 - Conditional sections in DTDs [61] to [65]
-  => should this crap be really implemented ???
+  => should this be really implemented ???
   => Yep OASIS testsuite uses them
 - Allow parsed entities defined in the internal subset to override
   the ones defined in the external subset (DtD customization).

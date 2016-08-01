@@ -157,7 +157,7 @@ BasepCheckWebBladeHashes(IN HANDLE FileHandle)
         DPRINT1("Golly! This is a ReactOS Web Blade Server and we should prevent you from using certain APIs...but we won't.");
     }
 
-    /* Actually, fuck it, don't block anything, we're open source */
+    /* Actually, don't block anything, we're open source */
     return STATUS_SUCCESS;
 }
 

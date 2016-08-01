@@ -20,7 +20,7 @@
 	So, two basic cases:
 	1. mpg123_bla_32 alias for mpg123_bla (native)
 	2. mpg123_bla    alias for mpg123_bla_32 (wrapper)
-	Same for 64 bits. Confusing, I know. It sucks.
+	Same for 64 bits. Confusing, I know.
 
 	Note that the mpg123 header is _not_ used here to avoid definition with whacky off_t.
 	The aliases are always about arguments of native alias_t type. This can be off_t, but

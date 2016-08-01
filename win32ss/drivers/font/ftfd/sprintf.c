@@ -14,7 +14,7 @@
 
 /* vsprintf.c -- Lars Wirzenius & Linus Torvalds. */
 /*
- * Wirzenius wrote this portably, Torvalds fucked it up :-)
+ * Wirzenius wrote this portably, Torvalds broke it up :-)
  */
 
 #include <ndk/ntndk.h>

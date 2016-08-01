@@ -78,7 +78,7 @@ NTSTATUS CMiniportWaveCMI::newDMAChannel(PDMACHANNEL *dmaChannel, UInt32 bufferL
 }
 #endif
 
-//generic crap
+//generic
 STDMETHODIMP CMiniportWaveCMI::NonDelegatingQueryInterface(REFIID Interface, PVOID *Object)
 {
 	PAGED_CODE();
@@ -1367,7 +1367,7 @@ NTSTATUS CMiniportWaveStreamCMI::SetFormat(PKSDATAFORMAT Format)
 	return ntStatus;
 }
 
-// DRM crap - we're supposed to disable every digital interface here
+// DRM - we're supposed to disable every digital interface here
 STDMETHODIMP_(NTSTATUS) CMiniportWaveStreamCMI::SetContentId(ULONG contentId, PCDRMRIGHTS drmRights)
 {
 	PAGED_CODE();

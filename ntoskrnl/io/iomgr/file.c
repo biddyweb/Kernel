@@ -144,7 +144,7 @@ IopCheckDeviceAndDriver(IN POPEN_PACKET OpenPacket,
     {
         /* It's unloading or initializing, so fail */
         DPRINT1("You are seeing this because the following ROS driver: %wZ\n"
-                " sucks. Please fix it's AddDevice Routine\n",
+                " is broken. Please fix it's AddDevice Routine\n",
                 &DeviceObject->DriverObject->DriverName);
         return STATUS_NO_SUCH_DEVICE;
     }
@@ -2494,7 +2494,7 @@ IopCreateFile(OUT PHANDLE FileHandle,
         {
             /*
              * Tell it otherwise. Because we didn't use an ObjectType,
-             * it incorrectly returned us a handle to God knows what.
+             * it incorrectly returned us a handle to wrong data.
              */
             ZwClose(LocalHandle);
             Status = STATUS_OBJECT_TYPE_MISMATCH;

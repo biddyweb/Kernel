@@ -130,7 +130,7 @@ DECLARE_INTERFACE_(IMiniportWaveCMI,IUnknown)
 };
 typedef IMiniportWaveCMI *PCMIWAVE;
 
-// structure to avoid the fucking COM crapola
+// structure to avoid the COM trobles
 typedef struct CMI8738Info {
 	int             chipVersion;
 	UInt32          maxChannels;

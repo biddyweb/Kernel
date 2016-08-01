@@ -1579,8 +1579,7 @@ static	BOOL	MMSYSTEM_MidiStream_MessageHandler(WINE_MIDIStream* lpMidiStrm, LPWI
 	      lpMidiHdr->dwFlags, msg->wParam);
 #if 0
 	/* dumps content of lpMidiHdr->lpData
-	 * FIXME: there should be a debug routine somewhere that already does this
-	 * I hate spreading this type of shit all around the code
+	 * FIXME: there should be a debug routine somewhere that already does this all around the code
 	 */
 	for (dwToGo = 0; dwToGo < lpMidiHdr->dwBufferLength; dwToGo += 16) {
 	    DWORD	i;

@@ -692,7 +692,7 @@ This is a bugfix only release   - error message missing argument (William Brack)
    - Windows fixes for Win32 from Igor
    - Fixed the Solaris compilation trouble (Albert)
    - Documentation changes and updates: John Fleck
-   - Added a stringparam option to avoid escaping hell at the shell
+   - Added a stringparam option to avoid escaping at the shell
   level
    - A few bug fixes
 

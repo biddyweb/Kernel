@@ -840,7 +840,7 @@ typedef union _CDB {
 // Mode Sense/Select page constants.
 
 #define MODE_PAGE_ERROR_RECOVERY        0x01
-#define MODE_PAGE_MRW2                  0x03        // fuck, standard commitee claimed new standard
+#define MODE_PAGE_MRW2                  0x03        // standard commitee claimed new standard
 #define MODE_PAGE_WRITE_PARAMS          0x05
 #define MODE_PAGE_VERIFY_ERROR          0x07        // shall not be used
 #define MODE_PAGE_CACHING               0x08        // undocumented, but used by DirectCd

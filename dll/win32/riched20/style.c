@@ -266,7 +266,7 @@ void ME_DumpStyle(ME_Style *s)
 void ME_DumpStyleToBuf(CHARFORMAT2W *pFmt, char buf[2048])
 {
   /* FIXME only CHARFORMAT styles implemented */
-  /* this function sucks, doesn't check for buffer overruns but it's "good enough" as for debug code */
+  /* this function is not good, doesn't check for buffer overruns but it's "good enough" as for debug code */
   char *p;
   p = buf;
   p += sprintf(p, "Font face:            ");

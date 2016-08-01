@@ -609,7 +609,7 @@ IKsDevice_Create(
 
     if (IoStack->FileObject->FileName.Buffer == NULL)
     {
-        // ReactOS PnPMgr still sucks
+        // ReactOS PnPMgr still weird
         ASSERT(IoStack->FileObject->FileName.Length == 0);
         Irp->IoStatus.Status = STATUS_SUCCESS;
         IoCompleteRequest(Irp, IO_NO_INCREMENT);

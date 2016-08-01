@@ -72,7 +72,7 @@
 #define TCP_REQUEST_QUERY_INFORMATION_INIT { { { 0 } } }
 #define TCP_REQUEST_SET_INFORMATION_INIT { { 0 } }
 
-/* FIXME: ROS headers suck */
+/* FIXME: ROS headers are weird */
 #ifndef GAA_FLAG_SKIP_UNICAST
 #define GAA_FLAG_SKIP_UNICAST      0x0001
 #endif

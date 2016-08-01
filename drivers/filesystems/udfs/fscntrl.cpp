@@ -409,7 +409,7 @@ UDFMountVolume(
             // just remember current MediaChangeCount
             // or fail if No Media ....
 
-            // experimental CHECK_VERIFY, for fucking BENQ DVD_DD_1620
+            // experimental CHECK_VERIFY, for BENQ DVD_DD_1620
 
                 // Now we can get device state via GET_EVENT (if supported)
                 // or still one TEST_UNIT_READY command

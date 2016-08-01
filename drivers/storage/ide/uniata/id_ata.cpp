@@ -881,7 +881,7 @@ AtapiSoftReset(
         KdPrint2((PRINT_PREFIX "  can't get DMA status\n"));
     }
     if(dma_status & BM_STATUS_INTR) {
-        // bullshit, we have DMA interrupt, but had never initiate DMA operation
+        // actually, we have DMA interrupt, but had never initiate DMA operation
         KdPrint2((PRINT_PREFIX "  clear unexpected DMA intr on ATAPI reset\n"));
         AtapiDmaDone(chan->DeviceExtension, DeviceNumber, chan->lChannel, NULL);
         GetBaseStatus(chan, statusByte2);
@@ -3821,7 +3821,7 @@ AtapiCallBack__(
         chan->DpcState = DPC_STATE_TIMER;
         if(!AtapiInterrupt__(HwDeviceExtension, lChannel)) {
             InterlockedExchange(&(chan->CheckIntr), CHECK_INTR_IDLE);
-            KdPrint2((PRINT_PREFIX "AtapiCallBack: What's fucking this ???\n"));
+            KdPrint2((PRINT_PREFIX "AtapiCallBack: What is this ???\n"));
         }
         goto ReturnCallback;
     }
@@ -4771,7 +4771,7 @@ check_unknown:
         }
     } else {
         if(dma_status & BM_STATUS_INTR) {
-            // bullshit, we have DMA interrupt, but had never initiate DMA operation
+            // actually, we have DMA interrupt, but had never initiate DMA operation
             KdPrint2((PRINT_PREFIX "  clear unexpected DMA intr\n"));
             AtapiDmaDone(deviceExtension, DEVNUM_NOT_SPECIFIED ,lChannel, NULL);
             // catch it !

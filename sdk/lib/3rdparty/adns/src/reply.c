@@ -283,7 +283,7 @@ void adns__procdgram(adns_state ads, const byte *dgram, int dglen,
      */
     if (cname_here) goto x_restartquery;
 
-    /* Bloody hell, I thought we asked for recursion ? */
+    /* I thought we asked for recursion ? */
     if (!flg_ra) {
       adns__diag(ads,serv,qu,"server is not willing to do recursive lookups for us");
       adns__query_fail(qu,adns_s_norecurse);

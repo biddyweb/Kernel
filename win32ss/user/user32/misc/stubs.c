@@ -131,7 +131,7 @@ UserRealizePalette ( HDC hDC )
  *   a) indicating the number of entries to operate on (length of pPens,
  *      pBrushes)
  *   b) passing the handle that points to the previously used color settings.
- *      I couldn't figure out in hell what kind of handle this is on
+ *      I couldn't figure out what kind of handle this is on
  *      Windows. I just use a heap handle instead. Shouldn't matter anyway.
  *
  * RETURNS

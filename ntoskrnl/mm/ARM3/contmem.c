@@ -292,7 +292,7 @@ MiCheckForContiguousMemory(IN PVOID BaseAddress,
             if (Page != (PreviousPage + 1))
             {
                 //
-                // Ah crap, we have to start over
+                // Oops, we have to start over
                 //
                 Pages = 0;
                 continue;

@@ -1141,7 +1141,7 @@ KiTrap0DHandler(IN PKTRAP_FRAME TrapFrame)
     if (Instructions[0] == 0xCF)
     {
         /*
-         * Some evil shit is going on here -- this is not the SS:ESP you're
+         * Some strange is going on here -- this is not the SS:ESP you're
          * looking for! Instead, this is actually CS:EIP you're looking at!
          * Why? Because part of the trap frame actually corresponds to the IRET
          * stack during the trap exit!

@@ -1023,7 +1023,7 @@ state_panic(void *ipp)
             /* Generate an automatic private address */
             DbgPrint("DHCPCSVC: Failed to receive a response from a DHCP server. An automatic private address will be assigned.\n");
 
-            /* FIXME: The address generation code sucks */
+            /* FIXME: The address generation code is weird */
             AddIPAddress(htonl(0xA9FE0000 | (rand() % 0xFFFF)), //169.254.X.X
                          htonl(0xFFFF0000), //255.255.0.0
                          Adapter->IfMib.dwIndex,

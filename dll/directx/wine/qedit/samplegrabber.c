@@ -395,7 +395,7 @@ static void SampleGrabber_callback(SG_Impl *This, IMediaSample *sample)
 		if (ref)
 		{
 		    ERR("(%p) Callback referenced sample %p by %u\n", This, sample, ref);
-		    /* ugly as hell but some apps are sooo buggy */
+		    /* ugly but some apps are sooo buggy */
 		    while (ref--)
 			IMediaSample_Release(sample);
 		}

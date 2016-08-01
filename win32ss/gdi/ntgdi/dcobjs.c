@@ -565,7 +565,7 @@ DC_hSelectFont(
     PLFONT plfntNew;
     HFONT hlfntOld;
 
-    // Legacy crap that will die with font engine rewrite
+    // Legacy that will die with font engine rewrite
     if (!NT_SUCCESS(TextIntRealizeFont(hlfntNew, NULL)))
     {
         return NULL;
