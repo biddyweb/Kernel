@@ -89,40 +89,40 @@ END
 
 IDD_LOGPROPERTIES_GENERAL DIALOGEX 0, 0, 252, 234
 STYLE DS_SHELLFONT | WS_POPUP | WS_CAPTION
-CAPTION "General"
+CAPTION "Общие"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT "&Display name:", IDC_STATIC, 7, 9, 60, 8
+    LTEXT "&Отображаемое имя:", IDC_STATIC, 7, 9, 60, 8
     EDITTEXT IDC_DISPLAYNAME, 67, 7, 178, 12, ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP
-    LTEXT "&Log name:", IDC_STATIC, 7, 25, 60, 8
+    LTEXT "&Записываемое имя:", IDC_STATIC, 7, 25, 60, 8
     EDITTEXT IDC_LOGNAME, 67, 23, 178, 12, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP
-    LTEXT "Log &file:", IDC_STATIC, 7, 41, 60, 8
+    LTEXT "Журнальный &файл:", IDC_STATIC, 7, 41, 60, 8
     EDITTEXT IDC_LOGFILE, 67, 39, 178, 12, ES_LEFT | ES_AUTOHSCROLL | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP
-    LTEXT "Size:", IDC_STATIC, 7, 57, 60, 8
+    LTEXT "Размер:", IDC_STATIC, 7, 57, 60, 8
     EDITTEXT IDC_SIZE_LABEL, 67, 57, 178, 12, ES_LEFT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP | ES_AUTOHSCROLL
-    LTEXT "Created:", IDC_STATIC, 7, 69, 60, 8
+    LTEXT "Создан:", IDC_STATIC, 7, 69, 60, 8
     EDITTEXT IDC_CREATED_LABEL, 67, 69, 178, 12, ES_LEFT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP | ES_AUTOHSCROLL
-    LTEXT "Modified:", IDC_STATIC, 7, 81, 60, 8
+    LTEXT "Изменен:", IDC_STATIC, 7, 81, 60, 8
     EDITTEXT IDC_MODIFIED_LABEL, 67, 81, 178, 12, ES_LEFT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP | ES_AUTOHSCROLL
-    LTEXT "Accessed:", IDC_STATIC, 7, 93, 60, 8
+    LTEXT "Обращен:", IDC_STATIC, 7, 93, 60, 8
     EDITTEXT IDC_ACCESSED_LABEL, 67, 93, 178, 12, ES_LEFT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP | ES_AUTOHSCROLL
-    GROUPBOX "Log size", IDC_STATIC, 7, 106, 238, 99
-    LTEXT "&Maximum log size:", IDC_STATIC, 17, 122, 58, 8
+    GROUPBOX "Размер журнала", IDC_STATIC, 7, 106, 238, 99
+    LTEXT "&Максимальный размер журнала:", IDC_STATIC, 17, 122, 58, 8
     EDITTEXT IDC_EDIT_MAXLOGSIZE, 80, 119, 40, 14, ES_LEFT | ES_NUMBER | WS_GROUP
     CONTROL "", IDC_UPDOWN_MAXLOGSIZE, UPDOWN_CLASS, UDS_SETBUDDYINT | UDS_NOTHOUSANDS | UDS_ALIGNRIGHT |
             UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_GROUP, 120, 119, 10, 14
-    LTEXT "KB", IDC_STATIC, 130, 122, 20, 8
     LTEXT "When maximum log size is reached:", IDC_STATIC, 17, 140, 219, 8
-    CONTROL "&Overwrite events as needed", IDC_OVERWRITE_AS_NEEDED, "Button", BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP, 17, 155, 219, 10
-    CONTROL "O&verwrite events older than", IDC_OVERWRITE_OLDER_THAN, "Button", BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP, 17, 168, 102, 10
+    LTEXT "KБ", IDC_STATIC, 130, 122, 20, 8
+    CONTROL "&Перезаписывать события при необходимости", IDC_OVERWRITE_AS_NEEDED, "Button", BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP, 17, 155, 219, 10
+    CONTROL "Перезаписывать события старее чем", IDC_OVERWRITE_OLDER_THAN, "Button", BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP, 17, 168, 102, 10
     EDITTEXT IDC_EDIT_EVENTS_AGE, 122, 165, 35, 14, ES_LEFT | ES_NUMBER | WS_GROUP
     CONTROL "", IDC_UPDOWN_EVENTS_AGE, UPDOWN_CLASS, UDS_SETBUDDYINT | UDS_ALIGNRIGHT |
             UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_GROUP, 157, 165, 10, 14
-    LTEXT "days", IDC_STATIC, 162, 168, 20, 8
-    CONTROL "Do &not overwrite events\n(clear log manually)", IDC_NO_OVERWRITE, "Button", BS_AUTORADIOBUTTON | BS_MULTILINE | WS_GROUP | WS_TABSTOP, 17, 180, 143, 20
-    PUSHBUTTON "&Restore Defaults", IDC_RESTOREDEFAULTS, 166, 183, 70, 14
-    AUTOCHECKBOX "Using a lo&w-speed connection", IDC_LOW_SPEED_CONNECTION, 7, 217, 167, 10
-    PUSHBUTTON "&Clear Log", ID_CLEARLOG, 195, 213, 50, 14
+    LTEXT "дней", IDC_STATIC, 162, 168, 20, 8
+    CONTROL "Не &перезаписывать события\n(очищать вручную)", IDC_NO_OVERWRITE, "Button", BS_AUTORADIOBUTTON | BS_MULTILINE | WS_GROUP | WS_TABSTOP, 17, 180, 143, 20
+    PUSHBUTTON "&Восстановить параметры по умолчанию", IDC_RESTOREDEFAULTS, 166, 183, 70, 14
+    AUTOCHECKBOX "Использовуется низкоскоростное соединение", IDC_LOW_SPEED_CONNECTION, 7, 217, 167, 10
+    PUSHBUTTON "&Очистить журнал", ID_CLEARLOG, 195, 213, 50, 14
 END
 
 STRINGTABLE
@@ -130,9 +130,9 @@ BEGIN
     IDS_COPYRIGHT "Авторские права (С) 2007 Марк Пиулачс (marc.piulachs@codexchange.net)"
     IDS_APP_TITLE "Просмотр событий"
     IDS_APP_TITLE_EX "%s - %s журнал на \\\\"
-    IDS_STATUS_MSG "%s has %lu event(s)"
+    IDS_STATUS_MSG "%s содержит %lu событий"
     IDS_LOADING_WAIT "Идет загрузка. Подождите..."
-    IDS_NO_ITEMS "There are no items to show in this view." // "No events in this log."
+    IDS_NO_ITEMS "Нет элементов для отображения." // "No events in this log."
     IDS_EVENTLOG_SYSTEM "Системный журнал"
     IDS_EVENTLOG_APP "Журнал приложений"
     IDS_EVENTLOG_USER "Пользовательский журнал"
@@ -154,7 +154,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_BYTES_FORMAT "bytes" // "%s bytes"
+    IDS_BYTES_FORMAT "байт" // "%s bytes"
     // "%1!ls! (%2!ls! bytes)"
 END
 
@@ -186,5 +186,5 @@ END
 STRINGTABLE
 BEGIN
     IDS_NONE "Нет"
-    IDS_NOT_AVAILABLE "N/A"
+    IDS_NOT_AVAILABLE "Н/Д"
 END

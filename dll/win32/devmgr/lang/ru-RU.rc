@@ -52,7 +52,7 @@ BEGIN
     IDS_DEV_DEVLOADER_NOT_FOUND3 "Device failure: Try changing the driver for this device. If that doesn't work, see your hardware documentation."
     IDS_DEV_INVALID_DATA "This device is not working properly because the BIOS in your computer is reporting the resources for the device incorrectly."
     IDS_DEV_INVALID_DATA2 "This device is not working properly because the BIOS in the device is reporting the resources for the device incorrectly. "
-    IDS_DEV_FAILED_START "This device is either not present, not working properly, or does not have all the drivers installed."
+    IDS_DEV_FAILED_START "Это устройство отсутствует, работает неправильно или не все драйверы установлены."
     IDS_DEV_LIAR "ReactOS stopped responding while attempting to start this device, and therefore will never attempt to start this device again."
     IDS_DEV_NORMAL_CONFLICT "This device cannot find any free %1 resources to use."
     IDS_DEV_NOT_VERIFIED "Данное устройство является неизвестным, работает некорректно или не имеет установленных драйверов."
