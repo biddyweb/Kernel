@@ -47,7 +47,7 @@ BEGIN
             MENUITEM "&Безопасность...", IDM_SECURITY, MFT_STRING, MFS_ENABLED
             MENUITEM "&Сетевые подключения", IDM_NETWORKCONNECTIONS, MFT_STRING, MFS_ENABLED
             MENUITEM "&Принтеры и факсы", IDM_PRINTERSANDFAXES, MFT_STRING, MFS_ENABLED
-            MENUITEM "Панель &задач и меню \"Пуск\"", IDM_TASKBARANDSTARTMENU, MFT_STRING, MFS_ENABLED
+            MENUITEM "Панель &задач и меню ""Пуск""", IDM_TASKBARANDSTARTMENU, MFT_STRING, MFS_ENABLED
         END
         POPUP "П&оиск", IDM_SEARCH
         BEGIN
@@ -87,15 +87,15 @@ END
 
 IDD_TASKBARPROP_STARTMENU DIALOGEX 0, 0, 252, 218
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Меню \"Пуск\""
+CAPTION "Меню ""Пуск"""
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     CONTROL "", IDC_TASKBARPROP_STARTMENU_BITMAP, "Static", SS_BITMAP | SS_SUNKEN,7, 7, 183, 108
-    AUTORADIOBUTTON "М&еню \"Пуск\"", IDC_TASKBARPROP_STARTMENU, 7, 135, 105, 10, WS_DISABLED
+    AUTORADIOBUTTON "М&еню ""Пуск""", IDC_TASKBARPROP_STARTMENU, 7, 135, 105, 10, WS_DISABLED
     LTEXT "Этот стиль меню обеспечивает удобный доступ к папкам, часто используемым программам и поиску.", IDC_STATIC, 20, 145, 150, 24, WS_DISABLED
     PUSHBUTTON "&Настроить...", IDC_TASKBARPROP_STARTMENUCUST, 192, 132, 53, 14, WS_DISABLED
-    AUTORADIOBUTTON "&Классическое меню \"Пуск\"", IDC_TASKBARPROP_STARTMENUCLASSIC, 7, 175, 105, 10
-    LTEXT "Классический стиль отображения меню \"Пуск\".", IDC_STATIC, 20, 185, 150, 24
+    AUTORADIOBUTTON "&Классическое меню ""Пуск""", IDC_TASKBARPROP_STARTMENUCLASSIC, 7, 175, 105, 10
+    LTEXT "Классический стиль отображения меню ""Пуск"".", IDC_STATIC, 20, 185, 150, 24
     PUSHBUTTON "Н&астроить...", IDC_TASKBARPROP_STARTMENUCLASSICCUST, 192, 172, 53, 14
 END
 
@@ -116,20 +116,20 @@ END
 
 IDD_CLASSICSTART_CUSTOMIZE DIALOGEX 0, 0, 232, 240, 0
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CONTEXTHELP | WS_POPUPWINDOW | WS_VISIBLE | WS_DLGFRAME
-CAPTION "Настройка классического меню \"Пуск\""
+CAPTION "Настройка классического меню ""Пуск"""
 FONT 8, "MS Shell Dlg"
 {
-    GROUPBOX         "Состав меню \"Пуск\"", IDC_STATIC, 8, 7, 218, 114
+    GROUPBOX         "Состав меню ""Пуск""", IDC_STATIC, 8, 7, 218, 114
     ICON             IDI_STARTMENU2, IDC_STATIC, 19, 17, 20, 20
-    LTEXT            "Можно изменить состав меню \"Пуск\", добавляя или удаляя его элементы.", IDC_STATIC, 48, 17, 108, 39
+    LTEXT            "Можно изменить состав меню ""Пуск"", добавляя или удаляя его элементы.", IDC_STATIC, 48, 17, 108, 39
     PUSHBUTTON       "&Добавить...", IDC_CLASSICSTART_ADD, 162, 18, 53, 14
     PUSHBUTTON       "&Удалить...", IDC_CLASSICSTART_REMOVE, 162, 33, 53, 14
     PUSHBUTTON       "&Вручную", IDC_CLASSICSTART_ADVANCED, 162, 49, 53, 14
     PUSHBUTTON       "&Сортировать", IDC_CLASSICSTART_SORT, 162, 65, 53, 14
     ICON             IDI_RECYCLEBIN, IDC_STATIC, 20, 85, 20, 20
-    LTEXT            "Чтобы очистить списки недавно использовавшихся документов, программ и веб-узлов, нажмите кнопку \"Очистить\".", IDC_STATIC, 49, 85, 108, 33
+    LTEXT            "Чтобы очистить списки недавно использовавшихся документов, программ и веб-узлов, нажмите кнопку ""Очистить"".", IDC_STATIC, 49, 85, 108, 33
     PUSHBUTTON       "О&чистить", IDC_CLASSICSTART_CLEAR, 162, 94, 53, 14
-    LTEXT            "Дополнительные &параметры меню \"Пуск\":", IDC_STATIC, 8, 129, 150, 8
+    LTEXT            "Дополнительные &параметры меню ""Пуск"":", IDC_STATIC, 8, 129, 150, 8
     CONTROL          "StartMenuSe&ttings", IDC_CLASSICSTART_SETTINGS, "SysTreeView32", WS_BORDER | 0x00000001, 8, 139, 218, 72, WS_EX_CLIENTEDGE
     DEFPUSHBUTTON    "ОК", IDOK, 122, 220, 50, 14
     PUSHBUTTON       "Отмена", IDCANCEL, 176, 220, 50, 14
@@ -153,10 +153,10 @@ STYLE DS_SETFONT | WS_CAPTION | WS_CHILD | WS_DISABLED
 CAPTION "Дополнительно"
 FONT 8, "MS Shell Dlg"
 {
-    GROUPBOX         "Параметры меню \"Пуск\" ", IDC_STATIC, 7, 7, 238, 42
+    GROUPBOX         "Параметры меню ""Пуск"" ", IDC_STATIC, 7, 7, 238, 42
     AUTOCHECKBOX     "&Раскрывать меню при наведении и задержке указателя", IDC_AUTOOPEN, 14, 21, 224, 10
     AUTOCHECKBOX     "&Выделять недавно установленные программы", IDC_HIGHLIGHT, 14, 35, 224, 10
-    LTEXT            "&Элементы меню \"Пуск\":", IDC_STATIC, 7, 53, 238, 8
+    LTEXT            "&Элементы меню ""Пуск"":", IDC_STATIC, 7, 53, 238, 8
     CONTROL          "StartMenuSe&ttings", IDC_ITEMS, "SysTreeView32", WS_BORDER | 0x00000001, 7, 63, 238, 67, WS_EX_CLIENTEDGE
     GROUPBOX         "Недавние документы ", IDC_STATIC, 7, 133, 238, 56
     LTEXT            "Этот список обеспечивает быстрый доступ к недавно использовавшимся документам, его очистка не приводит к удаление документов.", IDC_STATIC, 14, 144, 224, 21
@@ -175,12 +175,12 @@ FONT 8, "MS Shell Dlg"
     AUTORADIOBUTTON  "&крупные значки", IDC_CHOOSELARGE, 43, 25, 53, 10
     AUTORADIOBUTTON  "&мелкие значки", IDC_CHOOSESMALL, 177, 25, 51, 10, NOT WS_TABSTOP
     GROUPBOX         "Программы ", IDC_STATIC, 7, 49, 238, 70
-    LTEXT            "Меню \"Пуск\" содержит ярлыки часто используемых программ. Очистка этого списка ярлыков не ведет к удалению программ.", IDC_STATIC, 14, 63, 224, 20
-    LTEXT            "К&оличество программ в меню \"Пуск\":", IDC_STATIC, 14, 86, 112, 8
+    LTEXT            "Меню ""Пуск"" содержит ярлыки часто используемых программ. Очистка этого списка ярлыков не ведет к удалению программ.", IDC_STATIC, 14, 63, 224, 20
+    LTEXT            "К&оличество программ в меню ""Пуск"":", IDC_STATIC, 14, 86, 112, 8
     EDITTEXT         IDC_NUMBEROFPROGRAMS, 133, 84, 27, 12, ES_LEFT | ES_RIGHT | ES_NUMBER
     CONTROL          "", IDC_NUMBERUPDOWN, "msctls_updown32", WS_BORDER | 0x000000B6, 160, 84, 11, 12
     PUSHBUTTON       "О&чистить список", IDC_CLEARLIST, 182, 98, 57, 14
-    GROUPBOX         "Отображать в меню \"Пуск\" ", IDC_STATIC, 7, 126, 238, 63
+    GROUPBOX         "Отображать в меню ""Пуск"" ", IDC_STATIC, 7, 126, 238, 63
     AUTOCHECKBOX     "&Интернет:", IDC_SHOWINTERNET, 14, 140, 42, 10
     COMBOBOX         IDC_INTERNETDEFAULTAPP, 98, 138, 140, 200, CBS_DROPDOWNLIST | WS_VSCROLL
     AUTOCHECKBOX     "&Электронная почта:", IDC_SHOWEMAIL, 14, 157, 37, 10
@@ -198,5 +198,5 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_TASKBAR_STARTMENU_PROP_CAPTION "панели задач и меню \"Пуск\""
+    IDS_TASKBAR_STARTMENU_PROP_CAPTION "панели задач и меню ""Пуск"""
 END
