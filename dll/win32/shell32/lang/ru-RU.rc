@@ -753,7 +753,7 @@ BEGIN
     IDS_DRIVE_FIXED "Локальный диск"
     IDS_DRIVE_CDROM "CD-дисковод"
     IDS_DRIVE_NETWORK "Сетевой диск"
-    IDS_DRIVE_FLOPPY "3.5 Дискета"
+    IDS_DRIVE_FLOPPY "Дисковод 3.5"
     IDS_DRIVE_REMOVABLE "Съемный диск"
     IDS_FS_UNKNOWN "Неизвестно"
 

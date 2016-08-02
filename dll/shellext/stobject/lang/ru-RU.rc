@@ -41,7 +41,7 @@ BEGIN
 
     //Volume related strings
     IDS_VOL_VOLUME "Громкость"
-    IDS_VOL_ADJUST "&Настройка аудио"
+    IDS_VOL_ADJUST "&Настройки аудио"
     IDS_VOL_OPEN "&Открыть управление громкостью"
     IDS_VOL_MUTED "Громкость (беззвучный)"
 
