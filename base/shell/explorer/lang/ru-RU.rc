@@ -137,7 +137,7 @@ FONT 8, "MS Shell Dlg"
 
 IDD_FILENAME_WARNING DIALOGEX 0, 0, 272, 81, 0
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUPWINDOW | WS_DLGFRAME
-CAPTION "File Name Warning"
+CAPTION "Исправление некорректного имени"
 FONT 8, "MS Shell Dlg"
 {
     DEFPUSHBUTTON    "&Игнорировать", IDIGNORE, 215, 60, 50, 14
