@@ -205,7 +205,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_BAD_COMMAND
 Language=Russian
-ERROR_BAD_COMMAND - "Устройство не опознает команду.
+ERROR_BAD_COMMAND - Устройство не опознает команду.
 .
 
 MessageId=23
@@ -341,7 +341,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_REM_NOT_LIST
 Language=Russian
-ERROR_REM_NOT_LIST - Windows cannot find the network path. Verify that the network path is correct and the destination computer is not busy or turned off. If Windows still cannot find the network path, contact your network administrator.
+ERROR_REM_NOT_LIST - System cannot find the network path. Verify that the network path is correct and the destination computer is not busy or turned off. If system still cannot find the network path, contact your network administrator.
 .
 
 MessageId=52
@@ -1869,7 +1869,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_SYNCHRONIZATION_REQUIRED
 Language=Russian
-ERROR_SYNCHRONIZATION_REQUIRED - The SAM database on a Windows Server is significantly out of synchronization with the copy on the Domain Controller. A complete synchronization is required.
+ERROR_SYNCHRONIZATION_REQUIRED - The SAM database on a Server is significantly out of synchronization with the copy on the Domain Controller. A complete synchronization is required.
 .
 
 MessageId=570
@@ -1877,7 +1877,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NET_OPEN_FAILED
 Language=Russian
-ERROR_NET_OPEN_FAILED - The NtCreateFile API failed. This error should never be returned to an application, it is a place holder for the Windows Lan Manager Redirector to use in its internal error mapping routines.
+ERROR_NET_OPEN_FAILED - The NtCreateFile API failed. This error should never be returned to an application, it is a place holder for the Lan Manager Redirector to use in its internal error mapping routines.
 .
 
 MessageId=571
@@ -1957,7 +1957,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_DOMAIN_CTRLR_CONFIG_ERROR
 Language=Russian
-ERROR_DOMAIN_CTRLR_CONFIG_ERROR - A Windows Server has an incorrect configuration.
+ERROR_DOMAIN_CTRLR_CONFIG_ERROR - Server has an incorrect configuration.
 .
 
 MessageId=582
@@ -2077,7 +2077,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_LOST_WRITEBEHIND_DATA
 Language=Russian
-ERROR_LOST_WRITEBEHIND_DATA - Windows was unable to save all the data for the file %hs. The data has been lost. This error may be caused by a failure of your computer hardware or network connection. Please try to save this file elsewhere.
+ERROR_LOST_WRITEBEHIND_DATA - System was unable to save all the data for the file %hs. The data has been lost. This error may be caused by a failure of your computer hardware or network connection. Please try to save this file elsewhere.
 .
 
 MessageId=597
@@ -2285,7 +2285,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_EVALUATION_EXPIRATION
 Language=Russian
-ERROR_EVALUATION_EXPIRATION - The evaluation period for this installation of Windows has expired. This system will shutdown in 1 hour. To restore access to this installation of Windows, please upgrade this installation using a licensed distribution of this product.
+ERROR_EVALUATION_EXPIRATION - The evaluation period for this installation of system has expired. This system will shutdown in 1 hour. To restore access to this installation, please upgrade this installation using a licensed distribution of this product.
 .
 
 MessageId=623
@@ -2293,7 +2293,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_ILLEGAL_DLL_RELOCATION
 Language=Russian
-ERROR_ILLEGAL_DLL_RELOCATION - The system DLL %hs was relocated in memory. The application will not run properly. The relocation occurred because the DLL %hs occupied an address range reserved for Windows system DLLs. The vendor supplying the DLL should be contacted for a new DLL.
+ERROR_ILLEGAL_DLL_RELOCATION - The system DLL %hs was relocated in memory. The application will not run properly. The relocation occurred because the DLL %hs occupied an address range reserved for system DLLs. The vendor supplying the DLL should be contacted for a new DLL.
 .
 
 MessageId=624
@@ -2389,7 +2389,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_COMMITMENT_MINIMUM
 Language=Russian
-ERROR_COMMITMENT_MINIMUM - Your system is low on virtual memory. Windows is increasing the size of your virtual memory paging file. During this process, memory requests for some applications may be denied. For more information, see Help.
+ERROR_COMMITMENT_MINIMUM - Your system is low on virtual memory. System is increasing the size of your virtual memory paging file. During this process, memory requests for some applications may be denied. For more information, see Help.
 .
 
 MessageId=636
@@ -2445,7 +2445,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_DS_VERSION_CHECK_FAILURE
 Language=Russian
-ERROR_DS_VERSION_CHECK_FAILURE - This version of Windows is not compatible with the behavior version of directory forest, domain or domain controller.
+ERROR_DS_VERSION_CHECK_FAILURE - This version of system is not compatible with the behavior version of directory forest, domain or domain controller.
 .
 
 MessageId=644
@@ -2661,7 +2661,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_GUID_SUBSTITUTION_MADE
 Language=Russian
-ERROR_GUID_SUBSTITUTION_MADE - During the translation of a global identifier (GUID) to a Windows security ID (SID), no administratively-defined GUID prefix was found. A substitute prefix was used, which will not compromise system security. However, this may provide a more restrictive access than intended.
+ERROR_GUID_SUBSTITUTION_MADE - During the translation of a global identifier (GUID) to a system security ID (SID), no administratively-defined GUID prefix was found. A substitute prefix was used, which will not compromise system security. However, this may provide a more restrictive access than intended.
 .
 
 MessageId=681
@@ -3013,7 +3013,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_FIRMWARE_UPDATED
 Language=Russian
-ERROR_FIRMWARE_UPDATED - Windows has detected that the system firmware (BIOS) was updated [previous firmware date = %2, current firmware date %3].
+ERROR_FIRMWARE_UPDATED - System firmware (BIOS) was updated [previous firmware date = %2, current firmware date %3].
 .
 
 MessageId=729
@@ -4125,7 +4125,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_OLD_WIN_VERSION
 Language=Russian
-ERROR_OLD_WIN_VERSION - The specified program requires a newer version of Windows.
+ERROR_OLD_WIN_VERSION - The specified program requires a newer version of system.
 .
 
 MessageId=1151
@@ -4133,7 +4133,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_APP_WRONG_OS
 Language=Russian
-ERROR_APP_WRONG_OS - The specified program is not a Windows or MS-DOS program.
+ERROR_APP_WRONG_OS - The specified program is not a PE or MS-DOS program.
 .
 
 MessageId=1152
@@ -4149,7 +4149,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_RMODE_APP
 Language=Russian
-ERROR_RMODE_APP - The specified program was written for an earlier version of Windows.
+ERROR_RMODE_APP - The specified program was written for an earlier version of system.
 .
 
 MessageId=1154
@@ -4621,7 +4621,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NETWORK_UNREACHABLE
 Language=Russian
-ERROR_NETWORK_UNREACHABLE - The network location cannot be reached. For information about network troubleshooting, see Windows Help.
+ERROR_NETWORK_UNREACHABLE - The network location cannot be reached. For information about network troubleshooting, see Help.
 .
 
 MessageId=1232
@@ -4629,7 +4629,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_HOST_UNREACHABLE
 Language=Russian
-ERROR_HOST_UNREACHABLE - The network location cannot be reached. For information about network troubleshooting, see Windows Help.
+ERROR_HOST_UNREACHABLE - The network location cannot be reached. For information about network troubleshooting, see Help.
 .
 
 MessageId=1233
@@ -4637,7 +4637,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_PROTOCOL_UNREACHABLE
 Language=Russian
-ERROR_PROTOCOL_UNREACHABLE - The network location cannot be reached. For information about network troubleshooting, see Windows Help.
+ERROR_PROTOCOL_UNREACHABLE - The network location cannot be reached. For information about network troubleshooting, see Help.
 .
 
 MessageId=1234
@@ -4805,7 +4805,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_NOT_SUPPORTED_ON_SBS
 Language=Russian
-ERROR_NOT_SUPPORTED_ON_SBS - This operation is not supported on a computer running Windows Server 2003 for Small Business Server.
+ERROR_NOT_SUPPORTED_ON_SBS - This operation is not supported on a computer running Server 2003 for Small Business Server.
 .
 
 MessageId=1255
@@ -4821,7 +4821,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_HOST_DOWN
 Language=Russian
-ERROR_HOST_DOWN - The remote system is not available. For information about network troubleshooting, see Windows Help.
+ERROR_HOST_DOWN - The remote system is not available. For information about network troubleshooting, see Help.
 .
 
 MessageId=1257
@@ -4853,7 +4853,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_ACCESS_DISABLED_BY_POLICY
 Language=Russian
-ERROR_ACCESS_DISABLED_BY_POLICY - Windows cannot open this program because it has been prevented by a software restriction policy. For more information, open Event Viewer or contact your system administrator.
+ERROR_ACCESS_DISABLED_BY_POLICY - System cannot open this program because it has been prevented by a software restriction policy. For more information, open Event Viewer or contact your system administrator.
 .
 
 MessageId=1261
@@ -4981,7 +4981,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_ACCESS_DISABLED_WEBBLADE
 Language=Russian
-ERROR_ACCESS_DISABLED_WEBBLADE - Windows cannot open this program since it has been disabled.
+ERROR_ACCESS_DISABLED_WEBBLADE - System cannot open this program since it has been disabled.
 .
 
 MessageId=1278
@@ -4989,7 +4989,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_ACCESS_DISABLED_WEBBLADE_TAMPER
 Language=Russian
-ERROR_ACCESS_DISABLED_WEBBLADE_TAMPER - Windows cannot open this program because the license enforcement system has been tampered with or become corrupted.
+ERROR_ACCESS_DISABLED_WEBBLADE_TAMPER - System cannot open this program because the license enforcement system has been tampered with or become corrupted.
 .
 
 MessageId=1279
@@ -6477,7 +6477,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INSTALL_SERVICE_FAILURE
 Language=Russian
-ERROR_INSTALL_SERVICE_FAILURE - The Windows Installer service could not be accessed. This can occur if you are running Windows in safe mode, or if the Windows Installer is not correctly installed. Contact your support personnel for assistance.
+ERROR_INSTALL_SERVICE_FAILURE - The System Installer service could not be accessed. This can occur if you are running system in safe mode, or if the System Installer is not correctly installed. Contact your support personnel for assistance.
 .
 
 MessageId=1602
@@ -6573,7 +6573,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INSTALL_PACKAGE_VERSION
 Language=Russian
-ERROR_INSTALL_PACKAGE_VERSION - This installation package cannot be installed by the Windows Installer service. You must install a Windows service pack that contains a newer version of the Windows Installer service.
+ERROR_INSTALL_PACKAGE_VERSION - This installation package cannot be installed by the System Installer service. You must install a service pack that contains a newer version of the System Installer service.
 .
 
 MessageId=1614
@@ -6621,7 +6621,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INSTALL_PACKAGE_OPEN_FAILED
 Language=Russian
-ERROR_INSTALL_PACKAGE_OPEN_FAILED - This installation package could not be opened. Verify that the package exists and that you can access it, or contact the application vendor to verify that this is a valid Windows Installer package.
+ERROR_INSTALL_PACKAGE_OPEN_FAILED - This installation package could not be opened. Verify that the package exists and that you can access it, or contact the application vendor to verify that this is a valid System Installer package.
 .
 
 MessageId=1620
@@ -6629,7 +6629,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INSTALL_PACKAGE_INVALID
 Language=Russian
-ERROR_INSTALL_PACKAGE_INVALID - This installation package could not be opened. Contact the application vendor to verify that this is a valid Windows Installer package.
+ERROR_INSTALL_PACKAGE_INVALID - This installation package could not be opened. Contact the application vendor to verify that this is a valid System Installer package.
 .
 
 MessageId=1621
@@ -6637,7 +6637,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INSTALL_UI_FAILURE
 Language=Russian
-ERROR_INSTALL_UI_FAILURE - There was an error starting the Windows Installer service user interface. Contact your support personnel.
+ERROR_INSTALL_UI_FAILURE - There was an error starting the System Installer service user interface. Contact your support personnel.
 .
 
 MessageId=1622
@@ -6717,7 +6717,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_CREATE_FAILED
 Language=Russian
-ERROR_CREATE_FAILED - The Windows Installer service failed to start. Contact your support personnel.
+ERROR_CREATE_FAILED - The System Installer service failed to start. Contact your support personnel.
 .
 
 MessageId=1632
@@ -6749,7 +6749,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_PATCH_PACKAGE_OPEN_FAILED
 Language=Russian
-ERROR_PATCH_PACKAGE_OPEN_FAILED - This patch package could not be opened. Verify that the patch package exists and that you can access it, or contact the application vendor to verify that this is a valid Windows Installer patch package.
+ERROR_PATCH_PACKAGE_OPEN_FAILED - This patch package could not be opened. Verify that the patch package exists and that you can access it, or contact the application vendor to verify that this is a valid System Installer patch package.
 .
 
 MessageId=1636
@@ -6757,7 +6757,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_PATCH_PACKAGE_INVALID
 Language=Russian
-ERROR_PATCH_PACKAGE_INVALID - This patch package could not be opened. Contact the application vendor to verify that this is a valid Windows Installer patch package.
+ERROR_PATCH_PACKAGE_INVALID - This patch package could not be opened. Contact the application vendor to verify that this is a valid System Installer patch package.
 .
 
 MessageId=1637
@@ -6765,7 +6765,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_PATCH_PACKAGE_UNSUPPORTED
 Language=Russian
-ERROR_PATCH_PACKAGE_UNSUPPORTED - This patch package cannot be processed by the Windows Installer service. You must install a Windows service pack that contains a newer version of the Windows Installer service.
+ERROR_PATCH_PACKAGE_UNSUPPORTED - This patch package cannot be processed by the System Installer service. You must install a service pack that contains a newer version of the System Installer service.
 .
 
 MessageId=1638
@@ -6781,7 +6781,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INVALID_COMMAND_LINE
 Language=Russian
-ERROR_INVALID_COMMAND_LINE - Invalid command line argument. Consult the Windows Installer SDK for detailed command line help.
+ERROR_INVALID_COMMAND_LINE - Invalid command line argument. Consult the System Installer SDK for detailed command line help.
 .
 
 MessageId=1640
@@ -6805,7 +6805,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_PATCH_TARGET_NOT_FOUND
 Language=Russian
-ERROR_PATCH_TARGET_NOT_FOUND - The upgrade patch cannot be installed by the Windows Installer service because the program to be upgraded may be missing, or the upgrade patch may update a different version of the program. Verify that the program to be upgraded exists on your computer and that you have the correct upgrade patch.
+ERROR_PATCH_TARGET_NOT_FOUND - The upgrade patch cannot be installed by the System Installer service because the program to be upgraded may be missing, or the upgrade patch may update a different version of the program. Verify that the program to be upgraded exists on your computer and that you have the correct upgrade patch.
 .
 
 MessageId=1643
@@ -6829,7 +6829,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_INSTALL_REMOTE_PROHIBITED
 Language=Russian
-ERROR_INSTALL_REMOTE_PROHIBITED - The Windows Installer does not permit installation from a Remote Desktop Connection.
+ERROR_INSTALL_REMOTE_PROHIBITED - The System Installer does not permit installation from a Remote Desktop Connection.
 .
 
 MessageId=1700
@@ -7789,7 +7789,7 @@ Severity=Success
 Facility=System
 SymbolicName=RPC_S_NOT_RPC_ERROR
 Language=Russian
-RPC_S_NOT_RPC_ERROR - The error specified is not a valid Windows RPC error code.
+RPC_S_NOT_RPC_ERROR - The error specified is not a valid RPC error code.
 .
 
 MessageId=1824
@@ -10045,7 +10045,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_CLUSTER_WRONG_OS_VERSION
 Language=Russian
-ERROR_CLUSTER_WRONG_OS_VERSION - This computer cannot be made a member of a cluster because it does not have the correct version of Windows installed.
+ERROR_CLUSTER_WRONG_OS_VERSION - This computer cannot be made a member of a cluster because it does not have the correct version of system installed.
 .
 
 MessageId=5900
@@ -10085,7 +10085,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_CLUSTER_OLD_VERSION
 Language=Russian
-ERROR_CLUSTER_OLD_VERSION - One or more nodes in the cluster are running a version of Windows that does not support this operation.
+ERROR_CLUSTER_OLD_VERSION - One or more nodes in the cluster are running a version of system that does not support this operation.
 .
 
 MessageId=5905
@@ -12829,7 +12829,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_DS_CR_IMPOSSIBLE_TO_VALIDATE
 Language=Russian
-ERROR_DS_CR_IMPOSSIBLE_TO_VALIDATE - The directory cannot validate the proposed naming context name because it does not hold a replica of the naming context above the proposed naming context. Please ensure that the domain naming master role is held by a server that is configured as a global catalog server, and that the server is up to date with its replication partners. (Applies only to Windows 2000 Domain Naming masters)
+ERROR_DS_CR_IMPOSSIBLE_TO_VALIDATE - The directory cannot validate the proposed naming context name because it does not hold a replica of the naming context above the proposed naming context. Please ensure that the domain naming master role is held by a server that is configured as a global catalog server, and that the server is up to date with its replication partners. (Applies only to 2000 Domain Naming masters)
 .
 
 MessageId=8496
@@ -13054,7 +13054,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_DS_NAMING_MASTER_GC
 Language=Russian
-ERROR_DS_NAMING_MASTER_GC - Only DSAs configured to be Global Catalog servers should be allowed to hold the Domain Naming Master FSMO role. (Applies only to Windows 2000 servers)
+ERROR_DS_NAMING_MASTER_GC - Only DSAs configured to be Global Catalog servers should be allowed to hold the Domain Naming Master FSMO role. (Applies only to 2000 servers)
 .
 
 MessageId=8524
@@ -14529,7 +14529,7 @@ Severity=Success
 Facility=System
 SymbolicName=DNS_ERROR_DP_FSMO_ERROR
 Language=Russian
-DNS_ERROR_DP_FSMO_ERROR - The application directory partition operation failed. The domain controller holding the domain naming master role is down or unable to service the request or is not running Windows Server 2003.
+DNS_ERROR_DP_FSMO_ERROR - The application directory partition operation failed. The domain controller holding the domain naming master role is down or unable to service the request or is not running Server 2003.
 .
 
 MessageId=10004
@@ -14841,7 +14841,7 @@ Severity=Success
 Facility=System
 SymbolicName=WSAEPROCLIM
 Language=Russian
-WSAEPROCLIM - A Windows Sockets implementation may have a limit on the number of applications that may use it simultaneously.
+WSAEPROCLIM - Sockets implementation may have a limit on the number of applications that may use it simultaneously.
 .
 
 MessageId=10068
@@ -14889,7 +14889,7 @@ Severity=Success
 Facility=System
 SymbolicName=WSAVERNOTSUPPORTED
 Language=Russian
-WSAVERNOTSUPPORTED - The Windows Sockets version requested is not supported.
+WSAVERNOTSUPPORTED - Sockets version requested is not supported.
 .
 
 MessageId=10093
@@ -16297,7 +16297,7 @@ Severity=Success
 Facility=System
 SymbolicName=ERROR_IPSEC_IKE_INVALID_RESPONDER_LIFETIME_NOTIFY
 Language=Russian
-ERROR_IPSEC_IKE_INVALID_RESPONDER_LIFETIME_NOTIFY - The lifetime value received in the Responder Lifetime Notify is below the Windows 2000 configured minimum value. Please fix the policy on the peer machine.
+ERROR_IPSEC_IKE_INVALID_RESPONDER_LIFETIME_NOTIFY - The lifetime value received in the Responder Lifetime Notify is below the 2000 configured minimum value. Please fix the policy on the peer machine.
 .
 
 MessageId=13881
@@ -17180,7 +17180,7 @@ Severity=Warning
 Facility=WIN32
 SymbolicName=E_OUTOFMEMORY
 Language=Russian
-E_OUTOFMEMORY - Out of memory
+E_OUTOFMEMORY - Нехватка памяти
 .
 
 MessageId=0x0057
@@ -17196,7 +17196,7 @@ Severity=Warning
 Facility=WIN32
 SymbolicName=E_HANDLE
 Language=Russian
-E_POINTER - Invalid handle
+E_POINTER - Недопустимый дескриптор
 .
 
 MessageId=0x0005
@@ -17204,7 +17204,7 @@ Severity=Warning
 Facility=WIN32
 SymbolicName=E_ACCESSDENIED
 Language=Russian
-E_ACCESSDENIED - WIN32 access denied error
+E_ACCESSDENIED - WIN32 ошибка доступа
 .
 
 
@@ -17215,7 +17215,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_OLEVERB
 Language=Russian
-OLE_E_OLEVERB - Invalid OLEVERB structure
+OLE_E_OLEVERB - Неверная OLEVERB структура
 .
 
 MessageId=0x0001
@@ -17255,7 +17255,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_NOTRUNNING
 Language=Russian
-OLE_E_NOTRUNNING - Need to run the object to perform this operation
+OLE_E_NOTRUNNING - Необходимо запустить объект, чтобы выполнить эту операцию
 .
 
 MessageId=0x0006
@@ -17263,7 +17263,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_NOCACHE
 Language=Russian
-OLE_E_NOCACHE - There is no cache to operate on
+OLE_E_NOCACHE - Нет кэша для обработки
 .
 
 MessageId=0x0007
@@ -17271,7 +17271,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_BLANK
 Language=Russian
-OLE_E_BLANK - Uninitialized object
+OLE_E_BLANK - Неинициализированный объект
 .
 
 MessageId=0x0008
@@ -17287,7 +17287,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_CANT_GETMONIKER
 Language=Russian
-OLE_E_CANT_GETMONIKER - Not able to get the moniker of the object
+OLE_E_CANT_GETMONIKER - Не в состоянии получить псевдоним объекта
 .
 
 MessageId=0x000A
@@ -17295,7 +17295,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_CANT_BINDTOSOURCE
 Language=Russian
-OLE_E_CANT_BINDTOSOURCE - Not able to bind to the source
+OLE_E_CANT_BINDTOSOURCE - Не способен связываться с источником
 .
 
 MessageId=0x000B
@@ -17303,7 +17303,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_STATIC
 Language=Russian
-OLE_E_STATIC - Object is static; operation not allowed
+OLE_E_STATIC - Объект является статическим; операция не разрешена
 .
 
 MessageId=0x000C
@@ -17319,7 +17319,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_INVALIDRECT
 Language=Russian
-OLE_E_INVALIDRECT - Invalid rectangle
+OLE_E_INVALIDRECT - Неверный прямоугольник
 .
 
 MessageId=0x000E
@@ -17335,7 +17335,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_INVALIDHWND
 Language=Russian
-OLE_E_INVALIDHWND - Invalid window handle
+OLE_E_INVALIDHWND - Недопустимый дескриптор окна
 .
 
 MessageId=0x0010
@@ -17351,7 +17351,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_CANTCONVERT
 Language=Russian
-OLE_E_CANTCONVERT - Not able to convert object
+OLE_E_CANTCONVERT - Не удается преобразовать объект
 .
 
 MessageId=0x0012
@@ -17359,7 +17359,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=OLE_E_NOSTORAGE
 Language=Russian
-OLE_E_NOSTORAGE - Not able to perform the operation because object is not given storage yet
+OLE_E_NOSTORAGE - Не удается выполнить операцию, поскольку для объекта еще не выделена память
 .
 
 MessageId=0x0064
@@ -17367,7 +17367,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=DV_E_FORMATETC
 Language=Russian
-DV_E_FORMATETC - Invalid FORMATETC structure
+DV_E_FORMATETC - Неверная FORMATETC структура
 .
 
 MessageId=0x0065
@@ -17375,7 +17375,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=DV_E_DVTARGETDEVICE
 Language=Russian
-DV_E_DVTARGETDEVICE - Invalid DVTARGETDEVICE structure
+DV_E_DVTARGETDEVICE - Неверная DVTARGETDEVICE структура
 .
 
 MessageId=0x0066
@@ -17383,7 +17383,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=DV_E_STGMEDIUM
 Language=Russian
-DV_E_STGMEDIUM - Invalid STDGMEDIUM structure
+DV_E_STGMEDIUM - Неверная STDGMEDIUM структура
 .
 
 MessageId=0x0067
@@ -17391,7 +17391,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=DV_E_STATDATA
 Language=Russian
-DV_E_STATDATA - Invalid STATDATA structure
+DV_E_STATDATA - Неверная STATDATA структура
 .
 
 MessageId=0x0068
@@ -17399,7 +17399,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=DV_E_LINDEX
 Language=Russian
-DV_E_LINDEX - Invalid lindex
+DV_E_LINDEX - Неверный lindex
 .
 
 MessageId=0x0069
@@ -17407,7 +17407,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=DV_E_TYMED
 Language=Russian
-DV_E_TYMED - Invalid tymed
+DV_E_TYMED - Неверный tymed
 .
 
 MessageId=0x006A
@@ -17415,7 +17415,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=DV_E_CLIPFORMAT
 Language=Russian
-DV_E_CLIPFORMAT - Invalid clipboard format
+DV_E_CLIPFORMAT - Неверный формат буфера обмена
 .
 
 MessageId=0x006B
@@ -17423,7 +17423,7 @@ Severity=Warning
 Facility=ITF
 SymbolicName=DV_E_DVASPECT
 Language=Russian
-DV_E_DVASPECT - Invalid aspect(s)
+DV_E_DVASPECT - Неверный(е) аспект(ы)
 .
 
 MessageId=0x006C
