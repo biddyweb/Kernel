@@ -1,55 +1,31 @@
-========================
-ReactOS™ Version 0.4.x
-Updated January 5, 2016
-========================
+===========
+Greentea OS
+===========
 
-1. What is ReactOS?
--------------------
+EN: Greentea Operating System
+RU: Операционная система Greentea (продолжение ниже)
+
+EN:
+Hello! You are using Greentea! Awesome!
+Warm and cozy operating system, free open-source re-implementation of Microsoft® Windows™ NT.
+OS Greentea is based on ReactOS™ project.
+More information is available at: https://osgreentea.github.io/
+
+RU:
+Привет! Вы используете Greentea! Здорово!
+Тёплая и уютная, операционная система Гринти построена на идеях открытости
+и уважения к пользователю. Здесь нет скрытых функций слежки или
+растрат ресурсов компьютера. Гринти умеет запускать все привычные вам программы и устройства.
+
+Узнать больше о проекте и поучаствовать в разработке можно здесь: https://osgreentea.github.io/
+Пообщаться в Telegram группе: https://telegram.me/greentea_ru
+Мы есть и в других социальных сетях!
+
+Проект основан на базе ReactOS™
+
+===========
+GPL License
 
 ReactOS™ is an Open Source effort to develop a quality operating system that is
 compatible with applications and drivers written for the Microsoft® Windows™ NT
 family of operating systems (NT4, 2000, XP, 2003, Vista, Seven).
-
-More information is available at: http://www.reactos.org
-
-
-2. Relationship with the WINE project
--------------------------------------
-
-ReactOS has always intended to work with the WINE project to share as much
-programming effort as possible. This mainly concerns User Mode DLLs and
-still happens to a degree today. Other areas of cooperation lie in
-applications and testing suites.
-
-
-3. Future compatibility
------------------------
-
-The ReactOS project, although currently focused on Windows Server 2003
-compatibility, is always keeping an eye toward compatibility with
-Windows Vista and future Windows NT releases.
-
-
-4. Supporting other System Applications
----------------------------------------
-
-The Windows NT architecture allows for subsystems, as does the ReactOS
-architecture. A subsystem is an implementation of the APIs of another
-operating system, allowing ReactOS to run applications from other systems.
-We are already looking at subsystems for: Java, OS/2, and DOS and possibly
-others in the future.
-
-
-5. Tutorials
-------------
-
-Developer and User Tutorials: http://www.reactos.org/wiki
-
-The tutorials contain more information on the project, compiling and testing
-ReactOS - amongst other topics. Contributors to the project are always welcome.
-
-
-6. Author
----------
-
-This document was written by Jason Filby (jasonfilby@yahoo.com).
