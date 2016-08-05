@@ -13,7 +13,7 @@ END
 
 IDD_NOTICE_DLG DIALOGEX 0, 0, 275, 80
 STYLE NOT WS_VISIBLE | DS_CENTER | DS_MODALFRAME | DS_SHELLFONT | WS_BORDER | WS_CAPTION | WS_DLGFRAME | WS_POPUP
-CAPTION "Добро пожаловать в ReactOS"
+CAPTION "Добро пожаловать в Greentea"
 FONT 8, "MS Shell Dlg", 400, 0, 1
 BEGIN
     CONTROL IDI_ROSLOGO, IDC_ROSLOGO, "Static", SS_BITMAP, 0, 0, 275, 54
@@ -107,7 +107,7 @@ END
 
 IDD_LOGOFF_DLG DIALOGEX 0, 0, 188, 60
 STYLE NOT WS_VISIBLE | DS_CENTER | DS_MODALFRAME | DS_SHELLFONT | WS_BORDER | WS_CAPTION | WS_DLGFRAME | WS_SYSMENU | WS_POPUP
-CAPTION "Выход из ReactOS"
+CAPTION "Выход из системы"
 FONT 8, "MS Shell Dlg", 400, 0, 1
 BEGIN
     ICON IDI_LOGOFF, -1, 7, 7, 20, 20
@@ -118,7 +118,7 @@ END
 
 IDD_SHUTDOWN_DLG DIALOGEX 0, 0, 275, 146
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_CENTER | WS_POPUPWINDOW | WS_CAPTION
-CAPTION "Завершение работы ReactOS"
+CAPTION "Завершение работы"
 FONT 8, "MS Shell Dlg"
 BEGIN
     CONTROL IDI_ROSLOGO, IDC_ROSLOGO, "Static", SS_BITMAP, 0, 0, 275, 54
@@ -141,7 +141,7 @@ END
 
 IDD_SHUTDOWN_SHELL DIALOGEX 0, 0, 275, 146
 STYLE NOT WS_VISIBLE | DS_CENTER | DS_MODALFRAME | DS_SHELLFONT | WS_BORDER | WS_CAPTION | WS_DLGFRAME | WS_POPUP
-CAPTION "Завершение работы ReactOS"
+CAPTION "Завершение работы"
 FONT 8, "MS Shell Dlg"
 BEGIN
     CONTROL IDI_ROSLOGO, IDC_ROSLOGO, "Static", SS_BITMAP, 0, 0, 275, 54
@@ -188,7 +188,7 @@ BEGIN
     IDS_SHUTDOWN_HIBERNATE "Гибернация"
     /* Shut down descriptions */
     IDS_SHUTDOWN_LOGOFF_DESC "Завершает текущий сеанс и позволяет другим пользователям войти в систему."
-    IDS_SHUTDOWN_SHUTDOWN_DESC "Закрывает все программы, завершает работу ReactOS и выключает компьютер."
+    IDS_SHUTDOWN_SHUTDOWN_DESC "Закрывает все программы, завершает работу системы и выключает компьютер."
     IDS_SHUTDOWN_RESTART_DESC "Завершает текущий сеанс и перезагружает систему."
     IDS_SHUTDOWN_SLEEP_DESC "Переводит систему в режим ожидания."
     IDS_SHUTDOWN_HIBERNATE_DESC "Сохраняет текущий сеанс и выключает компьютер."
