@@ -1,6 +1,6 @@
 /*
  *      translated by Artem Reznikov, Igor Paliychuk, 2010
- *      http://www.reactos.org/uk/
+ *      http://osgreentea.github.io//uk/
  */ 
 
 #pragma once
@@ -17,7 +17,7 @@ static MUI_ENTRY ukUALanguagePageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -63,19 +63,19 @@ static MUI_ENTRY ukUAWelcomePageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Ласкаво просимо до програми встановлення ReactOS",
+        "Ласкаво просимо до програми встановлення Greentea",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "На цьому етапi встановлення вiдбудеться копiювання ReactOS на Ваш",
+        "На цьому етапi встановлення вiдбудеться копiювання Greentea на Ваш",
         TEXT_STYLE_NORMAL
     },
     {
@@ -87,37 +87,37 @@ static MUI_ENTRY ukUAWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Натиснiть ENTER щоб встановити ReactOS.",
+        "\x07  Натиснiть ENTER щоб встановити Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Натиснiть R для оновлення ReactOS.",
+        "\x07  Натиснiть R для оновлення Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  Натиснiть L для перегляду лiцензiйних умов ReactOS",
+        "\x07  Натиснiть L для перегляду лiцензiйних умов Greentea",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  Натиснiть F3 щоб вийти. не встановлюючи ReactOS.",
+        "\x07  Натиснiть F3 щоб вийти. не встановлюючи Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "Для отримання детальнiшої iнформацiї про ReactOS, будь-ласка вiдвiдайте:",
+        "Для отримання детальнiшої iнформацiї про Greentea, будь-ласка вiдвiдайте:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.org/uk/",
+        "http://osgreentea.github.io//uk/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -139,13 +139,13 @@ static MUI_ENTRY ukUAIntroPageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Встановлювач ReactOS знаходиться в раннiй стадiї розробки i ще не",
+        "Встановлювач Greentea знаходиться в раннiй стадiї розробки i ще не",
         TEXT_STYLE_NORMAL
     },
     {
@@ -175,13 +175,13 @@ static MUI_ENTRY ukUAIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Натиснiть ENTER щоб встановити ReactOS.",
+        "\x07  Натиснiть ENTER щоб встановити Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  Натиснiть F3 щоб вийти, не встановлюючи ReactOS.",
+        "\x07  Натиснiть F3 щоб вийти, не встановлюючи Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -203,7 +203,7 @@ static MUI_ENTRY ukUALicensePageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -215,13 +215,13 @@ static MUI_ENTRY ukUALicensePageEntries[] =
     {
         8,
         8,
-        "ReactOS лiцензовано вiдповiдно до умов",
+        "Greentea лiцензовано вiдповiдно до умов",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         9,
-        "GNU GPL. Також ReactOS мiстить компоненти, якi лiцензовано",
+        "GNU GPL. Також Greentea мiстить компоненти, якi лiцензовано",
         TEXT_STYLE_NORMAL
     },
     {
@@ -233,7 +233,7 @@ static MUI_ENTRY ukUALicensePageEntries[] =
     {
         8,
         11,
-        "Все програмне забезпечення, яке входить в систему ReactOS, випущено",
+        "Все програмне забезпечення, яке входить в систему Greentea, випущено",
         TEXT_STYLE_NORMAL
     },
     {
@@ -263,7 +263,7 @@ static MUI_ENTRY ukUALicensePageEntries[] =
     {
         8,
         17,
-        "Лiцензiя ReactOS дозволяє передачу продукту третiм особам.",
+        "Лiцензiя Greentea дозволяє передачу продукту третiм особам.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -275,7 +275,7 @@ static MUI_ENTRY ukUALicensePageEntries[] =
     {
         8,
         19,
-        "лiцензiйної угоди GNU разом з ReactOS, вiдвiдаєте",
+        "лiцензiйної угоди GNU разом з Greentea, вiдвiдаєте",
         TEXT_STYLE_NORMAL
     },
     {
@@ -327,7 +327,7 @@ static MUI_ENTRY ukUADevicePageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -420,13 +420,13 @@ static MUI_ENTRY ukUARepairPageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Встановлювач ReactOS знаходиться в раннiй стадiї розробки i ще не",
+        "Встановлювач Greentea знаходиться в раннiй стадiї розробки i ще не",
         TEXT_STYLE_NORMAL
     },
     {
@@ -484,7 +484,7 @@ static MUI_ENTRY ukUAComputerPageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -536,7 +536,7 @@ static MUI_ENTRY ukUAFlushPageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -576,13 +576,13 @@ static MUI_ENTRY ukUAQuitPageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS не встановлено повнiстю",
+        "Greentea не встановлено повнiстю",
         TEXT_STYLE_NORMAL
     },
     {
@@ -622,7 +622,7 @@ static MUI_ENTRY ukUADisplayPageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -673,13 +673,13 @@ static MUI_ENTRY ukUASuccessPageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Основнi компоненти ReactOS були успiшно встановленi.",
+        "Основнi компоненти Greentea були успiшно встановленi.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -719,7 +719,7 @@ static MUI_ENTRY ukUABootPageEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -766,7 +766,7 @@ static MUI_ENTRY ukUASelectPartitionEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -790,7 +790,7 @@ static MUI_ENTRY ukUASelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Натиснiть ENTER щоб встановити ReactOS на вибраний роздiл.",
+        "\x07  Натиснiть ENTER щоб встановити Greentea на вибраний роздiл.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -837,7 +837,7 @@ static MUI_ENTRY ukUAConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -855,7 +855,7 @@ static MUI_ENTRY ukUAConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -885,7 +885,7 @@ static MUI_ENTRY ukUAConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -931,7 +931,7 @@ static MUI_ENTRY ukUAFormatPartitionEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -965,19 +965,19 @@ static MUI_ENTRY ukUAInstallDirectoryEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Встановлювач встановить файли ReactOS на вибраний роздiл. Виберiть",
+        "Встановлювач встановить файли Greentea на вибраний роздiл. Виберiть",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "директорiю, в яку Ви хочете встановити ReactOS:",
+        "директорiю, в яку Ви хочете встановити Greentea:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -995,7 +995,7 @@ static MUI_ENTRY ukUAInstallDirectoryEntries[] =
     {
         6,
         16,
-        "встановлення ReactOS.",
+        "встановлення Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1017,13 +1017,13 @@ static MUI_ENTRY ukUAFileCopyEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "Будь-ласка, зачекайте поки встановлювач ReactOS копiює файли до",
+        "Будь-ласка, зачекайте поки встановлювач Greentea копiює файли до",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1057,7 +1057,7 @@ static MUI_ENTRY ukUABootLoaderEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1109,7 +1109,7 @@ static MUI_ENTRY ukUAKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1161,7 +1161,7 @@ static MUI_ENTRY ukUALayoutSettingsEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1214,13 +1214,13 @@ static MUI_ENTRY ukUAPrepareCopyEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Встановлювач готує Ваш комп'ютер для копiювання файлiв ReactOS. ",
+        "Встановлювач готує Ваш комп'ютер для копiювання файлiв Greentea. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1243,7 +1243,7 @@ static MUI_ENTRY ukUASelectFSEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1290,7 +1290,7 @@ static MUI_ENTRY ukUADeletePartitionEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1336,7 +1336,7 @@ static MUI_ENTRY ukUARegistryEntries[] =
     {
         4,
         3,
-        " Встановлення ReactOS " KERNEL_VERSION_STR " ",
+        " Встановлення Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1368,10 +1368,10 @@ MUI_ERROR ukUAErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS не був повнiстю встановлений на Ваш\n"
+        "Greentea не був повнiстю встановлений на Ваш\n"
         "комп'ютер. Якщо ви вийдете з встановлювача зараз,\n"
         "то Вам буде необхiдно запустити програму встановлення\n"
-        "знову, якщо Ви хочете встановити ReactOS,\n"
+        "знову, якщо Ви хочете встановити Greentea,\n"
         "\n"
         "  \x07  Натиснiть ENTER щоб продовжити встановлення.\n"
         "  \x07  Натиснiть F3 для виходу з встановлювача.",
@@ -1435,7 +1435,7 @@ MUI_ERROR ukUAErrorEntries[] =
     {
         //ERROR_WARN_PARTITION,
           "Знайдено як мiнiмум один жорсткий диск, що мiстить роздiл,\n"
-          "який не пiдтримується ReactOS!\n"
+          "який не пiдтримується Greentea!\n"
           "\n"
           "Створення чи видалення роздiлiв може зруйнувати таблицю роздiлiв.\n"
           "\n"
@@ -1579,7 +1579,7 @@ MUI_ERROR ukUAErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Натиснiть будь-яку клавiшу для продовження.",
@@ -1744,13 +1744,13 @@ MUI_STRING ukUAStrings[] =
     {STRING_PARTFORMAT,
     "Цей роздiл буде вiдформатовано."},
     {STRING_NONFORMATTEDPART,
-    "Ви вибрали встановлення ReactOS на новий або неформатований роздiл."},
+    "Ви вибрали встановлення Greentea на новий або неформатований роздiл."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "ReactOS встановлюється на роздiл"},
+    "Greentea встановлюється на роздiл"},
     {STRING_CHECKINGPART,
     "Встановлювач перевiряє вибраний роздiл."},
     {STRING_CONTINUE,

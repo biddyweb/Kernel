@@ -11,7 +11,7 @@ static MUI_ENTRY etEELanguagePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -57,7 +57,7 @@ static MUI_ENTRY etEEWelcomePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -81,7 +81,7 @@ static MUI_ENTRY etEEWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Vajuta ENTER, et ReactOS paigaldada.",
+        "\x07  Vajuta ENTER, et Greentea paigaldada.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -111,7 +111,7 @@ static MUI_ENTRY etEEWelcomePageEntries[] =
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -133,7 +133,7 @@ static MUI_ENTRY etEEIntroPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -169,7 +169,7 @@ static MUI_ENTRY etEEIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Vajuta ENTER, et ReactOS paigaldada.",
+        "\x07  Vajuta ENTER, et Greentea paigaldada.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -197,7 +197,7 @@ static MUI_ENTRY etEELicensePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -209,7 +209,7 @@ static MUI_ENTRY etEELicensePageEntries[] =
     {
         8,
         8,
-        "ReactOS kasutab GNU Åldist avalikku litsentsi(GPL),",
+        "Greentea kasutab GNU Åldist avalikku litsentsi(GPL),",
         TEXT_STYLE_NORMAL
     },
     {
@@ -321,7 +321,7 @@ static MUI_ENTRY etEEDevicePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -414,7 +414,7 @@ static MUI_ENTRY etEERepairPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -478,7 +478,7 @@ static MUI_ENTRY etEEComputerPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -530,7 +530,7 @@ static MUI_ENTRY etEEFlushPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -570,13 +570,13 @@ static MUI_ENTRY etEEQuitPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS ei ole tÑielikult paigaldatud",
+        "Greentea ei ole tÑielikult paigaldatud",
         TEXT_STYLE_NORMAL
     },
     {
@@ -616,7 +616,7 @@ static MUI_ENTRY etEEDisplayPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -667,7 +667,7 @@ static MUI_ENTRY etEESuccessPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -713,7 +713,7 @@ static MUI_ENTRY etEEBootPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -760,7 +760,7 @@ static MUI_ENTRY etEESelectPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -784,7 +784,7 @@ static MUI_ENTRY etEESelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Vajuta ENTER, et paigaldada ReactOS valitud partitsioonile.",
+        "\x07  Vajuta ENTER, et paigaldada Greentea valitud partitsioonile.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -831,7 +831,7 @@ static MUI_ENTRY etEEConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -849,7 +849,7 @@ static MUI_ENTRY etEEConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -879,7 +879,7 @@ static MUI_ENTRY etEEConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -925,7 +925,7 @@ static MUI_ENTRY etEEFormatPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -959,19 +959,19 @@ static MUI_ENTRY etEEInstallDirectoryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS paigaldatakse valitud partitsioonile.",
+        "Greentea paigaldatakse valitud partitsioonile.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "Vali kaust, kuhu ReactOS paigaldada:",
+        "Vali kaust, kuhu Greentea paigaldada:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -983,7 +983,7 @@ static MUI_ENTRY etEEInstallDirectoryEntries[] =
     {
         6,
         15,
-        "trÅki asemele kaust, kuhu ReactOS installeerida.",
+        "trÅki asemele kaust, kuhu Greentea installeerida.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1011,13 +1011,13 @@ static MUI_ENTRY etEEFileCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "Palun oota, kuni ReactOS paigaldatakse sihtkausta.",
+        "Palun oota, kuni Greentea paigaldatakse sihtkausta.",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1051,7 +1051,7 @@ static MUI_ENTRY etEEBootLoaderEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1103,7 +1103,7 @@ static MUI_ENTRY etEEKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1155,7 +1155,7 @@ static MUI_ENTRY etEELayoutSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1208,7 +1208,7 @@ static MUI_ENTRY etEEPrepareCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1237,7 +1237,7 @@ static MUI_ENTRY etEESelectFSEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1284,7 +1284,7 @@ static MUI_ENTRY etEEDeletePartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1330,7 +1330,7 @@ static MUI_ENTRY etEERegistryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " paigaldamine ",
+        " Greentea " KERNEL_VERSION_STR " paigaldamine ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1362,7 +1362,7 @@ MUI_ERROR etEEErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS ei ole tÑielikult paigaldatud.\n"
+        "Greentea ei ole tÑielikult paigaldatud.\n"
         "Kui paigaldamine praegu katkestada, siis tuleb\n"
         "ReactOSi paigaldamiseks paigaldusprogramm uuesti kÑivitada.\n"
         "\n"
@@ -1569,7 +1569,7 @@ MUI_ERROR etEEErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Vajuta suvalist klahvi, et jÑtkata.",
@@ -1740,7 +1740,7 @@ MUI_STRING etEEStrings[] =
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "ReactOS paigaldatakse partitsioonile"},
+    "Greentea paigaldatakse partitsioonile"},
     {STRING_CHECKINGPART,
     "Valitud partitsiooni kontrollitakse."},
     {STRING_CONTINUE,

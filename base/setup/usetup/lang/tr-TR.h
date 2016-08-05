@@ -15,7 +15,7 @@ static MUI_ENTRY trTRLanguagePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -61,19 +61,19 @@ static MUI_ENTRY trTRWelcomePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS Kur'a hoü geldiniz.",
+        "Greentea Kur'a hoü geldiniz.",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Kurulumun bu bîlÅmÅ, ReactOS òületim Dizgesi'ni bilgisayarçnçza",
+        "Kurulumun bu bîlÅmÅ, Greentea òületim Dizgesi'ni bilgisayarçnçza",
         TEXT_STYLE_NORMAL
     },
     {
@@ -85,25 +85,25 @@ static MUI_ENTRY trTRWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  ReactOS'u kurmak iáin Giriü'e basçnçz.",
+        "\x07  Greentea'u kurmak iáin Giriü'e basçnçz.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  ReactOS'u onarmak veyÉ yÅkseltmek iáin R'ye basçnçz.",
+        "\x07  Greentea'u onarmak veyÉ yÅkseltmek iáin R'ye basçnçz.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  ReactOS Ruhsatlama Istçlahlarç ve ûartlarç'nç gîrÅntÅlemek iáin L'ye basçnçz.",
+        "\x07  Greentea Ruhsatlama Istçlahlarç ve ûartlarç'nç gîrÅntÅlemek iáin L'ye basçnçz.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  ReactOS'u kurmadan áçkmak iáin ò3'e basçnçz.",
+        "\x07  Greentea'u kurmadan áçkmak iáin ò3'e basçnçz.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -115,7 +115,7 @@ static MUI_ENTRY trTRWelcomePageEntries[] =
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -137,13 +137,13 @@ static MUI_ENTRY trTRIntroPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS Kur, bir în geliüme evresindedir. Daha tÅmÅyle kullançülç",
+        "Greentea Kur, bir în geliüme evresindedir. Daha tÅmÅyle kullançülç",
         TEXT_STYLE_NORMAL
     },
     {
@@ -173,13 +173,13 @@ static MUI_ENTRY trTRIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  ReactOS'u kurmak iáin Giriü'e basçnçz.",
+        "\x07  Greentea'u kurmak iáin Giriü'e basçnçz.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  ReactOS'u kurmadan áçkmak iáin ò3'e basçnçz.",
+        "\x07  Greentea'u kurmadan áçkmak iáin ò3'e basçnçz.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -201,7 +201,7 @@ static MUI_ENTRY trTRLicensePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -213,7 +213,7 @@ static MUI_ENTRY trTRLicensePageEntries[] =
     {
         8,
         8,
-        "ReactOS Dizgesi, GNU GPL'yle X11, BSD ve GNU LPGL",
+        "Greentea Dizgesi, GNU GPL'yle X11, BSD ve GNU LPGL",
         TEXT_STYLE_NORMAL
     },
     {
@@ -231,7 +231,7 @@ static MUI_ENTRY trTRLicensePageEntries[] =
     {
         8,
         11,
-        "Bu yÅzden ReactOS dizgesinin kçsmç olan tÅm yazçlçmlar, korunan",
+        "Bu yÅzden Greentea dizgesinin kçsmç olan tÅm yazçlçmlar, korunan",
         TEXT_STYLE_NORMAL
     },
     {
@@ -249,7 +249,7 @@ static MUI_ENTRY trTRLicensePageEntries[] =
     {
         8,
         15,
-        "Åzerine hiábir gÅvence ve kçsçtlamayla gelmez. ReactOS'un",
+        "Åzerine hiábir gÅvence ve kçsçtlamayla gelmez. Greentea'un",
         TEXT_STYLE_NORMAL
     },
     {
@@ -261,7 +261,7 @@ static MUI_ENTRY trTRLicensePageEntries[] =
     {
         8,
         17,
-        "Eßer birtakçm nedenlerden dolayç ReactOS ile GNU Umñmå",
+        "Eßer birtakçm nedenlerden dolayç Greentea ile GNU Umñmå",
         TEXT_STYLE_NORMAL
     },
     {
@@ -319,7 +319,7 @@ static MUI_ENTRY trTRDevicePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -413,13 +413,13 @@ static MUI_ENTRY trTRRepairPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS Kur, bir în geliüme evresindedir. Daha tÅmÅyle kullançülç",
+        "Greentea Kur, bir în geliüme evresindedir. Daha tÅmÅyle kullançülç",
         TEXT_STYLE_NORMAL
     },
     {
@@ -477,7 +477,7 @@ static MUI_ENTRY trTRComputerPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -529,7 +529,7 @@ static MUI_ENTRY trTRFlushPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -569,13 +569,13 @@ static MUI_ENTRY trTRQuitPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS, tÅmÅyle kurulmadç.",
+        "Greentea, tÅmÅyle kurulmadç.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -615,7 +615,7 @@ static MUI_ENTRY trTRDisplayPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -666,13 +666,13 @@ static MUI_ENTRY trTRSuccessPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS'un ana bileüenleri baüarçlç olarak kuruldu.",
+        "Greentea'un ana bileüenleri baüarçlç olarak kuruldu.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -712,7 +712,7 @@ static MUI_ENTRY trTRBootPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -753,7 +753,7 @@ static MUI_ENTRY trTRSelectPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -777,7 +777,7 @@ static MUI_ENTRY trTRSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Seáili bîlÅme ReactOS'u yÅklemek iáin Giriü'e basçnçz.",
+        "\x07  Seáili bîlÅme Greentea'u yÅklemek iáin Giriü'e basçnçz.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -823,7 +823,7 @@ static MUI_ENTRY trTRConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -841,7 +841,7 @@ static MUI_ENTRY trTRConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "izlenceleri, ReactOS gibi bir iületim dizgesini baülatmak iáin izlenceler",
+        "izlenceleri, Greentea gibi bir iületim dizgesini baülatmak iáin izlenceler",
         TEXT_STYLE_NORMAL
     },
     {
@@ -865,7 +865,7 @@ static MUI_ENTRY trTRConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         16,
-        "BîlÅmÅ sildißinizde ReactOS Kur'u bitirene dek bilgisayarç sÉbit diskten",
+        "BîlÅmÅ sildißinizde Greentea Kur'u bitirene dek bilgisayarç sÉbit diskten",
         TEXT_STYLE_NORMAL
     },
     {
@@ -911,7 +911,7 @@ static MUI_ENTRY trTRFormatPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -945,13 +945,13 @@ static MUI_ENTRY trTRInstallDirectoryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Kur, seáili bîlÅme ReactOS kÅtÅklerini yÅkler. ReactOS'un",
+        "Kur, seáili bîlÅme Greentea kÅtÅklerini yÅkler. Greentea'un",
         TEXT_STYLE_NORMAL
     },
     {
@@ -969,7 +969,7 @@ static MUI_ENTRY trTRInstallDirectoryEntries[] =
     {
         6,
         15,
-        "ve ardçndan ReactOS'un yÅklenmesini istedißiniz dizini yazçnçz.",
+        "ve ardçndan Greentea'un yÅklenmesini istedißiniz dizini yazçnçz.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -991,13 +991,13 @@ static MUI_ENTRY trTRFileCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "ReactOS Kur, ReactOS kurulum dizininize kÅtÅkleri áoßaltçrken",
+        "Greentea Kur, Greentea kurulum dizininize kÅtÅkleri áoßaltçrken",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1031,7 +1031,7 @@ static MUI_ENTRY trTRBootLoaderEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1083,7 +1083,7 @@ static MUI_ENTRY trTRKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1135,7 +1135,7 @@ static MUI_ENTRY trTRLayoutSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1188,13 +1188,13 @@ static MUI_ENTRY trTRPrepareCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Kur, ReactOS kÅtÅklerini áoßaltmak iáin bilgisayarçnçzç ançklçyor.",
+        "Kur, Greentea kÅtÅklerini áoßaltmak iáin bilgisayarçnçzç ançklçyor.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1217,7 +1217,7 @@ static MUI_ENTRY trTRSelectFSEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1264,7 +1264,7 @@ static MUI_ENTRY trTRDeletePartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1310,7 +1310,7 @@ static MUI_ENTRY trTRRegistryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Kur ",
+        " Greentea " KERNEL_VERSION_STR " Kur ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1342,8 +1342,8 @@ MUI_ERROR trTRErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS, bilgisayara tÅmÅyle kurulmadç. Eßer üimdi\n"
-        "Kur'dan áçkarsançz ReactOS'u kurmak iáin Kur'u\n"
+        "Greentea, bilgisayara tÅmÅyle kurulmadç. Eßer üimdi\n"
+        "Kur'dan áçkarsançz Greentea'u kurmak iáin Kur'u\n"
         "yeniden áalçütçrmaya gereksinim duyacaksçnçz.\n"
         "\n"
         "  \x07  Kur'u sÅrdÅrmek iáin Giriü'e basçnçz.\n"
@@ -1552,7 +1552,7 @@ MUI_ERROR trTRErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "Seáili bîlÅm ReactOS'u kurmak iáin yetecek îláÅde bÅyÅk deßil.\n"
+        "Seáili bîlÅm Greentea'u kurmak iáin yetecek îláÅde bÅyÅk deßil.\n"
         "Kurulum bîlÅmÅ en az %lu MB bÅyÅklÅßÅnde olmalç.\n"
         "\n"
         "  * SÅrdÅrmek iáin bir dÅßmeye basçnçz.",
@@ -1715,13 +1715,13 @@ MUI_STRING trTRStrings[] =
     {STRING_PARTFORMAT,
     "Bu bîlÅm ileride biáimlendirilecektir."},
     {STRING_NONFORMATTEDPART,
-    "ReactOS'u yeni ya da biáimlendirilmemiü bir bîlÅme kurmayç seátiniz."},
+    "Greentea'u yeni ya da biáimlendirilmemiü bir bîlÅme kurmayç seátiniz."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "Dizge bîlÅmÅ daha biáimlendirilmemiü."},
     {STRING_NONFORMATTEDOTHERPART,
     "Yeni bîlÅm daha biáimlendirilmemiü."},
     {STRING_INSTALLONPART,
-    "Kur, ReactOS'u bîlÅm Åzerine kurar."},
+    "Kur, Greentea'u bîlÅm Åzerine kurar."},
     {STRING_CHECKINGPART,
     "Kur, üimdi seáili bîlÅmÅ gîzden geáiriyor."},
     {STRING_CONTINUE,

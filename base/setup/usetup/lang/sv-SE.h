@@ -1,5 +1,5 @@
 /*
- * PROJECT:         ReactOS Setup
+ * PROJECT:         Greentea Setup
  * FILE:            base/setup/usetup/lang/sv-SE.h  
  * PURPOSE:         Swedish resource file
  * Translation:     Jaix Bly plus perhaps GreatLord if blame and translate.reactos.se is consulted.
@@ -18,7 +18,7 @@ static MUI_ENTRY svSELanguagePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -64,19 +64,19 @@ static MUI_ENTRY svSEWelcomePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "V„lkommen till ReactOS Setup!",
+        "V„lkommen till Greentea Setup!",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Denna del av installationen kopierar ReactOS till eran",
+        "Denna del av installationen kopierar Greentea till eran",
         TEXT_STYLE_NORMAL
     },
     {
@@ -88,37 +88,37 @@ static MUI_ENTRY svSEWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Tryck p† ENTER f”r att installera ReactOS.",
+        "\x07  Tryck p† ENTER f”r att installera Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Tryck p† R f”r att reparera ReactOS.",
+        "\x07  Tryck p† R f”r att reparera Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  Tryck p† L f”r att l„sa licensavtalet till ReactOS.",
+        "\x07  Tryck p† L f”r att l„sa licensavtalet till Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  Tryck p† F3 f”r att avbryta installationen av ReactOS.",
+        "\x07  Tryck p† F3 f”r att avbryta installationen av Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "F”r mer information om ReactOS, bes”k:",
+        "F”r mer information om Greentea, bes”k:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -140,13 +140,13 @@ static MUI_ENTRY svSEIntroPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS Setup „r i en tidig utvecklingsfas och saknar d„rf”r ett antal",
+        "Greentea Setup „r i en tidig utvecklingsfas och saknar d„rf”r ett antal",
         TEXT_STYLE_NORMAL
     },
     {
@@ -176,7 +176,7 @@ static MUI_ENTRY svSEIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Tryck p† ENTER f”r att installera ReactOS.",
+        "\x07  Tryck p† ENTER f”r att installera Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -204,7 +204,7 @@ static MUI_ENTRY svSELicensePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -216,7 +216,7 @@ static MUI_ENTRY svSELicensePageEntries[] =
     {
         8,
         8,
-        "ReactOS „r licenserad under GNU GPL med delar",
+        "Greentea „r licenserad under GNU GPL med delar",
         TEXT_STYLE_NORMAL
     },
     {
@@ -234,7 +234,7 @@ static MUI_ENTRY svSELicensePageEntries[] =
     {
         8,
         11,
-        "All mjukvara som „r del av ReactOS „r publicerad",
+        "All mjukvara som „r del av Greentea „r publicerad",
         TEXT_STYLE_NORMAL
     },
     {
@@ -264,7 +264,7 @@ static MUI_ENTRY svSELicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS t„cker endast distrubering till tredje part.",
+        "Greentea t„cker endast distrubering till tredje part.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -276,7 +276,7 @@ static MUI_ENTRY svSELicensePageEntries[] =
     {
         8,
         19,
-        "GNU General Public License med ReactOS, bes”k",
+        "GNU General Public License med Greentea, bes”k",
         TEXT_STYLE_NORMAL
     },
     {
@@ -328,7 +328,7 @@ static MUI_ENTRY svSEDevicePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -421,13 +421,13 @@ static MUI_ENTRY svSERepairPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS Setup „r i en tidig utvecklingsfas och saknar d„rf”r ett antal",
+        "Greentea Setup „r i en tidig utvecklingsfas och saknar d„rf”r ett antal",
         TEXT_STYLE_NORMAL
     },
     {
@@ -445,7 +445,7 @@ static MUI_ENTRY svSERepairPageEntries[] =
     {
         8,
         15,
-        "\x07  Tryck p† U f”r att uppdatera ReactOS.",
+        "\x07  Tryck p† U f”r att uppdatera Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -485,7 +485,7 @@ static MUI_ENTRY svSEComputerPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -537,7 +537,7 @@ static MUI_ENTRY svSEFlushPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -577,13 +577,13 @@ static MUI_ENTRY svSEQuitPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Installationen av ReactOS har inte slutf”rts.",
+        "Installationen av Greentea har inte slutf”rts.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -623,7 +623,7 @@ static MUI_ENTRY svSEDisplayPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -674,13 +674,13 @@ static MUI_ENTRY svSESuccessPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS har nu installerats p† datorn.",
+        "Greentea har nu installerats p† datorn.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -720,7 +720,7 @@ static MUI_ENTRY svSEBootPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -767,7 +767,7 @@ static MUI_ENTRY svSESelectPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -791,7 +791,7 @@ static MUI_ENTRY svSESelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Tryck ENTER f”r att installerara ReactOS till vald partition.",
+        "\x07  Tryck ENTER f”r att installerara Greentea till vald partition.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -838,7 +838,7 @@ static MUI_ENTRY svSEConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -856,7 +856,7 @@ static MUI_ENTRY svSEConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -886,7 +886,7 @@ static MUI_ENTRY svSEConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -932,7 +932,7 @@ static MUI_ENTRY svSEFormatPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -966,19 +966,19 @@ static MUI_ENTRY svSEInstallDirectoryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS installeras till vald partition. V„lj en",
+        "Greentea installeras till vald partition. V„lj en",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "mapp som du vill installera ReactOS till.:",
+        "mapp som du vill installera Greentea till.:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -990,7 +990,7 @@ static MUI_ENTRY svSEInstallDirectoryEntries[] =
     {
         6,
         15,
-        "bokst„ver och skriv sedan in mappen dit du vill att ReactOS ska bli",
+        "bokst„ver och skriv sedan in mappen dit du vill att Greentea ska bli",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1018,13 +1018,13 @@ static MUI_ENTRY svSEFileCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         11,
         12,
-        "Var v„nlig v„nta medans ReactOS Setup kopieras till din ReactOS.",
+        "Var v„nlig v„nta medans Greentea Setup kopieras till din Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1058,7 +1058,7 @@ static MUI_ENTRY svSEBootLoaderEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1110,7 +1110,7 @@ static MUI_ENTRY svSEKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1162,7 +1162,7 @@ static MUI_ENTRY svSELayoutSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1215,13 +1215,13 @@ static MUI_ENTRY svSEPrepareCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Setup f”rbereder din dator f”r kopiering av ReactOS filer. ",
+        "Setup f”rbereder din dator f”r kopiering av Greentea filer. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1244,7 +1244,7 @@ static MUI_ENTRY svSESelectFSEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1291,7 +1291,7 @@ static MUI_ENTRY svSEDeletePartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1337,7 +1337,7 @@ static MUI_ENTRY svSERegistryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1369,9 +1369,9 @@ MUI_ERROR svSEErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS installerades inte fullst„ndigt p† din\n"
+        "Greentea installerades inte fullst„ndigt p† din\n"
         "dator. Om du avslutar Setup nu, kommer du att beh”va\n"
-        "k”ra Setup igen f”r att installera ReactOS.\n"
+        "k”ra Setup igen f”r att installera Greentea.\n"
         "\n"
         "  \x07  Tryck ENTER f”r att forts„tta Setup.\n"
         "  \x07  Tryck F3 f”r att avsluta Setup.",
@@ -1579,7 +1579,7 @@ MUI_ERROR svSEErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Tryck valfri tangent f”r att forts„tta.",
@@ -1744,13 +1744,13 @@ MUI_STRING svSEStrings[] =
     {STRING_PARTFORMAT,
     "Denna Partition kommer att bli formaterad h„rn„st."},
     {STRING_NONFORMATTEDPART,
-    "Du valde att installera ReactOS p† en oformaterad partition."},
+    "Du valde att installera Greentea p† en oformaterad partition."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Setup installerar ReactOS till Partitionen"},
+    "Setup installerar Greentea till Partitionen"},
     {STRING_CHECKINGPART,
     "Setup unders”ker nu den valda partitionen."},
     {STRING_CONTINUE,

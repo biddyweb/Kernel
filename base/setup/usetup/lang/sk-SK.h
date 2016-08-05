@@ -19,7 +19,7 @@ static MUI_ENTRY skSKLanguagePageEntries[] =
     {
         4,
         3,
-         " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+         " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -65,19 +65,19 @@ static MUI_ENTRY skSKWelcomePageEntries[] =
     {
         4,
         3,
-         " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+         " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "V¡ta V s Inçtal tor syst‚mu ReactOS",
+        "V¡ta V s Inçtal tor syst‚mu Greentea",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Tento stupeå Inçtal tora skop¡ruje operaŸnì syst‚m ReactOS na V ç",
+        "Tento stupeå Inçtal tora skop¡ruje operaŸnì syst‚m Greentea na V ç",
         TEXT_STYLE_NORMAL
     },
     {
@@ -89,37 +89,37 @@ static MUI_ENTRY skSKWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  StlaŸte ENTER pre nainçtalovanie syst‚mu ReactOS.",
+        "\x07  StlaŸte ENTER pre nainçtalovanie syst‚mu Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  StlaŸte R pre opravu alebo aktualiz ciu syst‚mu ReactOS.",
+        "\x07  StlaŸte R pre opravu alebo aktualiz ciu syst‚mu Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  StlaŸte L, ak chcete zobraziœ licenŸn‚ podmienky syst‚mu ReactOS.",
+        "\x07  StlaŸte L, ak chcete zobraziœ licenŸn‚ podmienky syst‚mu Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  StlaŸte F3 pre skonŸenie inçtal cie, syst‚m ReactOS sa nenainçtaluje.",
+        "\x07  StlaŸte F3 pre skonŸenie inçtal cie, syst‚m Greentea sa nenainçtaluje.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "Pre viac inform ci¡ o syst‚me ReactOS, navçt¡vte pros¡m:",
+        "Pre viac inform ci¡ o syst‚me Greentea, navçt¡vte pros¡m:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -141,13 +141,13 @@ static MUI_ENTRY skSKIntroPageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Inçtal tor syst‚mu ReactOS je v zaŸiatoŸnom çt diu vìvoja. Zatia–",
+        "Inçtal tor syst‚mu Greentea je v zaŸiatoŸnom çt diu vìvoja. Zatia–",
         TEXT_STYLE_NORMAL
     },
     {
@@ -177,13 +177,13 @@ static MUI_ENTRY skSKIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  StlaŸte ENTER pre nainçtalovanie syst‚mu ReactOS.",
+        "\x07  StlaŸte ENTER pre nainçtalovanie syst‚mu Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  StlaŸte F3 pre skonŸenie inçtal cie, syst‚m ReactOS sa nenainçtaluje.",
+        "\x07  StlaŸte F3 pre skonŸenie inçtal cie, syst‚m Greentea sa nenainçtaluje.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -205,7 +205,7 @@ static MUI_ENTRY skSKLicensePageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -217,7 +217,7 @@ static MUI_ENTRY skSKLicensePageEntries[] =
     {
         8,
         8,
-        "Syst‚m ReactOS je vydanì za podmienok licencie",
+        "Syst‚m Greentea je vydanì za podmienok licencie",
         TEXT_STYLE_NORMAL
     },
     {
@@ -235,7 +235,7 @@ static MUI_ENTRY skSKLicensePageEntries[] =
     {
         8,
         11,
-        "Preto vçetok softv‚r, ktorì je s£Ÿasœou syst‚mu ReactOS,",
+        "Preto vçetok softv‚r, ktorì je s£Ÿasœou syst‚mu Greentea,",
         TEXT_STYLE_NORMAL
     },
     {
@@ -265,7 +265,7 @@ static MUI_ENTRY skSKLicensePageEntries[] =
     {
         8,
         17,
-        "syst‚mu ReactOS pokrìva iba distrib£ciu k tren¡m stran m.",
+        "syst‚mu Greentea pokrìva iba distrib£ciu k tren¡m stran m.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -277,7 +277,7 @@ static MUI_ENTRY skSKLicensePageEntries[] =
     {
         8,
         19,
-        "spolu so syst‚mom ReactOS, navçt¡vte, pros¡m, str nku:",
+        "spolu so syst‚mom Greentea, navçt¡vte, pros¡m, str nku:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -329,7 +329,7 @@ static MUI_ENTRY skSKDevicePageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -422,13 +422,13 @@ static MUI_ENTRY skSKRepairPageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Inçtal tor syst‚mu ReactOS je v zaŸiatoŸnom çt diu vìvoja. Zatia–",
+        "Inçtal tor syst‚mu Greentea je v zaŸiatoŸnom çt diu vìvoja. Zatia–",
         TEXT_STYLE_NORMAL
     },
     {
@@ -486,7 +486,7 @@ static MUI_ENTRY skSKComputerPageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -538,7 +538,7 @@ static MUI_ENTRY skSKFlushPageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -578,13 +578,13 @@ static MUI_ENTRY skSKQuitPageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Syst‚m ReactOS nie je nainçtalovanì kompletne",
+        "Syst‚m Greentea nie je nainçtalovanì kompletne",
         TEXT_STYLE_NORMAL
     },
     {
@@ -624,7 +624,7 @@ static MUI_ENTRY skSKDisplayPageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -675,13 +675,13 @@ static MUI_ENTRY skSKSuccessPageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Z kladn‚ s£Ÿast¡ syst‚mu ReactOS boli £speçne nainçtalovan‚.",
+        "Z kladn‚ s£Ÿast¡ syst‚mu Greentea boli £speçne nainçtalovan‚.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -721,7 +721,7 @@ static MUI_ENTRY skSKBootPageEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -768,7 +768,7 @@ static MUI_ENTRY skSKSelectPartitionEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -792,7 +792,7 @@ static MUI_ENTRY skSKSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  StlaŸte ENTER pre inçtal ciu syst‚mu ReactOS na vybran£ oblasœ.",
+        "\x07  StlaŸte ENTER pre inçtal ciu syst‚mu Greentea na vybran£ oblasœ.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -839,7 +839,7 @@ static MUI_ENTRY skSKConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -857,7 +857,7 @@ static MUI_ENTRY skSKConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -887,7 +887,7 @@ static MUI_ENTRY skSKConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -933,7 +933,7 @@ static MUI_ENTRY skSKFormatPartitionEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -967,19 +967,19 @@ static MUI_ENTRY skSKInstallDirectoryEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Inçtal tor nainçtaluje s£bory syst‚mu ReactOS na zvolen£ oblasœ.",
+        "Inçtal tor nainçtaluje s£bory syst‚mu Greentea na zvolen£ oblasœ.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "Vyberte adres r kam chcete nainçtalovaœ syst‚m ReactOS:",
+        "Vyberte adres r kam chcete nainçtalovaœ syst‚m Greentea:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -997,7 +997,7 @@ static MUI_ENTRY skSKInstallDirectoryEntries[] =
     {
         6,
         16,
-        "syst‚m ReactOS nainçtalovanì.",
+        "syst‚m Greentea nainçtalovanì.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1019,7 +1019,7 @@ static MUI_ENTRY skSKFileCopyEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1031,7 +1031,7 @@ static MUI_ENTRY skSKFileCopyEntries[] =
     {
         30,
         13,
-        "prieŸinka pre ReactOS.",
+        "prieŸinka pre Greentea.",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1059,7 +1059,7 @@ static MUI_ENTRY skSKBootLoaderEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1111,7 +1111,7 @@ static MUI_ENTRY skSKKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1163,7 +1163,7 @@ static MUI_ENTRY skSKLayoutSettingsEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1216,13 +1216,13 @@ static MUI_ENTRY skSKPrepareCopyEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Pripravuje sa kop¡rovanie s£borov syst‚mu ReactOS. ",
+        "Pripravuje sa kop¡rovanie s£borov syst‚mu Greentea. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1245,7 +1245,7 @@ static MUI_ENTRY skSKSelectFSEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1292,7 +1292,7 @@ static MUI_ENTRY skSKDeletePartitionEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1338,7 +1338,7 @@ static MUI_ENTRY skSKRegistryEntries[] =
     {
         4,
         3,
-        " Inçtal tor syst‚mu ReactOS " KERNEL_VERSION_STR " ",
+        " Inçtal tor syst‚mu Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1370,9 +1370,9 @@ MUI_ERROR skSKErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "Syst‚m ReactOS nie je kompletne nainçtalovanì na Vaçom\n"
+        "Syst‚m Greentea nie je kompletne nainçtalovanì na Vaçom\n"
         "poŸ¡taŸi. Ak teraz preruç¡te inçtal ciu, budete musieœ\n"
-        "spustiœ Inçtal tor znova, aby sa syst‚m ReactOS nainçtaloval.\n"
+        "spustiœ Inçtal tor znova, aby sa syst‚m Greentea nainçtaloval.\n"
         "\n"
         "  \x07  StlaŸte ENTER pre pokraŸovanie v inçtal cii.\n"
         "  \x07  StlaŸte F3 pre skonŸenie inçtal cie.",
@@ -1583,7 +1583,7 @@ MUI_ERROR skSKErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * PokraŸujte stlaŸen¡m –ubovo–n‚ho kl vesu.",
@@ -1748,13 +1748,13 @@ MUI_STRING skSKStrings[] =
     {STRING_PARTFORMAT,
     "T to oblasœ sa bude form tovaœ ako Ôalçia."},
     {STRING_NONFORMATTEDPART,
-    "Zvolili ste inçtal ciu syst‚mu ReactOS na nov£ alebo nenaform tovan£ oblasœ."},
+    "Zvolili ste inçtal ciu syst‚mu Greentea na nov£ alebo nenaform tovan£ oblasœ."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Inçtal tor nainçtaluje syst‚m ReactOS na oblasœ"},
+    "Inçtal tor nainçtaluje syst‚m Greentea na oblasœ"},
     {STRING_CHECKINGPART,
     "Inçtal tor teraz skontroluje vybran£ oblasœ."},
     {STRING_CONTINUE,

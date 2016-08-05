@@ -11,7 +11,7 @@ static MUI_ENTRY daDKLanguagePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -57,19 +57,19 @@ static MUI_ENTRY daDKWelcomePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Velkommen til ReactOS installationen",
+        "Velkommen til Greentea installationen",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Denne del af installationen vil kopiere ReactOS opreativsystemet",
+        "Denne del af installationen vil kopiere Greentea opreativsystemet",
         TEXT_STYLE_NORMAL
     },
     {
@@ -81,37 +81,37 @@ static MUI_ENTRY daDKWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Tryk p† ENTER for at installere ReactOS.",
+        "\x07  Tryk p† ENTER for at installere Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Tryk p† R reparere eller opdatere ReactOS.",
+        "\x07  Tryk p† R reparere eller opdatere Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  Tryk p† L for at f† vist ReactOS licensbetingelser og vilk†r.",
+        "\x07  Tryk p† L for at f† vist Greentea licensbetingelser og vilk†r.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  Tryk p† F3 for at afslutte uden at installere ReactOS.",
+        "\x07  Tryk p† F3 for at afslutte uden at installere Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "For at f† mere infomation om ReactOS, g† ind p†:",
+        "For at f† mere infomation om Greentea, g† ind p†:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -133,13 +133,13 @@ static MUI_ENTRY daDKIntroPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS installationen er i en tilelig udviklingsfase. Derfor",
+        "Greentea installationen er i en tilelig udviklingsfase. Derfor",
         TEXT_STYLE_NORMAL
     },
     {
@@ -175,13 +175,13 @@ static MUI_ENTRY daDKIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Tryk p† ENTER for at installere ReactOS.",
+        "\x07  Tryk p† ENTER for at installere Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  Tryk p† F3 for at afslutte uden at installere ReactOS.",
+        "\x07  Tryk p† F3 for at afslutte uden at installere Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -203,7 +203,7 @@ static MUI_ENTRY daDKLicensePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -215,7 +215,7 @@ static MUI_ENTRY daDKLicensePageEntries[] =
     {
         8,
         8,
-        "ReactOS systemet er licenseret under betingelserne beskrevet i",
+        "Greentea systemet er licenseret under betingelserne beskrevet i",
         TEXT_STYLE_NORMAL
     },
     {
@@ -233,7 +233,7 @@ static MUI_ENTRY daDKLicensePageEntries[] =
     {
         8,
         11,
-        "Alt software som er en del af ReactOS systemet er",
+        "Alt software som er en del af Greentea systemet er",
         TEXT_STYLE_NORMAL
     },
     {
@@ -263,7 +263,7 @@ static MUI_ENTRY daDKLicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS d‘kker kun distribution til tredjeparter",
+        "Greentea d‘kker kun distribution til tredjeparter",
         TEXT_STYLE_NORMAL
     },
     {
@@ -275,7 +275,7 @@ static MUI_ENTRY daDKLicensePageEntries[] =
     {
         8,
         19,
-        "af GNU General Public Licensen sammen med ReactOS, bes›g siden",
+        "af GNU General Public Licensen sammen med Greentea, bes›g siden",
         TEXT_STYLE_NORMAL
     },
     {
@@ -305,7 +305,7 @@ static MUI_ENTRY daDKLicensePageEntries[] =
     {
         8,
         26,
-        "om ReactOS KAN BRUGES TIL NOGET BESTEMT.",
+        "om Greentea KAN BRUGES TIL NOGET BESTEMT.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -327,7 +327,7 @@ static MUI_ENTRY daDKDevicePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -420,13 +420,13 @@ static MUI_ENTRY daDKRepairPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS installationen er i en tilelig udviklingsfase. Derfor",
+        "Greentea installationen er i en tilelig udviklingsfase. Derfor",
         TEXT_STYLE_NORMAL
     },
     {
@@ -489,7 +489,7 @@ static MUI_ENTRY daDKComputerPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -541,7 +541,7 @@ static MUI_ENTRY daDKFlushPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -581,13 +581,13 @@ static MUI_ENTRY daDKQuitPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS er ikke blevet helt installeret",
+        "Greentea er ikke blevet helt installeret",
         TEXT_STYLE_NORMAL
     },
     {
@@ -627,7 +627,7 @@ static MUI_ENTRY daDKDisplayPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -679,13 +679,13 @@ static MUI_ENTRY daDKSuccessPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "De grundl‘ggende komponenter i ReactOS blev installeret med success.",
+        "De grundl‘ggende komponenter i Greentea blev installeret med success.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -731,7 +731,7 @@ static MUI_ENTRY daDKBootPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -778,7 +778,7 @@ static MUI_ENTRY daDKSelectPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -802,7 +802,7 @@ static MUI_ENTRY daDKSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Tryk p† ENTER for at installere ReactOS til den valgte patition.",
+        "\x07  Tryk p† ENTER for at installere Greentea til den valgte patition.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -848,7 +848,7 @@ static MUI_ENTRY daDKConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -866,7 +866,7 @@ static MUI_ENTRY daDKConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "oprativsystem (s† som ReactOS) eller styreprogrammer til hardware.",
+        "oprativsystem (s† som Greentea) eller styreprogrammer til hardware.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -890,7 +890,7 @@ static MUI_ENTRY daDKConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "fra din harddisk f›r at du har gennemf›rt installatonen af ReactOS.",
+        "fra din harddisk f›r at du har gennemf›rt installatonen af Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -937,7 +937,7 @@ static MUI_ENTRY daDKFormatPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -977,7 +977,7 @@ static MUI_ENTRY daDKInstallDirectoryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -989,7 +989,7 @@ static MUI_ENTRY daDKInstallDirectoryEntries[] =
     {
         6,
         9,
-        "V‘lg den mappe hvor du ›nsker ReactOS skal installeres:",
+        "V‘lg den mappe hvor du ›nsker Greentea skal installeres:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1007,7 +1007,7 @@ static MUI_ENTRY daDKInstallDirectoryEntries[] =
     {
         6,
         16,
-        "ReactOS skal installeres til.",
+        "Greentea skal installeres til.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1029,19 +1029,19 @@ static MUI_ENTRY daDKFileCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "Vent mens ReactOS installationen kopiere filer til din",
+        "Vent mens Greentea installationen kopiere filer til din",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
         0,
         13,
-        "ReactOS-installationsmappe.",
+        "Greentea-installationsmappe.",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1069,7 +1069,7 @@ static MUI_ENTRY daDKBootLoaderEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1121,7 +1121,7 @@ static MUI_ENTRY daDKKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1173,7 +1173,7 @@ static MUI_ENTRY daDKLayoutSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1226,13 +1226,13 @@ static MUI_ENTRY daDKPrepareCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Installationen g›r din computer klar til at kopiere ReactOS filerne. ",
+        "Installationen g›r din computer klar til at kopiere Greentea filerne. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1255,7 +1255,7 @@ static MUI_ENTRY daDKSelectFSEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1302,7 +1302,7 @@ static MUI_ENTRY daDKDeletePartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1348,7 +1348,7 @@ static MUI_ENTRY daDKRegistryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " installationen ",
+        " Greentea " KERNEL_VERSION_STR " installationen ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1380,9 +1380,9 @@ MUI_ERROR daDKErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS er endnu ikke f‘rdiginstalleret p†\n"
+        "Greentea er endnu ikke f‘rdiginstalleret p†\n"
         "din computer. Hvis du afslutter installationen nu skal\n"
-        "du k›rer installationen igen for at installere ReactOS.\n"
+        "du k›rer installationen igen for at installere Greentea.\n"
         "\n"
         "  \x07  Tryk p† ENTER for at forts‘tte installationen.\n"
         "  \x07  Tryk p† F3 afslutte installationen.",
@@ -1590,7 +1590,7 @@ MUI_ERROR daDKErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "Den valgte partition er ikke stor nok til at installere ReactOS.\n"
+        "Den valgte partition er ikke stor nok til at installere Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "installationspartitionen skal mindst have %lu MB ledig.\n"
         "\n"
@@ -1754,13 +1754,13 @@ MUI_STRING daDKStrings[] =
     {STRING_PARTFORMAT,
     "Denne partition vil blive formateret som det n‘ste."},
     {STRING_NONFORMATTEDPART,
-    "Du har valgt at installere ReactOS til en ny eller uformateret partition."},
+    "Du har valgt at installere Greentea til en ny eller uformateret partition."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "Systempartitionen er endnu ikke blevet formateret."},
     {STRING_NONFORMATTEDOTHERPART,
     "Den nye partition er endnu ikke blevet formateret."},
     {STRING_INSTALLONPART,
-    "Installationen installere ReactOS p† partitionen"},
+    "Installationen installere Greentea p† partitionen"},
     {STRING_CHECKINGPART,
     "Installationen tjekker den valgte partition."},
     {STRING_CONTINUE,

@@ -12,7 +12,7 @@ static MUI_ENTRY frFRLanguagePageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -58,19 +58,19 @@ static MUI_ENTRY frFRWelcomePageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Bienvenue dans l'installation de ReactOS",
+        "Bienvenue dans l'installation de Greentea",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Cette partie de l'installation copie le Systäme d'Exploitation ReactOS",
+        "Cette partie de l'installation copie le Systäme d'Exploitation Greentea",
         TEXT_STYLE_NORMAL
     },
     {
@@ -82,37 +82,37 @@ static MUI_ENTRY frFRWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Appuyer sur ENTRêE pour installer ReactOS.",
+        "\x07  Appuyer sur ENTRêE pour installer Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Appuyer sur R pour rÇparer ReactOS.",
+        "\x07  Appuyer sur R pour rÇparer Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  Appuyer sur L pour les Termes et Conditions de Licence ReactOS",
+        "\x07  Appuyer sur L pour les Termes et Conditions de Licence Greentea",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  Appuyer sur F3 pour quitter sans installer ReactOS.",
+        "\x07  Appuyer sur F3 pour quitter sans installer Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "Pour plus d'informations sur ReactOS, veuiller visiter :",
+        "Pour plus d'informations sur Greentea, veuiller visiter :",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -134,13 +134,13 @@ static MUI_ENTRY frFRIntroPageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "L'installation de ReactOS est en phase de dÇveloppement.",
+        "L'installation de Greentea est en phase de dÇveloppement.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -176,13 +176,13 @@ static MUI_ENTRY frFRIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Appuyer sur ENTRêE pour installer ReactOS.",
+        "\x07  Appuyer sur ENTRêE pour installer Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  Appuyer sur F3 pour quitter sans installer ReactOS.",
+        "\x07  Appuyer sur F3 pour quitter sans installer Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -204,7 +204,7 @@ static MUI_ENTRY frFRLicensePageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -216,7 +216,7 @@ static MUI_ENTRY frFRLicensePageEntries[] =
     {
         8,
         8,
-        "The ReactOS System is licensed under the terms of the",
+        "The Greentea System is licensed under the terms of the",
         TEXT_STYLE_NORMAL
     },
     {
@@ -234,7 +234,7 @@ static MUI_ENTRY frFRLicensePageEntries[] =
     {
         8,
         11,
-        "All software that is part of the ReactOS system is",
+        "All software that is part of the Greentea system is",
         TEXT_STYLE_NORMAL
     },
     {
@@ -264,7 +264,7 @@ static MUI_ENTRY frFRLicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS only covers distribution to third parties.",
+        "Greentea only covers distribution to third parties.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -276,7 +276,7 @@ static MUI_ENTRY frFRLicensePageEntries[] =
     {
         8,
         19,
-        "GNU General Public License with ReactOS please visit",
+        "GNU General Public License with Greentea please visit",
         TEXT_STYLE_NORMAL
     },
     {
@@ -328,7 +328,7 @@ static MUI_ENTRY frFRDevicePageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -421,13 +421,13 @@ static MUI_ENTRY frFRRepairPageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "L'installation de ReactOS est en phase de dÇveloppement.",
+        "L'installation de Greentea est en phase de dÇveloppement.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -491,7 +491,7 @@ static MUI_ENTRY frFRComputerPageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -543,7 +543,7 @@ static MUI_ENTRY frFRFlushPageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -583,13 +583,13 @@ static MUI_ENTRY frFRQuitPageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS n'est pas complätement installÇ",
+        "Greentea n'est pas complätement installÇ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -629,7 +629,7 @@ static MUI_ENTRY frFRDisplayPageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -680,13 +680,13 @@ static MUI_ENTRY frFRSuccessPageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Les composants standards de ReactOS ont ÇtÇ installÇs avec succäs.",
+        "Les composants standards de Greentea ont ÇtÇ installÇs avec succäs.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -726,7 +726,7 @@ static MUI_ENTRY frFRBootPageEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -773,7 +773,7 @@ static MUI_ENTRY frFRSelectPartitionEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -797,7 +797,7 @@ static MUI_ENTRY frFRSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Appuyer sur ENTRêE pour installer ReactOS sur la partition choisie.",
+        "\x07  Appuyer sur ENTRêE pour installer Greentea sur la partition choisie.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -843,7 +843,7 @@ static MUI_ENTRY frFRConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -867,7 +867,7 @@ static MUI_ENTRY frFRConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         12,
-        "d'exploitation (comme ReactOS) ou d'autres programmes fournis par le",
+        "d'exploitation (comme Greentea) ou d'autres programmes fournis par le",
         TEXT_STYLE_NORMAL
     },
     {
@@ -903,7 +903,7 @@ static MUI_ENTRY frFRConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         19,
-        "finissiez l'installation de ReactOS.",
+        "finissiez l'installation de Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -949,7 +949,7 @@ static MUI_ENTRY frFRFormatPartitionEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -983,19 +983,19 @@ static MUI_ENTRY frFRInstallDirectoryEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Setup installe les fichiers de ReactOS sur la partition sÇlectionnÇe.",
+        "Setup installe les fichiers de Greentea sur la partition sÇlectionnÇe.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "Choisissez un repertoire oó vous voulez que ReactOS soit installÇ :",
+        "Choisissez un repertoire oó vous voulez que Greentea soit installÇ :",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1013,7 +1013,7 @@ static MUI_ENTRY frFRInstallDirectoryEntries[] =
     {
         6,
         16,
-        "ReactOS soit installÇ",
+        "Greentea soit installÇ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1035,19 +1035,19 @@ static MUI_ENTRY frFRFileCopyEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         11,
         12,
-        "Patientez pendant que ReactOS Setup copie les fichiers",
+        "Patientez pendant que Greentea Setup copie les fichiers",
         TEXT_STYLE_NORMAL
     },
     {
         15,
         13,
-        "dans le rÇpertoire d'installation de ReactOS.",
+        "dans le rÇpertoire d'installation de Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1075,7 +1075,7 @@ static MUI_ENTRY frFRBootLoaderEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1127,7 +1127,7 @@ static MUI_ENTRY frFRKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1179,7 +1179,7 @@ static MUI_ENTRY frFRLayoutSettingsEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1232,13 +1232,13 @@ static MUI_ENTRY frFRPrepareCopyEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Setup prÇpare votre ordinateur pour copier les fichiers de ReactOS. ",
+        "Setup prÇpare votre ordinateur pour copier les fichiers de Greentea. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1261,7 +1261,7 @@ static MUI_ENTRY frFRSelectFSEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1308,7 +1308,7 @@ static MUI_ENTRY frFRDeletePartitionEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1354,7 +1354,7 @@ static MUI_ENTRY frFRRegistryEntries[] =
     {
         4,
         3,
-        " Installation de ReactOS " KERNEL_VERSION_STR " ",
+        " Installation de Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1386,9 +1386,9 @@ MUI_ERROR frFRErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS n'est pas complätement installÇ sur votre\n"
+        "Greentea n'est pas complätement installÇ sur votre\n"
         "ordinateur. Si vous quittez Setup maintenant, vous devrez\n"
-        "lancer Setup de nouveau pour installer ReactOS.\n"
+        "lancer Setup de nouveau pour installer Greentea.\n"
         "\n"
         "  \x07  Appuyer sur ENTRêE pour continuer Setup.\n"
         "  \x07  Appuyer sur F3 pour quitter Setup.",
@@ -1596,7 +1596,7 @@ MUI_ERROR frFRErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Appuyer sur une touche pour continuer.",
@@ -1759,13 +1759,13 @@ MUI_STRING frFRStrings[] =
     {STRING_PARTFORMAT,
     "Cette Partition sera ensuite formatÇe."},
     {STRING_NONFORMATTEDPART,
-    "Vous avez choisi d'installer ReactOS sur une nouvelle partition."},
+    "Vous avez choisi d'installer Greentea sur une nouvelle partition."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Setup installe ReactOS sur la partition"},
+    "Setup installe Greentea sur la partition"},
     {STRING_CHECKINGPART,
     "Setup vÇrifie la partition sÇlectionnÇe."},
     {STRING_CONTINUE,

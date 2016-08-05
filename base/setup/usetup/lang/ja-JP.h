@@ -12,7 +12,7 @@ static MUI_ENTRY jaJPLanguagePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -58,19 +58,19 @@ static MUI_ENTRY jaJPWelcomePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS ¾¯Ä±¯ÌßÍ Ö³º¿",
+        "Greentea ¾¯Ä±¯ÌßÍ Ö³º¿",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "ºÉ ¾¯Ä±¯ÌßÉ ÀÞÝ¶²ÃÞÊ ReactOS µÍßÚ°Ã¨Ý¸Þ¼½ÃÑ¦",
+        "ºÉ ¾¯Ä±¯ÌßÉ ÀÞÝ¶²ÃÞÊ Greentea µÍßÚ°Ã¨Ý¸Þ¼½ÃÑ¦",
         TEXT_STYLE_NORMAL
     },
     {
@@ -82,37 +82,37 @@ static MUI_ENTRY jaJPWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  ReactOS ¦ ²Ý½Ä°Ù ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        "\x07  Greentea ¦ ²Ý½Ä°Ù ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  ReactOS ¦ ¼­³Ì¸ Ó¼¸Ê º³¼Ý ½ÙÆÊ R ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        "\x07  Greentea ¦ ¼­³Ì¸ Ó¼¸Ê º³¼Ý ½ÙÆÊ R ·°¦ µ¼Ã ¸ÀÞ»²¡",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  ReactOS É ×²¾Ý½¼Þ®³¹Ý¦ Ë®³¼Þ ½ÙÆÊ L ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        "\x07  Greentea É ×²¾Ý½¼Þ®³¹Ý¦ Ë®³¼Þ ½ÙÆÊ L ·°¦ µ¼Ã ¸ÀÞ»²¡",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  ReactOS ¦ ²Ý½Ä°Ù ¾½ÞÆ Á­³¼½Ù ÊÞ±²Ê F3 ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        "\x07  Greentea ¦ ²Ý½Ä°Ù ¾½ÞÆ Á­³¼½Ù ÊÞ±²Ê F3 ·°¦ µ¼Ã ¸ÀÞ»²¡",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "ReactOS É ¼®³»²Å ¼Þ®³Î³Æ ¶Ý¼ÃÊ ²¶¦ ºÞ×Ý ¸ÀÞ»²:",
+        "Greentea É ¼®³»²Å ¼Þ®³Î³Æ ¶Ý¼ÃÊ ²¶¦ ºÞ×Ý ¸ÀÞ»²:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -134,13 +134,13 @@ static MUI_ENTRY jaJPIntroPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS ¾¯Ä±¯ÌßÊ ¼®·¶²ÊÂÀÞÝ¶²Æ ±ØÏ½¡ ¿ÉÀÒ¤ ÏÀÞ",
+        "Greentea ¾¯Ä±¯ÌßÊ ¼®·¶²ÊÂÀÞÝ¶²Æ ±ØÏ½¡ ¿ÉÀÒ¤ ÏÀÞ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -170,13 +170,13 @@ static MUI_ENTRY jaJPIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  ReactOS ¦ ²Ý½Ä°Ù ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        "\x07  Greentea ¦ ²Ý½Ä°Ù ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  ReactOS ¦ ²Ý½Ä°Ù¾½ÞÆ Á­³¼ ½Ù ÊÞ±²Ê F3 ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        "\x07  Greentea ¦ ²Ý½Ä°Ù¾½ÞÆ Á­³¼ ½Ù ÊÞ±²Ê F3 ·°¦ µ¼Ã ¸ÀÞ»²¡",
         TEXT_STYLE_NORMAL
     },
     {
@@ -198,7 +198,7 @@ static MUI_ENTRY jaJPLicensePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -210,7 +210,7 @@ static MUI_ENTRY jaJPLicensePageEntries[] =
     {
         8,
         8,
-        "ºÉ ReactOS ¼½ÃÑÊ ¸Ð±Ü¾ ¶É³Å ×²¾Ý½(X11 Ô¤BSD µÖËÞ",
+        "ºÉ Greentea ¼½ÃÑÊ ¸Ð±Ü¾ ¶É³Å ×²¾Ý½(X11 Ô¤BSD µÖËÞ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -228,7 +228,7 @@ static MUI_ENTRY jaJPLicensePageEntries[] =
     {
         8,
         11,
-        "ReactOS ¼½ÃÑÉ ²ÁÌÞÉ ¿ÌÄ³ª±É ½ÍÞÃÊ ReactOS ¼½ÃÑÉ ²ÁÌÞÃÞ",
+        "Greentea ¼½ÃÑÉ ²ÁÌÞÉ ¿ÌÄ³ª±É ½ÍÞÃÊ Greentea ¼½ÃÑÉ ²ÁÌÞÃÞ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -252,7 +252,7 @@ static MUI_ENTRY jaJPLicensePageEntries[] =
     {
         8,
         16,
-        "ÊÞ±²¦ É¿Þ²Ã¤ ØÖ³ ¾²¹ÞÝ¦ ³¹Ï½¡ ReactOS É ×²¾Ý½ ·®³ÖÊ",
+        "ÊÞ±²¦ É¿Þ²Ã¤ ØÖ³ ¾²¹ÞÝ¦ ³¹Ï½¡ Greentea É ×²¾Ý½ ·®³ÖÊ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -264,7 +264,7 @@ static MUI_ENTRY jaJPLicensePageEntries[] =
     {
         8,
         18,
-        "GNU General Public License ¦ ReactOS Ä ÄÓÆ ³¹Ä×Å¶¯À",
+        "GNU General Public License ¦ Greentea Ä ÄÓÆ ³¹Ä×Å¶¯À",
         TEXT_STYLE_NORMAL
     },
     {
@@ -322,7 +322,7 @@ static MUI_ENTRY jaJPDevicePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -415,13 +415,13 @@ static MUI_ENTRY jaJPRepairPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS ¾¯Ä±¯ÌßÊ ¼®·¶²ÊÂ ÀÞÝ¶²Æ ±ØÏ½¡ ¿ÉÀÒ¤ ÏÀÞ",
+        "Greentea ¾¯Ä±¯ÌßÊ ¼®·¶²ÊÂ ÀÞÝ¶²Æ ±ØÏ½¡ ¿ÉÀÒ¤ ÏÀÞ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -479,7 +479,7 @@ static MUI_ENTRY jaJPComputerPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -531,7 +531,7 @@ static MUI_ENTRY jaJPFlushPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -571,13 +571,13 @@ static MUI_ENTRY jaJPQuitPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS Ê ¶Ý¾ÞÝÆ ²Ý½Ä°Ù »ÚÏ¾ÝÃÞ¼À",
+        "Greentea Ê ¶Ý¾ÞÝÆ ²Ý½Ä°Ù »ÚÏ¾ÝÃÞ¼À",
         TEXT_STYLE_NORMAL
     },
     {
@@ -617,7 +617,7 @@ static MUI_ENTRY jaJPDisplayPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -668,13 +668,13 @@ static MUI_ENTRY jaJPSuccessPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS É ·ÎÝÌÞÌÞÝÉ ²Ý½Ä°ÙÊ ¾²º³ ¼Ï¼À¡",
+        "Greentea É ·ÎÝÌÞÌÞÝÉ ²Ý½Ä°ÙÊ ¾²º³ ¼Ï¼À¡",
         TEXT_STYLE_NORMAL
     },
     {
@@ -714,7 +714,7 @@ static MUI_ENTRY jaJPBootPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -761,7 +761,7 @@ static MUI_ENTRY jaJPSelectPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -785,7 +785,7 @@ static MUI_ENTRY jaJPSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  ¾ÝÀ¸»ÚÀ Êß°Ã¨¼®ÝÆ ReactOS ¦ ²Ý½Ä°Ù ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
+        "\x07  ¾ÝÀ¸»ÚÀ Êß°Ã¨¼®ÝÆ Greentea ¦ ²Ý½Ä°Ù ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡",
         TEXT_STYLE_NORMAL
     },
     {
@@ -832,7 +832,7 @@ static MUI_ENTRY jaJPConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -850,7 +850,7 @@ static MUI_ENTRY jaJPConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -880,7 +880,7 @@ static MUI_ENTRY jaJPConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -926,7 +926,7 @@ static MUI_ENTRY jaJPFormatPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -960,13 +960,13 @@ static MUI_ENTRY jaJPInstallDirectoryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "¾¯Ä±¯ÌßÊ ReactOS É Ì§²Ù¦ ¾ÝÀ¸ »ÚÀ Êß°Ã¨¼®Ý¼Þ®³Æ ²Ý½Ä°Ù ¼Ï½¡ ReactOS ¦",
+        "¾¯Ä±¯ÌßÊ Greentea É Ì§²Ù¦ ¾ÝÀ¸ »ÚÀ Êß°Ã¨¼®Ý¼Þ®³Æ ²Ý½Ä°Ù ¼Ï½¡ Greentea ¦",
         TEXT_STYLE_NORMAL
     },
     {
@@ -984,7 +984,7 @@ static MUI_ENTRY jaJPInstallDirectoryEntries[] =
     {
         6,
         15,
-        "ReactOS ¦ ²Ý½Ä°Ù ½Ù ÃÞ¨Ú¸ÄØ¦ Æ­³Ø®¸",
+        "Greentea ¦ ²Ý½Ä°Ù ½Ù ÃÞ¨Ú¸ÄØ¦ Æ­³Ø®¸",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1012,13 +1012,13 @@ static MUI_ENTRY jaJPFileCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "ReactOS ¾¯Ä±¯Ìß¶Þ ReactOS ²Ý½Ä°Ù Ì«ÙÀÞÆ Ì§²Ù¦",
+        "Greentea ¾¯Ä±¯Ìß¶Þ Greentea ²Ý½Ä°Ù Ì«ÙÀÞÆ Ì§²Ù¦",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1052,7 +1052,7 @@ static MUI_ENTRY jaJPBootLoaderEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1104,7 +1104,7 @@ static MUI_ENTRY jaJPKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1156,7 +1156,7 @@ static MUI_ENTRY jaJPLayoutSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1209,13 +1209,13 @@ static MUI_ENTRY jaJPPrepareCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "¾¯Ä±¯ÌßÊ ReactOS ÉÌ§²Ù¦ ºÝËß­°ÀÆ ºËß° ½Ù ¼Þ­ÝËÞ¦ ¼Ã ²Ï½¡ ",
+        "¾¯Ä±¯ÌßÊ Greentea ÉÌ§²Ù¦ ºÝËß­°ÀÆ ºËß° ½Ù ¼Þ­ÝËÞ¦ ¼Ã ²Ï½¡ ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1238,7 +1238,7 @@ static MUI_ENTRY jaJPSelectFSEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1285,7 +1285,7 @@ static MUI_ENTRY jaJPDeletePartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1331,7 +1331,7 @@ static MUI_ENTRY jaJPRegistryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
+        " Greentea " KERNEL_VERSION_STR " ¾¯Ä±¯Ìß ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1363,8 +1363,8 @@ MUI_ERROR jaJPErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS Ê ºÝËß­°ÀÆ ¶Ý¾ÞÝÆ ²Ý½Ä°Ù\n"
-        "»ÚÏ¾Ý¡ ¾¯Ä±¯Ìß¦ Á­³¼ ½Ù ÊÞ±²¤ ReactOS ¦ ²Ý½Ä°Ù ½ÙÆÊ ¾¯Ä±¯Ìß¦\n"
+        "Greentea Ê ºÝËß­°ÀÆ ¶Ý¾ÞÝÆ ²Ý½Ä°Ù\n"
+        "»ÚÏ¾Ý¡ ¾¯Ä±¯Ìß¦ Á­³¼ ½Ù ÊÞ±²¤ Greentea ¦ ²Ý½Ä°Ù ½ÙÆÊ ¾¯Ä±¯Ìß¦\n"
         "Ó³²ÁÄÞ ¼Þ¯º³ ½Ù ËÂÖ³¶Þ ±ØÏ½¡\n"
         "\n"
         "  \x07  ¾¯Ä±¯Ìß¦ ¿Þ¯º³ ½ÙÆÊ ENTER ·°¦ µ¼Ã ¸ÀÞ»²¡\n"
@@ -1573,7 +1573,7 @@ MUI_ERROR jaJPErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Press any key to continue.",
@@ -1738,13 +1738,13 @@ MUI_STRING jaJPStrings[] =
     {STRING_PARTFORMAT,
     "ºÉ Êß°Ã¨¼®ÝÊ Â·ÞÉ Ã¼Þ­ÝÃÞ Ì«°Ï¯Ä »ÚÏ½¡"},
     {STRING_NONFORMATTEDPART,
-    "ReactOS¦ ¼Ý· ÏÀÊ ÐÌ«°Ï¯ÄÉ Êß°Ã¨¼®ÝÆ ²Ý½Ä°Ù½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À¡"},
+    "Greentea¦ ¼Ý· ÏÀÊ ÐÌ«°Ï¯ÄÉ Êß°Ã¨¼®ÝÆ ²Ý½Ä°Ù½Ù ºÄ¶Þ ¾ÝÀ¸ »ÚÏ¼À¡"},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "¾¯Ä±¯ÌßÊ ReactOS¦ Êß°Ã¨¼®Ý ¼Þ®³Æ ²Ý½Ä°Ù¼Ï½¡"},
+    "¾¯Ä±¯ÌßÊ Greentea¦ Êß°Ã¨¼®Ý ¼Þ®³Æ ²Ý½Ä°Ù¼Ï½¡"},
     {STRING_CHECKINGPART,
     "¾¯Ä±¯ÌßÊ ¾ÝÀ¸ »ÚÀ Êß°Ã¨¼®Ý¦ ¹Ý» ¼Ã²Ï½¡"},
     {STRING_CONTINUE,

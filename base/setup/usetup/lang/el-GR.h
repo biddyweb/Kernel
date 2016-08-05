@@ -12,7 +12,7 @@ static MUI_ENTRY elGRLanguagePageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -58,19 +58,19 @@ static MUI_ENTRY elGRWelcomePageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         5,
         8,
-        "ЙШвщк ОихйШлЬ йлЮд ЬЪбШлсйлШйЮ лжм ReactOS",
+        "ЙШвщк ОихйШлЬ йлЮд ЬЪбШлсйлШйЮ лжм Greentea",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         5,
         11,
-        "Амлц лж гтижк лЮк ЬЪбШлсйлШйЮк ШдлаЪиснЬа лж вЬалжмиЪабц йчйлЮгШ ReactOS",
+        "Амлц лж гтижк лЮк ЬЪбШлсйлШйЮк ШдлаЪиснЬа лж вЬалжмиЪабц йчйлЮгШ Greentea",
         TEXT_STYLE_NORMAL
     },
     {
@@ -82,37 +82,37 @@ static MUI_ENTRY elGRWelcomePageEntries[] =
     {
         7,
         15,
-        "\x07  ПШлуйлЬ ENTER ЪаШ дШ ЬЪбШлШйлуйЬлЬ лж ReactOS.",
+        "\x07  ПШлуйлЬ ENTER ЪаШ дШ ЬЪбШлШйлуйЬлЬ лж Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         7,
         17,
-        "\x07  ПШлуйлЬ R ЪаШ дШ ЬзаЫажиЯщйЬлЬ лж ReactOS.",
+        "\x07  ПШлуйлЬ R ЪаШ дШ ЬзаЫажиЯщйЬлЬ лж Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         7,
         19,
-        "\x07  ПШлуйлЬ L ЪаШ дШ ЫЬхлЬ лжмк цижмк ШЫЬажЫцлЮйЮк лжм ReactOS.",
+        "\x07  ПШлуйлЬ L ЪаШ дШ ЫЬхлЬ лжмк цижмк ШЫЬажЫцлЮйЮк лжм Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         7,
         21,
-        "\x07  ПШлуйлЬ F3 ЪаШ дШ ШзжориуйЬлЬ орихк дШ ЬЪбШлШйлуйЬлЬ лж ReactOS.",
+        "\x07  ПШлуйлЬ F3 ЪаШ дШ ШзжориуйЬлЬ орихк дШ ЬЪбШлШйлуйЬлЬ лж Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         5,
         23,
-        "ВаШ зЬиаййцлЬиЬк звЮижнжихЬк ЪаШ лж ReactOS, зШиШбШвжчгЬ ЬзайбЬнЯЬхлЬ лж:",
+        "ВаШ зЬиаййцлЬиЬк звЮижнжихЬк ЪаШ лж Greentea, зШиШбШвжчгЬ ЬзайбЬнЯЬхлЬ лж:",
         TEXT_STYLE_NORMAL
     },
     {
         5,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -134,13 +134,13 @@ static MUI_ENTRY elGRIntroPageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         7,
-        "Ж ЬЪбШлсйлШйЮ лжм ReactOS ЩихйбЬлШа йЬ зищагж йлсЫаж ШдсзлмеЮк бШа",
+        "Ж ЬЪбШлсйлШйЮ лжм Greentea ЩихйбЬлШа йЬ зищагж йлсЫаж ШдсзлмеЮк бШа",
         TEXT_STYLE_NORMAL
     },
     {
@@ -170,13 +170,13 @@ static MUI_ENTRY elGRIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  ПШлуйлЬ ENTER ЪаШ дШ ЬЪбШлШйлуйЬлЬ лж ReactOS.",
+        "\x07  ПШлуйлЬ ENTER ЪаШ дШ ЬЪбШлШйлуйЬлЬ лж Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  ПШлуйлЬ F3 ЪаШ дШ ШзжориуйЬлЬ орихк дШ ЬЪбШлШйлуйЬлЬ лж ReactOS.",
+        "\x07  ПШлуйлЬ F3 ЪаШ дШ ШзжориуйЬлЬ орихк дШ ЬЪбШлШйлуйЬлЬ лж Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -198,7 +198,7 @@ static MUI_ENTRY elGRLicensePageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -210,7 +210,7 @@ static MUI_ENTRY elGRLicensePageEntries[] =
     {
         8,
         8,
-        "The ReactOS System is licensed under the terms of the",
+        "The Greentea System is licensed under the terms of the",
         TEXT_STYLE_NORMAL
     },
     {
@@ -228,7 +228,7 @@ static MUI_ENTRY elGRLicensePageEntries[] =
     {
         8,
         11,
-        "All software that is part of the ReactOS system is",
+        "All software that is part of the Greentea system is",
         TEXT_STYLE_NORMAL
     },
     {
@@ -258,7 +258,7 @@ static MUI_ENTRY elGRLicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS only covers distribution to third parties.",
+        "Greentea only covers distribution to third parties.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -270,7 +270,7 @@ static MUI_ENTRY elGRLicensePageEntries[] =
     {
         8,
         19,
-        "GNU General Public License with ReactOS please visit",
+        "GNU General Public License with Greentea please visit",
         TEXT_STYLE_NORMAL
     },
     {
@@ -322,7 +322,7 @@ static MUI_ENTRY elGRDevicePageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -415,13 +415,13 @@ static MUI_ENTRY elGRRepairPageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Ж ЬЪбШлсйлШйЮ лжм ReactOS ЩихйбЬлШа йЬ зищагж йлсЫаж ШдсзлмеЮк бШа",
+        "Ж ЬЪбШлсйлШйЮ лжм Greentea ЩихйбЬлШа йЬ зищагж йлсЫаж ШдсзлмеЮк бШа",
         TEXT_STYLE_NORMAL
     },
     {
@@ -479,7 +479,7 @@ static MUI_ENTRY elGRComputerPageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -537,7 +537,7 @@ static MUI_ENTRY elGRFlushPageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -577,13 +577,13 @@ static MUI_ENTRY elGRQuitPageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Тж ReactOS ЫЬд ЬЪбШлШйлсЯЮбЬ звуирк",
+        "Тж Greentea ЫЬд ЬЪбШлШйлсЯЮбЬ звуирк",
         TEXT_STYLE_NORMAL
     },
     {
@@ -623,7 +623,7 @@ static MUI_ENTRY elGRDisplayPageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -679,13 +679,13 @@ static MUI_ENTRY elGRSuccessPageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ТШ ЩШйабс йлжаоЬхШ лжм ReactOS ЬЪбШлШйлсЯЮбШд Ьзалмощк.",
+        "ТШ ЩШйабс йлжаоЬхШ лжм Greentea ЬЪбШлШйлсЯЮбШд Ьзалмощк.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -725,7 +725,7 @@ static MUI_ENTRY elGRBootPageEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -772,7 +772,7 @@ static MUI_ENTRY elGRSelectPartitionEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -796,7 +796,7 @@ static MUI_ENTRY elGRSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  ПШлуйлЬ ENTER ЪаШ дШ ЬЪбШлШйлуйЬлЬ лж ReactOS йлж ЬзавЬЪгтдж ЫаШгтиайгШ.",
+        "\x07  ПШлуйлЬ ENTER ЪаШ дШ ЬЪбШлШйлуйЬлЬ лж Greentea йлж ЬзавЬЪгтдж ЫаШгтиайгШ.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -843,7 +843,7 @@ static MUI_ENTRY elGRConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -861,7 +861,7 @@ static MUI_ENTRY elGRConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -891,7 +891,7 @@ static MUI_ENTRY elGRConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -937,7 +937,7 @@ static MUI_ENTRY elGRFormatPartitionEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -977,19 +977,19 @@ static MUI_ENTRY elGRInstallDirectoryEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Ж ЬЪбШлсйлШйЮ ШдлаЪиснЬа лШ ШиоЬхШ лжм ReactOS йлж ЬзавЬЪгтдж ЫаШгтиайгШ.",
+        "Ж ЬЪбШлсйлШйЮ ШдлаЪиснЬа лШ ШиоЬхШ лжм Greentea йлж ЬзавЬЪгтдж ЫаШгтиайгШ.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "ДзавтелЬ лжд йлжд нсбЬвж зжм ЯтвЬлЬ дШ ЬЪбШлШйлШЯЬх лж ReactOS:",
+        "ДзавтелЬ лжд йлжд нсбЬвж зжм ЯтвЬлЬ дШ ЬЪбШлШйлШЯЬх лж Greentea:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1007,7 +1007,7 @@ static MUI_ENTRY elGRInstallDirectoryEntries[] =
     {
         6,
         16,
-        "ЯтвЬлЬ дШ ЬЪбШйлШЯЬх лж ReactOS.",
+        "ЯтвЬлЬ дШ ЬЪбШйлШЯЬх лж Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1029,13 +1029,13 @@ static MUI_ENTRY elGRFileCopyEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "ПШиШбШвщ зЬиагтдЬлЬ цйж Ю ЬЪбШлсйлШйЮ лжм ReactOS ШдлаЪиснЬа",
+        "ПШиШбШвщ зЬиагтдЬлЬ цйж Ю ЬЪбШлсйлШйЮ лжм Greentea ШдлаЪиснЬа",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1069,7 +1069,7 @@ static MUI_ENTRY elGRBootLoaderEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1121,7 +1121,7 @@ static MUI_ENTRY elGRKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1179,7 +1179,7 @@ static MUI_ENTRY elGRLayoutSettingsEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1232,13 +1232,13 @@ static MUI_ENTRY elGRPrepareCopyEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Ж ЬЪбШлсйлШйЮ зижЬлжагсЭЬа лжд мзжвжЪайлу йШк ЪаШ лЮд ШдлаЪиШну лрд ШиоЬхрд лжм ReactOS. ",
+        "Ж ЬЪбШлсйлШйЮ зижЬлжагсЭЬа лжд мзжвжЪайлу йШк ЪаШ лЮд ШдлаЪиШну лрд ШиоЬхрд лжм Greentea. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1261,7 +1261,7 @@ static MUI_ENTRY elGRSelectFSEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1308,7 +1308,7 @@ static MUI_ENTRY elGRDeletePartitionEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1354,7 +1354,7 @@ static MUI_ENTRY elGRRegistryEntries[] =
     {
         4,
         3,
-        " ДЪбШлсйлШйЮ лжм ReactOS " KERNEL_VERSION_STR,
+        " ДЪбШлсйлШйЮ лжм Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1386,9 +1386,9 @@ MUI_ERROR elGRErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "Тж ReactOS ЫЬд ЬЪбШлШйлсЯЮбЬ звуирк йлжд\n"
+        "Тж Greentea ЫЬд ЬЪбШлШйлсЯЮбЬ звуирк йлжд\n"
         "мзжвжЪайлу йШк. Ад ШзжориуйЬлЬ Шзц лЮд ДЪбШлсйлШйЮ лщиШ, ЯШ зитзЬа дШ\n"
-        "еШдШлитеЬлЬ лЮд ДЪбШлсйлШйЮ ЪаШ дШ ЬЪбШлШйлуйЬл лж ReactOS.\n"
+        "еШдШлитеЬлЬ лЮд ДЪбШлсйлШйЮ ЪаШ дШ ЬЪбШлШйлуйЬл лж Greentea.\n"
         "\n"
         "  \x07  ПШлуйлЬ ENTER ЪаШ Шд ймдЬохйЬлЬ лЮд ДЪбШлсйлШйЮ.\n"
         "  \x07  ПШлуйлЬ F3 ЪаШ дШ ШзжориуйЬлЬ Шзц лЮд ДЪбШлсйлШйЮ.",
@@ -1753,13 +1753,13 @@ MUI_STRING elGRStrings[] =
     {STRING_PARTFORMAT,
     "Амлц лж Partition ЯШ ЫаШгжинрЯЬх гЬлс."},
     {STRING_NONFORMATTEDPART,
-    "ДзавтеШлЬ дШ ЬЪбШлШйлуйЬлЬ лж ReactOS йЬ тдШ дтж у гЮ ЫаШгжинргтдж Partition."},
+    "ДзавтеШлЬ дШ ЬЪбШлШйлуйЬлЬ лж Greentea йЬ тдШ дтж у гЮ ЫаШгжинргтдж Partition."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Setup install ReactOS onto Partition"},
+    "Setup install Greentea onto Partition"},
     {STRING_CHECKINGPART,
     "Ж ЬЪбШлсйлШйЮ ЬвтЪоЬа лщиШ лж ЬзавЬЪгтдж partition."},
     {STRING_CONTINUE,

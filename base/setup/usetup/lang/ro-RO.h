@@ -13,7 +13,7 @@ static MUI_ENTRY roROLanguagePageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR,
+        " Instalare Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -59,19 +59,19 @@ static MUI_ENTRY roROWelcomePageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Bun venit la instalarea ReactOS",
+        "Bun venit la instalarea Greentea",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Aceastã primã etapã din instalarea ReactOS va copia fiºierele",
+        "Aceastã primã etapã din instalarea Greentea va copia fiºierele",
         TEXT_STYLE_NORMAL
     },
     {
@@ -89,7 +89,7 @@ static MUI_ENTRY roROWelcomePageEntries[] =
     {
         8,
         16,
-        "\x07  Apãsaþi ENTER pentru a instala ReactOS.",
+        "\x07  Apãsaþi ENTER pentru a instala Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -101,7 +101,7 @@ static MUI_ENTRY roROWelcomePageEntries[] =
     {
         8,
         19,
-        "   a actualiza ReactOS.",
+        "   a actualiza Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -113,19 +113,19 @@ static MUI_ENTRY roROWelcomePageEntries[] =
     {
         8,
         23,
-        "\x07  Apãsaþi F3 pentru a ieºi fãrã a instala ReactOS.",
+        "\x07  Apãsaþi F3 pentru a ieºi fãrã a instala Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         26,
-        "Pentru mai multe informaþii despre ReactOS, vizitaþi:",
+        "Pentru mai multe informaþii despre Greentea, vizitaþi:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         27,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -147,7 +147,7 @@ static MUI_ENTRY roROIntroPageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -201,13 +201,13 @@ static MUI_ENTRY roROIntroPageEntries[] =
     {
         8,
         26,
-        "\x07  Apãsaþi ENTER pentru a instala ReactOS.",
+        "\x07  Apãsaþi ENTER pentru a instala Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         28,
-        "\x07  Apãsaþi F3 pentru a ieºi fãrã a instala ReactOS.",
+        "\x07  Apãsaþi F3 pentru a ieºi fãrã a instala Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -229,7 +229,7 @@ static MUI_ENTRY roROLicensePageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -241,7 +241,7 @@ static MUI_ENTRY roROLicensePageEntries[] =
     {
         8,
         8,
-        "Sistemul de operare ReactOS este oferit în termenii Licenþei",
+        "Sistemul de operare Greentea este oferit în termenii Licenþei",
         TEXT_STYLE_NORMAL
     },
     {
@@ -259,7 +259,7 @@ static MUI_ENTRY roROLicensePageEntries[] =
     {
         8,
         12,
-        "Toate componentele care fac parte din sistemul ReactOS sunt",
+        "Toate componentele care fac parte din sistemul Greentea sunt",
         TEXT_STYLE_NORMAL
     },
     {
@@ -295,7 +295,7 @@ static MUI_ENTRY roROLicensePageEntries[] =
     {
         8,
         19,
-        "buirea sistemului ReactOS cãtre pãrþi terþe.",
+        "buirea sistemului Greentea cãtre pãrþi terþe.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -307,7 +307,7 @@ static MUI_ENTRY roROLicensePageEntries[] =
     {
         8,
         22,
-        "GPL împreunã cu ReactOS, o puteþi consulta (în englezã)",
+        "GPL împreunã cu Greentea, o puteþi consulta (în englezã)",
         TEXT_STYLE_NORMAL
     },
     {
@@ -371,7 +371,7 @@ static MUI_ENTRY roRODevicePageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -470,13 +470,13 @@ static MUI_ENTRY roRORepairPageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Programul de instalare ReactOS este încã într-o fazã incipientã de",
+        "Programul de instalare Greentea este încã într-o fazã incipientã de",
         TEXT_STYLE_NORMAL
     },
     {
@@ -534,7 +534,7 @@ static MUI_ENTRY roROComputerPageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -586,7 +586,7 @@ static MUI_ENTRY roROFlushPageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -626,13 +626,13 @@ static MUI_ENTRY roROQuitPageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS nu a fost instalat complet.",
+        "Greentea nu a fost instalat complet.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -672,7 +672,7 @@ static MUI_ENTRY roRODisplayPageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -723,13 +723,13 @@ static MUI_ENTRY roROSuccessPageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Componentele de bazã ale ReactOS au fost instalate cu succes.",
+        "Componentele de bazã ale Greentea au fost instalate cu succes.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -769,7 +769,7 @@ static MUI_ENTRY roROBootPageEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -816,7 +816,7 @@ static MUI_ENTRY roROSelectPartitionEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -886,7 +886,7 @@ static MUI_ENTRY roROConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR,
+        " Instalare Greentea " KERNEL_VERSION_STR,
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -910,7 +910,7 @@ static MUI_ENTRY roROConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         12,
-        "(ca ReactOS) ºi alte programe furnizate de producãtorii calculorului.",
+        "(ca Greentea) ºi alte programe furnizate de producãtorii calculorului.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -934,7 +934,7 @@ static MUI_ENTRY roROConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "discul local decât dupã finalizarea instalãrii ReactOS.",
+        "discul local decât dupã finalizarea instalãrii Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -980,7 +980,7 @@ static MUI_ENTRY roROFormatPartitionEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1014,7 +1014,7 @@ static MUI_ENTRY roROInstallDirectoryEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1026,7 +1026,7 @@ static MUI_ENTRY roROInstallDirectoryEntries[] =
     {
         6,
         9,
-        "Aici vor fi amplasate fiºierele sistemului ReactOS:",
+        "Aici vor fi amplasate fiºierele sistemului Greentea:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1044,7 +1044,7 @@ static MUI_ENTRY roROInstallDirectoryEntries[] =
     {
         6,
         16,
-        "doriþi instalarea ReactOS.",
+        "doriþi instalarea Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1066,13 +1066,13 @@ static MUI_ENTRY roROFileCopyEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        " Aºteptaþi copierea de fiºiere în directorul ReactOS specificat.",
+        " Aºteptaþi copierea de fiºiere în directorul Greentea specificat.",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1100,7 +1100,7 @@ static MUI_ENTRY roROBootLoaderEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1152,7 +1152,7 @@ static MUI_ENTRY roROKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1204,7 +1204,7 @@ static MUI_ENTRY roROLayoutSettingsEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1257,7 +1257,7 @@ static MUI_ENTRY roROPrepareCopyEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1286,7 +1286,7 @@ static MUI_ENTRY roROSelectFSEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1339,7 +1339,7 @@ static MUI_ENTRY roRODeletePartitionEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1385,7 +1385,7 @@ static MUI_ENTRY roRORegistryEntries[] =
     {
         4,
         3,
-        " Instalare ReactOS " KERNEL_VERSION_STR " ",
+        " Instalare Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1417,8 +1417,8 @@ MUI_ERROR roROErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS nu a fost instalat complet în calculatorul\n"
-        "dumneavoastrã. Dacã abandonaþi instalarea ReactOS\n"
+        "Greentea nu a fost instalat complet în calculatorul\n"
+        "dumneavoastrã. Dacã abandonaþi instalarea Greentea\n"
         "acum, va fi nevoie sã o reluaþi din nou altã datã.\n"
         "\n"
         "  \x07  Apãsaþi ENTER pentru a continua instalarea.\n"
@@ -1642,7 +1642,7 @@ MUI_ERROR roROErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "Partiþia selectatã este prea micã pentru a instala ReactOS.\n"
+        "Partiþia selectatã este prea micã pentru a instala Greentea.\n"
         "Partiþia de instalare trebuie sã fie de cel puþin %lu Mocteþi.\n"
         "\n"
         "  * Tastaþi pentru a continua.",
@@ -1805,13 +1805,13 @@ MUI_STRING roROStrings[] =
     {STRING_PARTFORMAT,
     "Aceastã partiþie urmeazã sã fie formatatã."},
     {STRING_NONFORMATTEDPART,
-    "Alegeþi sã instalaþi ReactOS pe partiþie nouã sau neformatatã."},
+    "Alegeþi sã instalaþi Greentea pe partiþie nouã sau neformatatã."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "Partiþia de sistem încã nu a fost formatatã."},
     {STRING_NONFORMATTEDOTHERPART,
     "Noua partiþie încã nu a fost formatatã."},
     {STRING_INSTALLONPART,
-    "ReactOS va fi instalat pe partiþia"},
+    "Greentea va fi instalat pe partiþia"},
     {STRING_CHECKINGPART,
     "Programul de instalare verificã acum partiþia aleasã."},
     {STRING_CONTINUE,

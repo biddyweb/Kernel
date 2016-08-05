@@ -15,7 +15,7 @@ static MUI_ENTRY sqALLanguagePageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -61,19 +61,19 @@ static MUI_ENTRY sqALWelcomePageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Mir‰ se vini n‰ instalimin e ReactOS",
+        "Mir‰ se vini n‰ instalimin e Greentea",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Kjo pjese e instalimit kopjon Sistemin Opererativ t‰ ReactOS",
+        "Kjo pjese e instalimit kopjon Sistemin Opererativ t‰ Greentea",
         TEXT_STYLE_NORMAL
     },
     {
@@ -85,37 +85,37 @@ static MUI_ENTRY sqALWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Kliko ENTER p‰r instalimin e ReactOS.",
+        "\x07  Kliko ENTER p‰r instalimin e Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Kliko R p‰r t‰ riparuar ose apdejtuar ReactOS.",
+        "\x07  Kliko R p‰r t‰ riparuar ose apdejtuar Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  Kliko L p‰r t‰ v‰zhguar Termat e Li‰enses dhe kushtet e ReactOS.",
+        "\x07  Kliko L p‰r t‰ v‰zhguar Termat e Li‰enses dhe kushtet e Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  Kliko F3 t‰ dilni pa instaluar ReactOS.",
+        "\x07  Kliko F3 t‰ dilni pa instaluar Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "P‰r m‰ shum‰ informacione mbi ReactOS, ju lutem vizitoni:",
+        "P‰r m‰ shum‰ informacione mbi Greentea, ju lutem vizitoni:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -137,13 +137,13 @@ static MUI_ENTRY sqALIntroPageEntries[] =
     {
         4,
         3,
-        "Instalimi i  ReactOS " KERNEL_VERSION_STR " ",
+        "Instalimi i  Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Instalimi i ReactOS ‰sht‰ n‰ fazat e para t‰ zhvillimit. Ajo ende nuk i",
+        "Instalimi i Greentea ‰sht‰ n‰ fazat e para t‰ zhvillimit. Ajo ende nuk i",
         TEXT_STYLE_NORMAL
     },
     {
@@ -173,13 +173,13 @@ static MUI_ENTRY sqALIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Kliko ENTER p‰r t‰ instaluar ReactOS.",
+        "\x07  Kliko ENTER p‰r t‰ instaluar Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  Kliko F3 t‰ dilni pa instaluar ReactOS.",
+        "\x07  Kliko F3 t‰ dilni pa instaluar Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -201,7 +201,7 @@ static MUI_ENTRY sqALLicensePageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -213,7 +213,7 @@ static MUI_ENTRY sqALLicensePageEntries[] =
     {
         8,
         8,
-        "Sistemi ReactOS ‰sht‰ i li‰ensuar nd‰r termat e",
+        "Sistemi Greentea ‰sht‰ i li‰ensuar nd‰r termat e",
         TEXT_STYLE_NORMAL
     },
     {
@@ -231,7 +231,7 @@ static MUI_ENTRY sqALLicensePageEntries[] =
     {
         8,
         11,
-        "T‰ gjitha programet q‰ jan‰ pjes‰ e sistemit ReactOS jan‰",
+        "T‰ gjitha programet q‰ jan‰ pjes‰ e sistemit Greentea jan‰",
         TEXT_STYLE_NORMAL
     },
     {
@@ -261,7 +261,7 @@ static MUI_ENTRY sqALLicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS vet‰m mbulon shp‰rndarjen e pal‰ve t‰ treta.",
+        "Greentea vet‰m mbulon shp‰rndarjen e pal‰ve t‰ treta.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -273,7 +273,7 @@ static MUI_ENTRY sqALLicensePageEntries[] =
     {
         8,
         19,
-        "GNU General Public Li‰ense me ReactOS ju lutem vizitoni",
+        "GNU General Public Li‰ense me Greentea ju lutem vizitoni",
         TEXT_STYLE_NORMAL
     },
     {
@@ -325,7 +325,7 @@ static MUI_ENTRY sqALDevicePageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -418,13 +418,13 @@ static MUI_ENTRY sqALRepairPageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Instalimi i ReactOS ‰sht‰ n‰ fazat e zhvillimit. Ajo ende nuk i",
+        "Instalimi i Greentea ‰sht‰ n‰ fazat e zhvillimit. Ajo ende nuk i",
         TEXT_STYLE_NORMAL
     },
     {
@@ -482,7 +482,7 @@ static MUI_ENTRY sqALComputerPageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -534,7 +534,7 @@ static MUI_ENTRY sqALFlushPageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -574,13 +574,13 @@ static MUI_ENTRY sqALQuitPageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS nuk ‰sht‰ instaluar plot‰sisht",
+        "Greentea nuk ‰sht‰ instaluar plot‰sisht",
         TEXT_STYLE_NORMAL
     },
     {
@@ -620,7 +620,7 @@ static MUI_ENTRY sqALDisplayPageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -671,13 +671,13 @@ static MUI_ENTRY sqALSuccessPageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Komponent‰t themelore t‰ ReactOS jan‰ instaluar me sukses.",
+        "Komponent‰t themelore t‰ Greentea jan‰ instaluar me sukses.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -717,7 +717,7 @@ static MUI_ENTRY sqALBootPageEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -764,7 +764,7 @@ static MUI_ENTRY sqALSelectPartitionEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -788,7 +788,7 @@ static MUI_ENTRY sqALSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Kliko ENTER p‰r t‰ instaluar ReactOS n‰ particionin e p‰rzgjedhur.",
+        "\x07  Kliko ENTER p‰r t‰ instaluar Greentea n‰ particionin e p‰rzgjedhur.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -835,7 +835,7 @@ static MUI_ENTRY sqALConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -853,7 +853,7 @@ static MUI_ENTRY sqALConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -883,7 +883,7 @@ static MUI_ENTRY sqALConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -929,7 +929,7 @@ static MUI_ENTRY sqALFormatPartitionEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -963,19 +963,19 @@ static MUI_ENTRY sqALInstallDirectoryEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Instalimi i ReactOS n‰ particionet e p‰rzgjedhura. Zgjidh nj‰",
+        "Instalimi i Greentea n‰ particionet e p‰rzgjedhura. Zgjidh nj‰",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "skede ku deshironi t‰ instaloni ReactOS:",
+        "skede ku deshironi t‰ instaloni Greentea:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -987,7 +987,7 @@ static MUI_ENTRY sqALInstallDirectoryEntries[] =
     {
         6,
         15,
-        "karakteret dhe pastaj shkruani skeden q‰ d‰shironi q‰ ReactOS",
+        "karakteret dhe pastaj shkruani skeden q‰ d‰shironi q‰ Greentea",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1015,13 +1015,13 @@ static MUI_ENTRY sqALFileCopyEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "Ju lutem prisni nderkohe q‰ instaluesi i ReactOS kopjon dokumentat tuaj",
+        "Ju lutem prisni nderkohe q‰ instaluesi i Greentea kopjon dokumentat tuaj",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1055,7 +1055,7 @@ static MUI_ENTRY sqALBootLoaderEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1107,7 +1107,7 @@ static MUI_ENTRY sqALKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1159,7 +1159,7 @@ static MUI_ENTRY sqALLayoutSettingsEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1212,13 +1212,13 @@ static MUI_ENTRY sqALPrepareCopyEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Instalimi pergatit kompjuterin tuaj p‰r kopjimin e dokumentave t‰ ReactOS. ",
+        "Instalimi pergatit kompjuterin tuaj p‰r kopjimin e dokumentave t‰ Greentea. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1241,7 +1241,7 @@ static MUI_ENTRY sqALSelectFSEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1288,7 +1288,7 @@ static MUI_ENTRY sqALDeletePartitionEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1334,7 +1334,7 @@ static MUI_ENTRY sqALRegistryEntries[] =
     {
         4,
         3,
-        " Instalimi i ReactOS " KERNEL_VERSION_STR " ",
+        " Instalimi i Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1366,9 +1366,9 @@ MUI_ERROR sqALErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS nuk ‰shte instaluar plotesisht ne kompjuterin\n"
+        "Greentea nuk ‰shte instaluar plotesisht ne kompjuterin\n"
         "tuaj. N‰se dilni nga instalimi tani, ju do t‰ duhet t‰\n"
-        "rifilloni instalimin e ReactOS p‰rs‰ri.\n"
+        "rifilloni instalimin e Greentea p‰rs‰ri.\n"
         "\n"
         "  \x07  Kliko ENTER p‰r t‰ vazhduar instalimin.\n"
         "  \x07  Kliko F3 t‰ dal‰sh nga instalimi.",
@@ -1576,7 +1576,7 @@ MUI_ERROR sqALErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Shtypni nj‰ tast cfar‰do p‰r t‰ vazhduar.",
@@ -1741,13 +1741,13 @@ MUI_STRING sqALStrings[] =
     {STRING_PARTFORMAT,
     "Ky particion do t‰ formatohet tani."},
     {STRING_NONFORMATTEDPART,
-    "Ju zgjodh‰t ReactOS p‰r tu instaluar n‰ nj‰ particion t'ri t‰ paformatuar."},
+    "Ju zgjodh‰t Greentea p‰r tu instaluar n‰ nj‰ particion t'ri t‰ paformatuar."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Instalimi i ReactOS ne Particion"},
+    "Instalimi i Greentea ne Particion"},
     {STRING_CHECKINGPART,
     "Instalimi tani ‰sht‰ duke kontrolluar particionin e p‰rzgjedhur."},
     {STRING_CONTINUE,

@@ -21,7 +21,7 @@ static MUI_ENTRY nlNLLanguagePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -67,19 +67,19 @@ static MUI_ENTRY nlNLWelcomePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Welkom bij ReactOS Setup",
+        "Welkom bij Greentea Setup",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Dit deel van de installatie kopieert ReactOS naar uw computer",
+        "Dit deel van de installatie kopieert Greentea naar uw computer",
         TEXT_STYLE_NORMAL
     },
     {
@@ -91,25 +91,25 @@ static MUI_ENTRY nlNLWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Druk op ENTER om ReactOS te installeren.",
+        "\x07  Druk op ENTER om Greentea te installeren.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Druk op R om ReactOS te repareren of bij te werken.",
+        "\x07  Druk op R om Greentea te repareren of bij te werken.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  Druk op L om de ReactOS licentieovereenkomst te bekijken.",
+        "\x07  Druk op L om de Greentea licentieovereenkomst te bekijken.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  Druk op F3 als u Setup wilt afsluiten zonder ReactOS te",
+        "\x07  Druk op F3 als u Setup wilt afsluiten zonder Greentea te",
         TEXT_STYLE_NORMAL
     },
     {
@@ -121,13 +121,13 @@ static MUI_ENTRY nlNLWelcomePageEntries[] =
     {
         6,
         24,
-        "Voor meer informatie over ReactOS bezoekt u:",
+        "Voor meer informatie over Greentea bezoekt u:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         25,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -149,13 +149,13 @@ static MUI_ENTRY nlNLIntroPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS Setup is nog in een vroege ontwikkelingsfase.",
+        "Greentea Setup is nog in een vroege ontwikkelingsfase.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -191,13 +191,13 @@ static MUI_ENTRY nlNLIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Druk op ENTER om ReactOS te installeren.",
+        "\x07  Druk op ENTER om Greentea te installeren.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  Druk op F3 als u Setup wilt afsluiten zonder ReactOS te",
+        "\x07  Druk op F3 als u Setup wilt afsluiten zonder Greentea te",
         TEXT_STYLE_NORMAL
     },
     {
@@ -225,7 +225,7 @@ static MUI_ENTRY nlNLLicensePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -237,7 +237,7 @@ static MUI_ENTRY nlNLLicensePageEntries[] =
     {
         8,
         8,
-        "The ReactOS System is licensed under the terms of the",
+        "The Greentea System is licensed under the terms of the",
         TEXT_STYLE_NORMAL
     },
     {
@@ -255,7 +255,7 @@ static MUI_ENTRY nlNLLicensePageEntries[] =
     {
         8,
         11,
-        "All software that is part of the ReactOS system is",
+        "All software that is part of the Greentea system is",
         TEXT_STYLE_NORMAL
     },
     {
@@ -285,7 +285,7 @@ static MUI_ENTRY nlNLLicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS only covers distribution to third parties.",
+        "Greentea only covers distribution to third parties.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -297,7 +297,7 @@ static MUI_ENTRY nlNLLicensePageEntries[] =
     {
         8,
         19,
-        "GNU General Public License with ReactOS please visit",
+        "GNU General Public License with Greentea please visit",
         TEXT_STYLE_NORMAL
     },
     {
@@ -349,7 +349,7 @@ static MUI_ENTRY nlNLDevicePageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -436,13 +436,13 @@ static MUI_ENTRY nlNLRepairPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "ReactOS Setup is nog in een vroege ontwikkelingsfase",
+        "Greentea Setup is nog in een vroege ontwikkelingsfase",
         TEXT_STYLE_NORMAL
     },
     {
@@ -466,7 +466,7 @@ static MUI_ENTRY nlNLRepairPageEntries[] =
     {
         8,
         15,
-        "\x07  Druk op U om ReactOS bij te werken.",
+        "\x07  Druk op U om Greentea bij te werken.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -506,7 +506,7 @@ static MUI_ENTRY nlNLComputerPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -558,7 +558,7 @@ static MUI_ENTRY nlNLFlushPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -598,13 +598,13 @@ static MUI_ENTRY nlNLQuitPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS is niet volledig ge\x8Bnstalleerd.",
+        "Greentea is niet volledig ge\x8Bnstalleerd.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -644,7 +644,7 @@ static MUI_ENTRY nlNLDisplayPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -696,13 +696,13 @@ static MUI_ENTRY nlNLSuccessPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "De basisonderdelen van ReactOS zijn succesvol ge\x8Bnstalleerd.",
+        "De basisonderdelen van Greentea zijn succesvol ge\x8Bnstalleerd.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -742,7 +742,7 @@ static MUI_ENTRY nlNLBootPageEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -789,7 +789,7 @@ static MUI_ENTRY nlNLSelectPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -813,7 +813,7 @@ static MUI_ENTRY nlNLSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Druk op ENTER om ReactOS te installeren op de geselecteerde partitie.",
+        "\x07  Druk op ENTER om Greentea te installeren op de geselecteerde partitie.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -860,7 +860,7 @@ static MUI_ENTRY nlNLConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -878,7 +878,7 @@ static MUI_ENTRY nlNLConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -908,7 +908,7 @@ static MUI_ENTRY nlNLConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -954,7 +954,7 @@ static MUI_ENTRY nlNLFormatPartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -988,19 +988,19 @@ static MUI_ENTRY nlNLInstallDirectoryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Setup installeert ReactOS bestanden op de geselecteerde partitie.",
+        "Setup installeert Greentea bestanden op de geselecteerde partitie.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "Geef een pad op waar ReactOS ge\x8Bnstalleerd moet worden:",
+        "Geef een pad op waar Greentea ge\x8Bnstalleerd moet worden:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1012,7 +1012,7 @@ static MUI_ENTRY nlNLInstallDirectoryEntries[] =
     {
         6,
         15,
-        "karakters te verwijderen en voer dan in waar u ReactOS",
+        "karakters te verwijderen en voer dan in waar u Greentea",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1040,13 +1040,13 @@ static MUI_ENTRY nlNLFileCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         0,
         12,
-        "Bezig met het kopi\x89ren van bestanden naar uw ReactOS installatiemap.",
+        "Bezig met het kopi\x89ren van bestanden naar uw Greentea installatiemap.",
         TEXT_STYLE_NORMAL | TEXT_ALIGN_CENTER
     },
     {
@@ -1080,7 +1080,7 @@ static MUI_ENTRY nlNLBootLoaderEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1132,7 +1132,7 @@ static MUI_ENTRY nlNLkeyboardSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1184,7 +1184,7 @@ static MUI_ENTRY nlNLLayoutSettingsEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1237,13 +1237,13 @@ static MUI_ENTRY nlNLPrepareCopyEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Setup bereidt uw computer voor op het kopi\x89ren van ReactOS bestanden.",
+        "Setup bereidt uw computer voor op het kopi\x89ren van Greentea bestanden.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1266,7 +1266,7 @@ static MUI_ENTRY nlNLSelectFSEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1313,7 +1313,7 @@ static MUI_ENTRY nlNLDeletePartitionEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1359,7 +1359,7 @@ static MUI_ENTRY nlNLRegistryEntries[] =
     {
         4,
         3,
-        " ReactOS " KERNEL_VERSION_STR " Setup ",
+        " Greentea " KERNEL_VERSION_STR " Setup ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1397,9 +1397,9 @@ MUI_ERROR nlNLErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS is niet geheel ge\x8Bnstalleerd op uw\n"
+        "Greentea is niet geheel ge\x8Bnstalleerd op uw\n"
         "computer. Als u Setup nu afsluit moet u\n"
-        "Setup opnieuw starten om ReactOS te installeren.\n"
+        "Setup opnieuw starten om Greentea te installeren.\n"
         "\n"
         "  \x07  Druk op ENTER om door te gaan met Setup.\n"
         "  \x07  Druk op F3 om Setup af te sluiten.",
@@ -1611,7 +1611,7 @@ MUI_ERROR nlNLErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Druk op een toets om door te gaan.",
@@ -1776,13 +1776,13 @@ MUI_STRING nlNLStrings[] =
     {STRING_PARTFORMAT,
     "Deze partitie zal vervolgens geformatteerd worden."},
     {STRING_NONFORMATTEDPART,
-    "U wilt ReactOS installeren op een nieuwe of ongeformatteerde partitie."},
+    "U wilt Greentea installeren op een nieuwe of ongeformatteerde partitie."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Setup installeert ReactOS op Partitie"},
+    "Setup installeert Greentea op Partitie"},
     {STRING_CHECKINGPART,
     "Setup controleert nu de geselecteerde partitie."},
     {STRING_CONTINUE,

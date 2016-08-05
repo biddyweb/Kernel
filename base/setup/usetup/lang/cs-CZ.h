@@ -19,7 +19,7 @@ static MUI_ENTRY csCZLanguagePageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -65,19 +65,19 @@ static MUI_ENTRY csCZWelcomePageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "V¡tejte v instalaci ReactOS",
+        "V¡tejte v instalaci Greentea",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Tato Ÿ st instalace nakop¡ruje operaŸn¡ syst‚m ReactOS do vaçeho",
+        "Tato Ÿ st instalace nakop¡ruje operaŸn¡ syst‚m Greentea do vaçeho",
         TEXT_STYLE_NORMAL
     },
     {
@@ -89,37 +89,37 @@ static MUI_ENTRY csCZWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Stisknut¡m kl vesy ENTER zah j¡te instalaci ReactOS.",
+        "\x07  Stisknut¡m kl vesy ENTER zah j¡te instalaci Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Stisknut¡m R zah j¡te opravu nebo aktualizaci ReactOS.",
+        "\x07  Stisknut¡m R zah j¡te opravu nebo aktualizaci Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         19,
-        "\x07  Stiskut¡m L zobraz¡te LicenŸn¡ podm¡nky ReactOS.",
+        "\x07  Stiskut¡m L zobraz¡te LicenŸn¡ podm¡nky Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         21,
-        "\x07  Stisknut¡m F3 ukonŸ¡te instalaci ReactOS.",
+        "\x07  Stisknut¡m F3 ukonŸ¡te instalaci Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         23,
-        "V¡ce informac¡ o ReactOS naleznete na adrese:",
+        "V¡ce informac¡ o Greentea naleznete na adrese:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -141,13 +141,13 @@ static MUI_ENTRY csCZIntroPageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Instalace ReactOS je v ran‚ vìvojov‚ f zi. Zat¡m nejsou podporov ny",
+        "Instalace Greentea je v ran‚ vìvojov‚ f zi. Zat¡m nejsou podporov ny",
         TEXT_STYLE_NORMAL
     },
     {
@@ -177,13 +177,13 @@ static MUI_ENTRY csCZIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Stisknut¡m kl vesy ENTER zah j¡te instalaci ReactOS.",
+        "\x07  Stisknut¡m kl vesy ENTER zah j¡te instalaci Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  Stisknut¡m F3 ukonŸ¡te instalaci ReactOS.",
+        "\x07  Stisknut¡m F3 ukonŸ¡te instalaci Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -205,7 +205,7 @@ static MUI_ENTRY csCZLicensePageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -217,7 +217,7 @@ static MUI_ENTRY csCZLicensePageEntries[] =
     {
         8,
         8,
-        "The ReactOS System is licensed under the terms of the",
+        "The Greentea System is licensed under the terms of the",
         TEXT_STYLE_NORMAL
     },
     {
@@ -235,7 +235,7 @@ static MUI_ENTRY csCZLicensePageEntries[] =
     {
         8,
         11,
-        "All software that is part of the ReactOS system is",
+        "All software that is part of the Greentea system is",
         TEXT_STYLE_NORMAL
     },
     {
@@ -265,7 +265,7 @@ static MUI_ENTRY csCZLicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS only covers distribution to third parties.",
+        "Greentea only covers distribution to third parties.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -277,7 +277,7 @@ static MUI_ENTRY csCZLicensePageEntries[] =
     {
         8,
         19,
-        "GNU General Public License with ReactOS please visit",
+        "GNU General Public License with Greentea please visit",
         TEXT_STYLE_NORMAL
     },
     {
@@ -329,7 +329,7 @@ static MUI_ENTRY csCZDevicePageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -422,13 +422,13 @@ static MUI_ENTRY csCZRepairPageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Instalace ReactOS je v ran‚ vìvojov‚ f zi. Zat¡m nejsou",
+        "Instalace Greentea je v ran‚ vìvojov‚ f zi. Zat¡m nejsou",
         TEXT_STYLE_NORMAL
     },
     {
@@ -486,7 +486,7 @@ static MUI_ENTRY csCZComputerPageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -538,7 +538,7 @@ static MUI_ENTRY csCZFlushPageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -578,13 +578,13 @@ static MUI_ENTRY csCZQuitPageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "ReactOS nen¡ kompletnØ nainstalov n",
+        "Greentea nen¡ kompletnØ nainstalov n",
         TEXT_STYLE_NORMAL
     },
     {
@@ -624,7 +624,7 @@ static MUI_ENTRY csCZDisplayPageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -675,13 +675,13 @@ static MUI_ENTRY csCZSuccessPageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Z kladn¡ souŸ sti ReactOS byly £spØçnØ nainstalov ny.",
+        "Z kladn¡ souŸ sti Greentea byly £spØçnØ nainstalov ny.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -721,7 +721,7 @@ static MUI_ENTRY csCZBootPageEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -768,7 +768,7 @@ static MUI_ENTRY csCZSelectPartitionEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -792,7 +792,7 @@ static MUI_ENTRY csCZSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Stisknut¡m kl vesy ENTER nainstalujete ReactOS na zvolenì odd¡l.",
+        "\x07  Stisknut¡m kl vesy ENTER nainstalujete Greentea na zvolenì odd¡l.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -838,7 +838,7 @@ static MUI_ENTRY csCZConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -856,7 +856,7 @@ static MUI_ENTRY csCZConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -886,7 +886,7 @@ static MUI_ENTRY csCZConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -932,7 +932,7 @@ static MUI_ENTRY csCZFormatPartitionEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -966,19 +966,19 @@ static MUI_ENTRY csCZInstallDirectoryEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Instalace nyn¡ na zvolenì odd¡l nakop¡ruje soubory ReactOS.",
+        "Instalace nyn¡ na zvolenì odd¡l nakop¡ruje soubory Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "Zvolte adres ý, kam bude ReactOS nainstalov n:",
+        "Zvolte adres ý, kam bude Greentea nainstalov n:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -990,7 +990,7 @@ static MUI_ENTRY csCZInstallDirectoryEntries[] =
     {
         6,
         15,
-        "vyma§te text cesty a pot‚ zapiçte cestu, do kter‚ chcete ReactOS",
+        "vyma§te text cesty a pot‚ zapiçte cestu, do kter‚ chcete Greentea",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1018,7 +1018,7 @@ static MUI_ENTRY csCZFileCopyEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1058,7 +1058,7 @@ static MUI_ENTRY csCZBootLoaderEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1110,7 +1110,7 @@ static MUI_ENTRY csCZKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1162,7 +1162,7 @@ static MUI_ENTRY csCZLayoutSettingsEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1215,13 +1215,13 @@ static MUI_ENTRY csCZPrepareCopyEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Instalace pýiprav¡ poŸ¡taŸ na kop¡rov n¡ soubor… ReactOS.",
+        "Instalace pýiprav¡ poŸ¡taŸ na kop¡rov n¡ soubor… Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1244,7 +1244,7 @@ static MUI_ENTRY csCZSelectFSEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1291,7 +1291,7 @@ static MUI_ENTRY csCZDeletePartitionEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1337,7 +1337,7 @@ static MUI_ENTRY csCZRegistryEntries[] =
     {
         4,
         3,
-        " Instalace ReactOS " KERNEL_VERSION_STR " ",
+        " Instalace Greentea " KERNEL_VERSION_STR " ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1369,9 +1369,9 @@ MUI_ERROR csCZErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "ReactOS nen¡ ve vaçem poŸ¡taŸi kompletnØ nainstalov n.\n"
+        "Greentea nen¡ ve vaçem poŸ¡taŸi kompletnØ nainstalov n.\n"
         "Pokud nyn¡ instalaci ukonŸ¡te, budete ji muset pro\n"
-        "nainstalov n¡ ReactOS spustit znovu.\n"
+        "nainstalov n¡ Greentea spustit znovu.\n"
         "\n"
         "  \x07  Stisknut¡m kl vesy ENTER budete pokraŸovat v instalaci.\n"
         "  \x07  Stisknut¡m F3 ukonŸ¡te instalaci.",
@@ -1579,7 +1579,7 @@ MUI_ERROR csCZErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "Zvolenì odd¡l nen¡ pro instalaci ReactOS dostateŸnØ velkì.\n"
+        "Zvolenì odd¡l nen¡ pro instalaci Greentea dostateŸnØ velkì.\n"
         "InstalaŸn¡ odd¡l mus¡ m¡t velikost alespoå %lu MB.\n"
         "\n"
         "  * PokraŸujte stisknut¡m libovoln‚ kl vesy.",
@@ -1742,13 +1742,13 @@ MUI_STRING csCZStrings[] =
     {STRING_PARTFORMAT,
     "Tento odd¡l bude zform tov n."},
     {STRING_NONFORMATTEDPART,
-    "Zvolili jste instalaci ReactOS na novì nebo nezform tovanì odd¡l."},
+    "Zvolili jste instalaci Greentea na novì nebo nezform tovanì odd¡l."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Instalace nakop¡ruje ReactOS na odd¡l"},
+    "Instalace nakop¡ruje Greentea na odd¡l"},
     {STRING_CHECKINGPART,
     "Instalace nyn¡ kontroluje zvolenì odd¡l."},
     {STRING_CONTINUE,

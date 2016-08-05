@@ -14,7 +14,7 @@ static MUI_ENTRY bgBGLanguagePageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -60,19 +60,19 @@ static MUI_ENTRY bgBGWelcomePageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "РеактОС ви приветства!",
+        "Greentea ви приветства!",
         TEXT_STYLE_HIGHLIGHT
     },
     {
         6,
         11,
-        "Тази част от настройката записва работната уредба РеактОС",
+        "Тази част от настройката записва работната уредба Greentea",
         TEXT_STYLE_NORMAL
     },
     {
@@ -84,13 +84,13 @@ static MUI_ENTRY bgBGWelcomePageEntries[] =
     {
         8,
         15,
-        "\x07  Натиснете ENTER за слагане на РеактОС.",
+        "\x07  Натиснете ENTER за слагане на Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         17,
-        "\x07  Натиснете R за поправка на РеактОС.",
+        "\x07  Натиснете R за поправка на Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -102,25 +102,25 @@ static MUI_ENTRY bgBGWelcomePageEntries[] =
         {
         8,
         20,
-        "   изисквания и условия на РеактОС",
+        "   изисквания и условия на Greentea",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         22,
-        "\x07  Натиснете F3 за изход без слагане на РеактОС.",
+        "\x07  Натиснете F3 за изход без слагане на Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         24,
-        "За повече сведения за РеактОС, посетете:",
+        "За повече сведения за Greentea, посетете:",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         25,
-        "http://www.reactos.org",
+        "http://osgreentea.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
@@ -142,13 +142,13 @@ static MUI_ENTRY bgBGIntroPageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Настройвачът на РеактОС е в ранна степен на разработка. Все още",
+        "Настройвачът на Greentea е в ранна степен на разработка. Все още",
         TEXT_STYLE_NORMAL
     },
     {
@@ -178,13 +178,13 @@ static MUI_ENTRY bgBGIntroPageEntries[] =
     {
         8,
         23,
-        "\x07  Натиснете ENTER за слагане на РеактОС.",
+        "\x07  Натиснете ENTER за слагане на Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         25,
-        "\x07  Натиснете F3 за изход без слагане на РеактОС.",
+        "\x07  Натиснете F3 за изход без слагане на Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -206,7 +206,7 @@ static MUI_ENTRY bgBGLicensePageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -218,7 +218,7 @@ static MUI_ENTRY bgBGLicensePageEntries[] =
     {
         8,
         8,
-        "Уредбата РеактОС е лицензирана при условията на GNU GPL",
+        "Уредбата Greentea е лицензирана при условията на GNU GPL",
         TEXT_STYLE_NORMAL
     },
     {
@@ -242,7 +242,7 @@ static MUI_ENTRY bgBGLicensePageEntries[] =
     {
         8,
         12,
-        "РеактОС, се обнародва под GNU GPL, с поддържането на",
+        "Greentea, се обнародва под GNU GPL, с поддържането на",
         TEXT_STYLE_NORMAL
     },
     {
@@ -266,13 +266,13 @@ static MUI_ENTRY bgBGLicensePageEntries[] =
     {
         8,
         17,
-        "ReactOS only covers distribution to third parties.",
+        "Greentea only covers distribution to third parties.",
         TEXT_STYLE_NORMAL
     },
     {
         8,
         18,
-        "Ако поради някаква причина, заедно с РеактОС не сте",
+        "Ако поради някаква причина, заедно с Greentea не сте",
         TEXT_STYLE_NORMAL
     },
     {
@@ -330,7 +330,7 @@ static MUI_ENTRY bgBGDevicePageEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -423,13 +423,13 @@ static MUI_ENTRY bgBGRepairPageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Настройвачът на РеактОС е в ранна степен на разработка. Все още",
+        "Настройвачът на Greentea е в ранна степен на разработка. Все още",
         TEXT_STYLE_NORMAL
     },
     {
@@ -487,7 +487,7 @@ static MUI_ENTRY bgBGComputerPageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -539,7 +539,7 @@ static MUI_ENTRY bgBGFlushPageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -579,13 +579,13 @@ static MUI_ENTRY bgBGQuitPageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Слагането на РеактОС не е завършило.",
+        "Слагането на Greentea не е завършило.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -625,7 +625,7 @@ static MUI_ENTRY bgBGDisplayPageEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -676,13 +676,13 @@ static MUI_ENTRY bgBGSuccessPageEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
         10,
         6,
-        "Основните съставки на РеактОС са сложени успешно.",
+        "Основните съставки на Greentea са сложени успешно.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -722,7 +722,7 @@ static MUI_ENTRY bgBGBootPageEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -769,7 +769,7 @@ static MUI_ENTRY bgBGSelectPartitionEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -793,7 +793,7 @@ static MUI_ENTRY bgBGSelectPartitionEntries[] =
     {
         8,
         13,
-        "\x07  Натиснете ENTER за слагане на РеактОС на избрания дял.",
+        "\x07  Натиснете ENTER за слагане на Greentea на избрания дял.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -840,7 +840,7 @@ static MUI_ENTRY bgBGConfirmDeleteSystemPartitionEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -858,7 +858,7 @@ static MUI_ENTRY bgBGConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         11,
-        "programs, programs to start an operating system (like ReactOS) or other",
+        "programs, programs to start an operating system (like Greentea) or other",
         TEXT_STYLE_NORMAL
     },
     {
@@ -888,7 +888,7 @@ static MUI_ENTRY bgBGConfirmDeleteSystemPartitionEntries[] =
     {
         6,
         17,
-        "computer from the harddisk until you finished the ReactOS Setup.",
+        "computer from the harddisk until you finished the Greentea Setup.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -934,7 +934,7 @@ static MUI_ENTRY bgBGFormatPartitionEntries[] =
     {
         4,
         3,
-        " Слагане на РеактОС " KERNEL_VERSION_STR " . ",
+        " Слагане на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -968,19 +968,19 @@ static MUI_ENTRY bgBGInstallDirectoryEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Файловете на РеактОС ще бъдат сложени на избрания дял. Изберете",
+        "Файловете на Greentea ще бъдат сложени на избрания дял. Изберете",
         TEXT_STYLE_NORMAL
     },
     {
         6,
         9,
-        "папка, в която да бъде сложен РеактОС:",
+        "папка, в която да бъде сложен Greentea:",
         TEXT_STYLE_NORMAL
     },
     {
@@ -998,7 +998,7 @@ static MUI_ENTRY bgBGInstallDirectoryEntries[] =
     {
         6,
         16,
-        "сложен РеактОС.",
+        "сложен Greentea.",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1020,7 +1020,7 @@ static MUI_ENTRY bgBGFileCopyEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1061,7 +1061,7 @@ static MUI_ENTRY bgBGBootLoaderEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1113,7 +1113,7 @@ static MUI_ENTRY bgBGKeyboardSettingsEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1165,7 +1165,7 @@ static MUI_ENTRY bgBGLayoutSettingsEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1218,13 +1218,13 @@ static MUI_ENTRY bgBGPrepareCopyEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
         6,
         8,
-        "Компютърът се подготвя за запис на файловете на РеактОС. ",
+        "Компютърът се подготвя за запис на файловете на Greentea. ",
         TEXT_STYLE_NORMAL
     },
     {
@@ -1247,7 +1247,7 @@ static MUI_ENTRY bgBGSelectFSEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1294,7 +1294,7 @@ static MUI_ENTRY bgBGDeletePartitionEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1340,7 +1340,7 @@ static MUI_ENTRY bgBGRegistryEntries[] =
     {
         4,
         3,
-        " Настройка на РеактОС " KERNEL_VERSION_STR " . ",
+        " Настройка на Greentea " KERNEL_VERSION_STR " . ",
         TEXT_STYLE_UNDERLINE
     },
     {
@@ -1372,9 +1372,9 @@ MUI_ERROR bgBGErrorEntries[] =
     },
     {
         //ERROR_NOT_INSTALLED
-        "РеактОС не е напълно сложен на компютъра\n"
+        "Greentea не е напълно сложен на компютъра\n"
         "ви. Ако сега излезете от слаганете, ще трябва\n"
-        "да пуснете настройката отново, за да инсталирате РеактОС.\n"
+        "да пуснете настройката отново, за да инсталирате Greentea.\n"
         "\n"
         "  \x07  За да продължи слагането, натиснете ENTER.\n"
         "  \x07  За изход натиснете F3.",
@@ -1584,7 +1584,7 @@ MUI_ERROR bgBGErrorEntries[] =
     },
     {
         //ERROR_INSUFFICIENT_PARTITION_SIZE,
-        "The selected partition is not large enough to install ReactOS.\n"
+        "The selected partition is not large enough to install Greentea.\n"
         "The install partition must have a size of at least %lu MB.\n"
         "\n"
         "  * Натиснете клавиш, за да продължите.",
@@ -1749,13 +1749,13 @@ MUI_STRING bgBGStrings[] =
     {STRING_PARTFORMAT,
     "Предстои форматиране на дяла."},
     {STRING_NONFORMATTEDPART,
-    "Избрали сте да сложите РеактОС на нов или неразпределен дял."},
+    "Избрали сте да сложите Greentea на нов или неразпределен дял."},
     {STRING_NONFORMATTEDSYSTEMPART,
     "The system partition is not formatted yet."},
     {STRING_NONFORMATTEDOTHERPART,
     "The new partition is not formatted yet."},
     {STRING_INSTALLONPART,
-    "Слагане на РеактОС върху дял"},
+    "Слагане на Greentea върху дял"},
     {STRING_CHECKINGPART,
     "Тече проверка на избрания дял."},
     {STRING_CONTINUE,
