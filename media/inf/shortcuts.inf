@@ -74,13 +74,13 @@ COMMUNICATIONS=Communications
 GAMES=Games
 
 README_TITLE=Read Me
-README_DESC=ReactOS Read-Me file
+README_DESC=Read-Me file
 
 CMD_TITLE=Command Prompt
 CMD_DESC=Open command prompt
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Launch Explorer
-RAPPS_TITLE=ReactOS Applications Manager
+RAPPS_TITLE=Applications Manager
 RAPPS_TITLE_SHORT=Applications Manager
 RAPPS_DESC=Download and install various applications
 SERVMAN_TITLE=Service Manager
@@ -1274,13 +1274,13 @@ COMMUNICATIONS=Связь
 GAMES=Игры
 
 README_TITLE=Прочти Меня
-README_DESC=файл ReadMe для ReactOS
+README_DESC=файл приветствия для OS Greentea
 
 CMD_TITLE=Командная строка
 CMD_DESC=Используется для выполнения вводимых с клавиатуры команд.
-EXPLORER_TITLE=Проводник ReactOS
+EXPLORER_TITLE=Проводник
 EXPLORER_DESC=Отображает файлы и папки на компьютере.
-RAPPS_TITLE=Менеджер приложений ReactOS
+RAPPS_TITLE=Менеджер приложений
 RAPPS_TITLE_SHORT=Менеджер приложений
 RAPPS_DESC=Скачать и установить другие приложения
 SERVMAN_TITLE=Диспетчер служб
