@@ -3285,7 +3285,7 @@ InstallDirectoryPage(PINPUT_RECORD Ir)
     if (IsUnattendedSetup)
         wcscpy(InstallDir, UnattendInstallationDirectory);
     else
-        wcscpy(InstallDir, L"\\ReactOS");
+        wcscpy(InstallDir, L"\\Greentea");
 
     Length = wcslen(InstallDir);
     CONSOLE_SetInputTextXY(8, 11, 51, InstallDir);
