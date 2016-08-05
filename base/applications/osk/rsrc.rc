@@ -15,7 +15,7 @@
 #include "commctrl.h"
 #include "osk_res.h"
 
-#define REACTOS_STR_FILE_DESCRIPTION  "ReactOS On Screen Keyboard"
+#define REACTOS_STR_FILE_DESCRIPTION  "On Screen Keyboard"
 #define REACTOS_STR_INTERNAL_NAME     "osk"
 #define REACTOS_STR_ORIGINAL_FILENAME "osk.exe"
 

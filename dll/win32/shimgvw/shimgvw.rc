@@ -3,7 +3,7 @@
 #include "resource.h"
 
 #define REACTOS_VERSION_DLL
-#define REACTOS_STR_FILE_DESCRIPTION  "ReactOS Picture and Fax Viewer"
+#define REACTOS_STR_FILE_DESCRIPTION  "Picture and Fax Viewer"
 #define REACTOS_STR_INTERNAL_NAME     "shimgvw"
 #define REACTOS_STR_ORIGINAL_FILENAME "shimgvw.dll"
 #include <reactos/version.rc>
