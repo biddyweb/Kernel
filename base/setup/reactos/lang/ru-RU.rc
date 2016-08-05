@@ -2,29 +2,29 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 
 IDD_STARTPAGE DIALOGEX 0, 0, 317, 193
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Установка ReactOS"
+CAPTION "Установка Greentea"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT "Вас приветствует программа установки ReactOS.", IDC_STARTTITLE, 115, 8, 195, 24
-    LTEXT "Установку ReactOS можно производить только загрузившись с этого диска! После перезапуска компьютера выберите загрузку с CD и начните установку ReactOS.", IDC_STATIC, 115, 40, 195, 100
+    LTEXT "Вас приветствует программа установки Greentea.", IDC_STARTTITLE, 115, 8, 195, 24
+    LTEXT "Установку Greentea можно производить только загрузившись с этого диска! После перезапуска компьютера выберите загрузку с CD и начните установку Greentea.", IDC_STATIC, 115, 40, 195, 100
     LTEXT "Нажмите кнопку ""Завершить"" для выхода.", IDC_STATIC, 115, 169, 195, 17
 END
 
 IDD_TYPEPAGE DIALOGEX 0, 0, 317, 143
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Установка ReactOS"
+CAPTION "Установка Greentea"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    AUTORADIOBUTTON "Установка ReactOS", IDC_INSTALL, 7, 7, 277, 10
+    AUTORADIOBUTTON "Установка Greentea", IDC_INSTALL, 7, 7, 277, 10
     LTEXT "Установить новую копию системы. Эта опция НЕ сохраняет файлы, настройки и программы. Вы можете изменять диски и разделы.", IDC_INSTALLTEXT, 18, 18, 269, 25
-    AUTORADIOBUTTON "Восстановить или изменить установленный ранее ReactOS", IDC_UPDATE, 7, 50, 277, 10
+    AUTORADIOBUTTON "Восстановить или изменить установленный ранее Greentea", IDC_UPDATE, 7, 50, 277, 10
     LTEXT "Обновить или восстановить установленную копию системы. Эта опция СОХРАНЯЕТ файлы, настройки и программы. Доступно только при наличии уже установленной системы.", IDC_UPDATETEXT, 18, 61, 269, 30
     LTEXT "Для установки устройств нажмите ""Далее"".", IDC_STATIC, 7, 128, 297, 8
 END
 
 IDD_DEVICEPAGE DIALOGEX 0, 0, 317, 143
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Установка ReactOS"
+CAPTION "Установка Greentea"
 FONT 8, "MS Shell Dlg"
 BEGIN
     LTEXT "Компьютер:", IDC_STATIC, 20, 15, 80, 10
@@ -38,7 +38,7 @@ END
 
 IDD_DRIVEPAGE DIALOGEX 0, 0, 317, 143
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Установка ReactOS"
+CAPTION "Установка Greentea"
 FONT 8, "MS Shell Dlg"
 BEGIN
     CONTROL "", IDC_PARTITION, "SysListView32", WS_BORDER | WS_VISIBLE | WS_TABSTOP | LVS_REPORT | LVS_SINGLESEL, 7, 7, 303, 112
@@ -82,7 +82,7 @@ END
 
 IDD_SUMMARYPAGE DIALOGEX 0, 0, 317, 143
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Установка ReactOS"
+CAPTION "Установка Greentea"
 FONT 8, "MS Shell Dlg"
 BEGIN
     LTEXT "Для начала установки нажмите ""Далее"".", IDC_STATIC, 7, 180, 303, 20
@@ -90,7 +90,7 @@ END
 
 IDD_PROCESSPAGE DIALOGEX 0, 0, 317, 143
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Установка ReactOS"
+CAPTION "Установка Greentea"
 FONT 8, "MS Shell Dlg"
 BEGIN
     LTEXT "Копирование файлов...", IDC_ACTIVITY, 20, 50, 277, 10
@@ -100,10 +100,10 @@ END
 
 IDD_RESTARTPAGE DIALOGEX 0, 0, 317, 193
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Завершение установки ReactOS"
+CAPTION "Завершение установки Greentea"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT "Первый этап установки ReactOS закончен.", IDC_STATIC, 20, 50, 277, 10
+    LTEXT "Первый этап установки Greentea закончен.", IDC_STATIC, 20, 50, 277, 10
     LTEXT "После нажатия клавиши ""Завершить"" ваш компьютер будет перезагружен.", IDC_STATIC, 20, 80, 277, 10
     CONTROL "", IDC_RESTART_PROGRESS, "msctls_progress32", PBS_SMOOTH | WS_CHILD | WS_VISIBLE | WS_BORDER, 20, 120, 277, 8
     LTEXT "Вы можете извлечь установочный диск. Для перезагрузки компьютера нажмите клавишу ""Завершить"".", IDC_STATIC, 10, 176, 297, 20
@@ -111,7 +111,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_TYPETITLE "Вас приветствует программа установки ReactOS"
+    IDS_TYPETITLE "Вас приветствует программа установки Greentea"
     IDS_TYPESUBTITLE "Выберите тип установки."
     IDS_DEVICETITLE "Установка базовых устройств"
     IDS_DEVICESUBTITLE "Настройка параметров экрана и клавиатуры."
@@ -123,10 +123,10 @@ BEGIN
     IDS_RESTARTSUBTITLE "Первый этап закончен, для продолжения требуется перезагрузка"
     IDS_SUMMARYTITLE "Сводка"
     IDS_SUMMARYSUBTITLE "Проверьте список параметров перед началом установки"
-    IDS_ABORTSETUP "ReactOS установлен на компьютер не полностью. Если вы закроете программу установки сейчас, в дальнейшем вам придется повторить установку ReactOS. Вы уверены, что необходимо прервать установку?"
+    IDS_ABORTSETUP "Greentea установлен на компьютер не полностью. Если вы закроете программу установки сейчас, в дальнейшем вам придется повторить установку Greentea. Вы уверены, что необходимо прервать установку?"
     IDS_ABORTSETUP2 "Прервать установку?"
     IDS_NO_TXTSETUP_SIF "Не удалось найти файл 'txtsetup.sif'\nПродолжение установки невозможно."
-    IDS_CAPTION "Установка ReactOS"
+    IDS_CAPTION "Установка Greentea"
 END
 
 STRINGTABLE

@@ -690,7 +690,7 @@ OnPaint(HWND hWnd, WPARAM wParam, LPARAM lParam)
     SetBkMode(hdc, TRANSPARENT);
 
     /* Draw version information */
-    _stprintf(version, TEXT("ReactOS %d.%d.%d"),
+    _stprintf(version, TEXT("Greentea %d.%d.%d"),
               KERNEL_VERSION_MAJOR,
               KERNEL_VERSION_MINOR,
               KERNEL_VERSION_PATCH_LEVEL);
