@@ -31,7 +31,7 @@
 #  elif defined __MINGW32__
 #    define _STLP_COMPILER "gcc"
 #  else
-#    error "Unrecognized compiler for reactos!"
+#    error "Unrecognized compiler!"
 #  endif
 #endif
 

@@ -105,7 +105,7 @@ STYLE DS_SHELLFONT | WS_BORDER | WS_DLGFRAME | WS_SYSMENU | DS_MODALFRAME
 CAPTION "About"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT "ReactOS Applications Manager\nCopyright (C) 2009\nby Dmitry Chapyshev (dmitry@reactos.org)", IDC_STATIC, 48, 7, 130, 39
+    LTEXT "Applications Manager\nCopyright (C) 2009\nby Dmitry Chapyshev (dmitry@reactos.org)", IDC_STATIC, 48, 7, 130, 39
     PUSHBUTTON "Close", IDOK, 133, 46, 50, 14
     ICON IDI_MAIN, IDC_STATIC, 10, 10, 7, 30
 END
@@ -179,15 +179,15 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_APPTITLE "ReactOS Applications Manager"
+    IDS_APPTITLE "Applications Manager"
     IDS_SEARCH_TEXT "Search..."
     IDS_INSTALL "Install"
     IDS_UNINSTALL "Uninstall"
     IDS_MODIFY "Modify"
     IDS_APPS_COUNT "Applications count: %d"
-    IDS_WELCOME_TITLE "Welcome to ReactOS Applications Manager!\n\n"
-    IDS_WELCOME_TEXT "Choose a category on the left, then choose an application to install or uninstall.\nReactOS Web Site: "
-    IDS_WELCOME_URL "http://www.reactos.org"
+    IDS_WELCOME_TITLE "Welcome to Applications Manager!\n\n"
+    IDS_WELCOME_TEXT "Choose a category on the left, then choose an application to install or uninstall.\nWeb Site: "
+    IDS_WELCOME_URL "http://osgreentea.github.io/"
     IDS_INSTALLED "Installed"
     IDS_AVAILABLEFORINST "Available for installation"
     IDS_UPDATES "Updates"

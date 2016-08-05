@@ -709,7 +709,7 @@ SmpValidatePagingFileSizes(IN PSMP_PAGEFILE_DESCRIPTOR Descriptor)
     if (SharedUserData->ProcessorFeatures[PF_PAE_ENABLED])
     {
         /* But we don't support that yet */
-        DPRINT1("ReactOS does not support PAE yet... assuming sizes OK\n");
+        DPRINT1("Does not support PAE yet... assuming sizes OK\n");
     }
     else
     {

@@ -31,11 +31,11 @@ BEGIN
     IDS_RUNNINGLOGONSCRIPTS "Running logon scripts..."
     IDS_LOADINGYOURPERSONALSETTINGS "Loading your personal settings..."
     IDS_CLOSINGNETWORKCONNECTIONS "Closing network connections..."
-    IDS_REACTOSISSHUTTINGDOWN "ReactOS is shutting down..."
+    IDS_REACTOSISSHUTTINGDOWN "System is shutting down..."
     IDS_PREPARETOSTANDBY "Preparing to Standby..."
     IDS_PREPARETOHIBERNATE "Preparing to Hibernate..."
     IDS_SAVEYOURSETTINGS "Saving your settings..."
-    IDS_REACTOSISSTARTINGUP "ReactOS is starting up..."
+    IDS_REACTOSISSTARTINGUP "System is starting up..."
 END
 
 STRINGTABLE

@@ -6,7 +6,7 @@ CAPTION "Computer Name"
 FONT 8, "MS Shell Dlg"
 BEGIN
     ICON IDI_COMPNAME, IDC_STATIC, 4, 3, 26, 24, SS_ICON
-    LTEXT "ReactOS uses the following information to identify your computer on the network.", IDC_STATIC, 40, 5, 204, 20
+    LTEXT "System uses the following information to identify your computer on the network.", IDC_STATIC, 40, 5, 204, 20
     LTEXT "Computer Description:", IDC_STATIC, 6, 40, 90, 9
     EDITTEXT IDC_COMPDESC, 98, 38, 146, 13, WS_CHILD | WS_VISIBLE | WS_TABSTOP
     LTEXT "Full computer name:", IDC_STATIC, 6, 68, 85, 9

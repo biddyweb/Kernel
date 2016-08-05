@@ -223,7 +223,7 @@ InitApplet(HANDLE hSectionOrWnd)
     }
     else
     {
-        wcscpy(szTitle, L"ReactOS Console");
+        wcscpy(szTitle, L"Console");
     }
     psh.pszCaption = szTitle;
 
