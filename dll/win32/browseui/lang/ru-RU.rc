@@ -75,7 +75,7 @@ BEGIN
   POPUP "&Справка", FCIDM_MENU_HELP
   BEGIN
       MENUITEM "&Лицензионное соглашение", IDM_HELP_ISTHISCOPYLEGAL
-      MENUITEM "&О ReactOS", IDM_HELP_ABOUT
+      MENUITEM "&О системе...", IDM_HELP_ABOUT
   END
 END
 

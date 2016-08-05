@@ -3548,7 +3548,7 @@ LRESULT CShellBrowser::OnDisconnectNetworkDrive(WORD wNotifyCode, WORD wID, HWND
 
 LRESULT CShellBrowser::OnAboutReactOS(WORD wNotifyCode, WORD wID, HWND hWndCtl, BOOL &bHandled)
 {
-    ShellAbout(m_hWnd, _T("ReactOS"), _T(""), NULL);
+    ShellAbout(m_hWnd, _T("Greentea"), _T(""), NULL);
     return 0;
 }
 
@@ -3621,11 +3621,11 @@ LRESULT CShellBrowser::OnIsThisLegal(WORD wNotifyCode, WORD wID, HWND hWndCtl, B
 {
     /* TODO: Implement properly */
 
-    LPCWSTR strSite = L"https://www.reactos.org/user-faq";
+    LPCWSTR strSite = L"https://osgreentea.github.io/";
 
     /* TODO: Make localizable */
     LPCWSTR strCaption = L"Sorry";
-    LPCWSTR strMessage = L"ReactOS could not browse to '%s' (error %d). Please make sure there is a web browser installed.";
+    LPCWSTR strMessage = L"Could not browse to '%s' (error %d). Please make sure there is a web browser installed.";
     WCHAR tmpMessage[512];
 
     /* TODO: Read from the registry */
