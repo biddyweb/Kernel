@@ -357,19 +357,19 @@ CreateFreeLoaderReactOSEntries(
 
     /* ReactOS */
     CreateNTOSEntry(IniCache, IniSection,
-                    L"ReactOS", L"\"ReactOS\"",
+                    L"ReactOS", L"\"Greentea\"",
                     L"Windows2003", ArcPath,
                     L"");
 
     /* ReactOS_Debug */
     CreateNTOSEntry(IniCache, IniSection,
-                    L"ReactOS_Debug", L"\"ReactOS (Debug)\"",
+                    L"ReactOS_Debug", L"\"Greentea (Debug)\"",
                     L"Windows2003", ArcPath,
                     L"/DEBUG /DEBUGPORT=COM1 /BAUDRATE=115200 /SOS");
 #ifdef _WINKD_
     /* ReactOS_VBoxDebug */
     CreateNTOSEntry(IniCache, IniSection,
-                    L"ReactOS_VBoxDebug", L"\"ReactOS (VBoxDebug)\"",
+                    L"ReactOS_VBoxDebug", L"\"Greentea (VBoxDebug)\"",
                     L"Windows2003", ArcPath,
                     L"/DEBUG /DEBUGPORT=VBOX /SOS");
 #endif
@@ -377,32 +377,32 @@ CreateFreeLoaderReactOSEntries(
 #ifndef _WINKD_
     /* ReactOS_KdSerial */
     CreateNTOSEntry(IniCache, IniSection,
-                    L"ReactOS_KdSerial", L"\"ReactOS (RosDbg)\"",
+                    L"ReactOS_KdSerial", L"\"Greentea (RosDbg)\"",
                     L"Windows2003", ArcPath,
                     L"/DEBUG /DEBUGPORT=COM1 /BAUDRATE=115200 /SOS /KDSERIAL");
 #endif
 
     /* ReactOS_Screen */
     CreateNTOSEntry(IniCache, IniSection,
-                    L"ReactOS_Screen", L"\"ReactOS (Screen)\"",
+                    L"ReactOS_Screen", L"\"Greentea (Screen)\"",
                     L"Windows2003", ArcPath,
                     L"/DEBUG /DEBUGPORT=SCREEN /SOS");
 
     /* ReactOS_LogFile */
     CreateNTOSEntry(IniCache, IniSection,
-                    L"ReactOS_LogFile", L"\"ReactOS (Log file)\"",
+                    L"ReactOS_LogFile", L"\"Greentea (Log file)\"",
                     L"Windows2003", ArcPath,
                     L"/DEBUG /DEBUGPORT=FILE /SOS");
 
     /* ReactOS_Ram */
     CreateNTOSEntry(IniCache, IniSection,
-                    L"ReactOS_Ram", L"\"ReactOS (RAM Disk)\"",
+                    L"ReactOS_Ram", L"\"Greentea (RAM Disk)\"",
                     L"Windows2003", L"ramdisk(0)\\ReactOS",
                     L"/DEBUG /DEBUGPORT=COM1 /BAUDRATE=115200 /SOS /RDPATH=reactos.img /RDIMAGEOFFSET=32256");
 
     /* ReactOS_EMS */
     CreateNTOSEntry(IniCache, IniSection,
-                    L"ReactOS_EMS", L"\"ReactOS (Emergency Management Services)\"",
+                    L"ReactOS_EMS", L"\"Greentea (Emergency Management Services)\"",
                     L"Windows2003", ArcPath,
                     L"/DEBUG /DEBUGPORT=COM1 /BAUDRATE=115200 /SOS /redirect=com2 /redirectbaudrate=115200");
 #endif
