@@ -69,7 +69,7 @@ ERRORLEVEL устанавливается равным номеру выбран
     STRING_CMD_HELP5 "  [завершение имен файлов unix]"
     STRING_CMD_HELP6 "  [стек директорий]"
     STRING_CMD_HELP7 "  [перенаправление и piping]"
-    STRING_CMD_HELP8 "Запуск новой копии интерпретатора команд ReactOS.\n\n\
+    STRING_CMD_HELP8 "Запуск новой копии интерпретатора команд.\n\n\
 CMD [/[C|K] команда][/P][/Q][/T:bf]\n\n\
   /C команда  Выполнение указанной команды с последующим завершением.\n\
   /K команда  Выполнение указанной команды без последующего завершения.\n\
@@ -443,7 +443,7 @@ listing of credits."
     STRING_VERSION_HELP5 "\nПосылайте отчеты об ошибках на <ros-dev@reactos.org>.\n\
 Обновления доступны по адресу: http://www.reactos.org"
     STRING_VERSION_HELP6 "\nFreeDOS версия написана:\n"
-    STRING_VERSION_HELP7 "\nReactOS версия написана:\n"
+    STRING_VERSION_HELP7 "\nReactOS/Greentea версия написана:\n"
     STRING_VOL_HELP1 " Том в устройстве %c имеет метку %s\n"
     STRING_VOL_HELP2 " Том в устройстве %c не имеет метки\n"
     STRING_VOL_HELP3 " Серийный номер тома: %04X-%04X\n"
@@ -530,9 +530,9 @@ RESTORE       восстанавливает окно\n\
     STRING_REPLACE_ERROR5 "Доступ запрещен - %s\n"
     STRING_REPLACE_ERROR6 "Не найдено файлов - %s\n"
     STRING_REPLACE_ERROR7 "Расширенная ошибка 32\n"
-    STRING_CMD_INFOLINE "  ReactOS Командная строка                            Введите HELP для Справки  "
-    STRING_REACTOS_VERSION "Операционная система ReactOS [Версия %s %s]\n"
-    STRING_CMD_SHELLINFO "\nИнтерпретатор командной строки ReactOS\nВерсия %s %s"
+    STRING_CMD_INFOLINE "  Greentea Командная строка                            Введите HELP для Справки  "
+    STRING_REACTOS_VERSION "Операционная система Greentea [Версия %s %s]\n"
+    STRING_CMD_SHELLINFO "\nИнтерпретатор командной строки\nВерсия %s %s"
     STRING_VERSION_RUNNING_ON "Запущен на: "
     STRING_VERSION_RUNVER "%s [Версия %d.%d.%d] %s"
     STRING_COPY_FILE "        %d файл(ов) скопировано\n"

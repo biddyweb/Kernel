@@ -5,9 +5,9 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 /* Default settings */
 STRINGTABLE
 BEGIN
-    IDS_APPTITLE "ReactOS - Добро пожаловать!"
-    IDS_DEFAULTTOPICTITLE "ReactOS"
-    IDS_DEFAULTTOPICDESC "Добро пожаловать в ReactOS.\n\nВыберите пункт слева."
+    IDS_APPTITLE "Greentea - Добро пожаловать!"
+    IDS_DEFAULTTOPICTITLE "Greentea"
+    IDS_DEFAULTTOPICDESC "Добро пожаловать в Greentea.\n\nВыберите пункт слева."
 //    IDS_CHECKTEXT "Показывать это окно снова"
 //    IDS_CLOSETEXT "Выход"
 END
@@ -15,7 +15,7 @@ END
 /* Topic buttons */
 STRINGTABLE
 BEGIN
-    IDS_TOPICBUTTON0 "Установить ReactOS"
+    IDS_TOPICBUTTON0 "Установить Greentea"
     IDS_TOPICBUTTON1 "Обзор диска"
     IDS_TOPICBUTTON2 "Выход"
 //    IDS_TOPICBUTTON3 "Empty Topic 3"
@@ -30,7 +30,7 @@ END
 /* Topic titles */
 STRINGTABLE
 BEGIN
-    IDS_TOPICTITLE0 "Установить ReactOS"
+    IDS_TOPICTITLE0 "Установить Greentea"
     IDS_TOPICTITLE1 "Обзор диска"
     IDS_TOPICTITLE2 "Выход"
 //    IDS_TOPICTITLE3 "Empty Topic Title 3"
@@ -45,7 +45,7 @@ END
 /* Topic descriptions */
 STRINGTABLE
 BEGIN
-    IDS_TOPICDESC0 "Установит ReactOS на Ваш компьютер с нуля или обновит уже установленную версию."
+    IDS_TOPICDESC0 "Установит Greentea на Ваш компьютер с нуля или обновит уже установленную версию."
     IDS_TOPICDESC1 "Обзор диска."
     IDS_TOPICDESC2 "Выберите для выхода из этого приложения."
 //    IDS_TOPICDESC3 "Topic description 3.\n\nDescribe topic 3 here."

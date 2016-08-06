@@ -314,7 +314,7 @@ BEGIN
     IDS_HINT_DETAILS " Отображение информации о каждом элементе в окне."
     IDS_HINT_CUST " Настройка вида."
     IDS_HINT_HELP " Показать окно справки."
-    IDS_HINT_ABOUT " О Диспетчере служб ReactOS."
+    IDS_HINT_ABOUT " О Диспетчере служб."
     IDS_HINT_SYS_RESTORE " Восстановить нормальный размер окна."
     IDS_HINT_SYS_MOVE " Переместить это окно."
     IDS_HINT_SYS_SIZE " Изменить размер этого окна."
@@ -326,7 +326,7 @@ END
 /* Application title */
 STRINGTABLE
 BEGIN
-    IDS_APPNAME "Диспетчер служб ReactOS"
+    IDS_APPNAME "Диспетчер служб"
 END
 
 STRINGTABLE
