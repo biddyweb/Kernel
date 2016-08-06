@@ -346,8 +346,8 @@ ROSDATA VSC_LPWSTR extended_key_names[] = {
   { 0x53, L"Delete" },
   { 0x54, L"<Start>" },
   { 0x55, L"Help" },
-  { 0x56, L"Left ReactOS" },
-  { 0x5b, L"Right ReactOS" },
+  { 0x56, L"Left <Start>" },
+  { 0x5b, L"Right <Start>" },
   { 0, NULL },
 };
 

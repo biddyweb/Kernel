@@ -353,8 +353,8 @@ ROSDATA VSC_LPWSTR extended_key_names[] = {
   { 0x53, L"Delete" },
   { 0x54, L"<00>" },
   { 0x56, L"Help" },
-  { 0x5b, L"Left Windows" },
-  { 0x5c, L"Right Windows" },
+  { 0x5b, L"Left <Start>" },
+  { 0x5c, L"Right <Start>" },
   { 0x5d, L"Application" },
   { 0, NULL },
 };
