@@ -1,5 +1,5 @@
 /*
- * PROJECT:     ReactOS Shell32
+ * PROJECT:     Greentea Shell32
  * LICENSE:     GPL - See COPYING in the top level directory
  * FILE:        dll/win32/shell32/lang/zh-CN.rc
  * PURPOSE:     Chinese (Simplified) Language Resources
@@ -140,9 +140,9 @@ BEGIN
     LTEXT ")", IDC_STATIC, 153, 65, 5, 10
     LTEXT "版权所有 1998-", IDC_STATIC, 35, 75, 53, 10
     LTEXT COPYRIGHT_YEAR, IDC_STATIC, 88, 75, 17, 10
-    LTEXT " ReactOS 团队\0", IDC_STATIC, 105, 75, 53, 10
+    LTEXT " Greentea 团队\0", IDC_STATIC, 105, 75, 53, 10
     LTEXT "", IDC_ABOUT_OTHERSTUFF, 35, 90, 180, 20
-    LTEXT "此 ReactOS 版本注册到:", IDC_STATIC, 35, 115, 180, 10
+    LTEXT "此 Greentea 版本注册到:", IDC_STATIC, 35, 115, 180, 10
     LTEXT "", IDC_ABOUT_REG_USERNAME, 45, 125, 180, 10
     LTEXT "", IDC_ABOUT_REG_ORGNAME, 45, 135, 180, 10
     LTEXT "", IDC_STATIC, 35, 147, 235, 1, SS_ETCHEDHORZ
@@ -156,7 +156,7 @@ IDD_ABOUT_AUTHORS DIALOGEX 35, 90, 235, 85
 STYLE DS_SHELLFONT | WS_CHILD
 FONT 9, "MS Shell Dlg"
 BEGIN
-    LTEXT "ReactOS 被带到你的是：", IDC_STATIC, 0, 0, 180, 10
+    LTEXT "Greentea 被带到你的是：", IDC_STATIC, 0, 0, 180, 10
     LISTBOX IDC_ABOUT_AUTHORS_LISTBOX, 0, 10, 165, 75
 END
 
@@ -166,7 +166,7 @@ CAPTION "运行"
 FONT 9, "MS Shell Dlg"
 BEGIN
     ICON "", IDC_RUNDLG_ICON, 7, 11, 18, 20, WS_VISIBLE
-    LTEXT "输入程序，目录，文件或者Internet资源名，ReactOS将为您打开它。", 12289, 36, 11, 182, 18
+    LTEXT "输入程序，目录，文件或者Internet资源名，Greentea将为您打开它。", 12289, 36, 11, 182, 18
     LTEXT "打开(&O):", 12305, 7, 39, 24, 10
     CONTROL "", IDC_RUNDLG_EDITPATH, "COMBOBOX", WS_TABSTOP | WS_GROUP | WS_VSCROLL | WS_VISIBLE | CBS_AUTOHSCROLL | CBS_DROPDOWN, 36, 37, 183, 100
     DEFPUSHBUTTON "确定", IDOK, 62, 63, 50, 14, WS_TABSTOP
@@ -486,7 +486,7 @@ END
 
 IDD_LOG_OFF DIALOGEX 0, 0, 188, 60
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_CENTER | WS_POPUPWINDOW | WS_CAPTION
-CAPTION "注销 ReactOS"
+CAPTION "注销 Greentea"
 FONT 9, "MS Shell Dlg"
 BEGIN
     ICON IDI_SHELL_LOGOFF, IDC_STATIC, 8, 6, 21, 20
@@ -497,7 +497,7 @@ END
 
 IDD_DISCONNECT DIALOGEX 0, 0, 190, 60
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_CENTER | WS_POPUPWINDOW | WS_CAPTION
-CAPTION "断开 ReactOS"
+CAPTION "断开 Greentea"
 FONT 9, "MS Shell Dlg"
 BEGIN
     ICON 49, 14346, 10, 10, 21, 20, SS_REALSIZECONTROL
@@ -527,7 +527,7 @@ FONT 9, "MS Shell Dlg"
 BEGIN
     ICON "", 1000, 5, 7, 21, 20
     LTEXT "此磁盘或设备包含多个类型的内容。", 1001, 32, 7, 191, 20
-    LTEXT "你想要 ReactOS 做的是什么？", 1002, 32, 31, 188, 8
+    LTEXT "你想要 Greentea 做的是什么？", 1002, 32, 31, 188, 8
     CONTROL "", 1003, "SYSLISTVIEW32", WS_BORDER | WS_TABSTOP | 0x0000C04D, 32, 43, 188, 139
     DEFPUSHBUTTON "确定", IDOK, 96, 186, 60, 14
     PUSHBUTTON "取消", IDCANCEL, 160, 186, 60, 14
@@ -539,10 +539,10 @@ CAPTION "混合的内容"
 FONT 9, "MS Shell Dlg"
 BEGIN
     ICON "", 1000, 5, 7, 21, 20
-    LTEXT "ReactOS 可以执行相同的操作每次您插入盘或连接的设备与此类型的文件：", 1001, 30, 7, 193, 20
+    LTEXT "Greentea 可以执行相同的操作每次您插入盘或连接的设备与此类型的文件：", 1001, 30, 7, 193, 20
     ICON "", 1005, 32, 27, 11, 10, SS_REALSIZECONTROL
     EDITTEXT 1006, 49, 28, 177, 14, ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
-    LTEXT "你想要 ReactOS 做的是什么？", 1002, 32, 41, 190, 8
+    LTEXT "你想要 Greentea 做的是什么？", 1002, 32, 41, 190, 8
     CONTROL "", 1003, "SYSLISTVIEW32", WS_BORDER | WS_TABSTOP | 0x0000C04D, 32, 55, 188, 112
     AUTOCHECKBOX "始终执行选择的操作。", 1004, 32, 171, 190, 10
     DEFPUSHBUTTON "确定", IDOK, 96, 185, 60, 14
@@ -555,8 +555,8 @@ CAPTION "自动播放"
 FONT 9, "MS Shell Dlg"
 BEGIN
     ICON "", 1000, 5, 7, 21, 20
-    LTEXT "ReactOS 可以执行相同的操作每次您连接此设备。", 1001, 32, 7, 190, 22
-    LTEXT "你想要 ReactOS 做的是什么？(&W)", 1002, 32, 31, 190, 8
+    LTEXT "Greentea 可以执行相同的操作每次您连接此设备。", 1001, 32, 7, 190, 22
+    LTEXT "你想要 Greentea 做的是什么？(&W)", 1002, 32, 31, 190, 8
     CONTROL "", 1003, "SYSLISTVIEW32", WS_BORDER | WS_TABSTOP | 0x0000C04D, 32, 43, 187, 96
     AUTOCHECKBOX "总是执行选定的操作(&A)", 1004, 32, 143, 190, 8
     DEFPUSHBUTTON "确定", IDOK, 94, 160, 60, 14
@@ -565,7 +565,7 @@ END
 
 IDD_SHUTDOWN DIALOGEX 0, 0, 211, 103
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_CENTER | WS_POPUPWINDOW | WS_CAPTION
-CAPTION "关闭 ReactOS"
+CAPTION "关闭 Greentea"
 FONT 9, "MS Shell Dlg"
 BEGIN
     ICON 8240, -1, 6, 6, 21, 20, SS_REALSIZECONTROL | WS_GROUP
@@ -782,8 +782,8 @@ BEGIN
     IDS_OPEN_WITH_FILTER "可执行文件 (*.exe)\0*.exe\0All Files (*.*)\0*.*\0"
 
     IDS_DIRECTORY "文件夹"
-    IDS_BAT_FILE "ReactOS 批处理文件"
-    IDS_CMD_FILE "ReactOS 命令脚本"
+    IDS_BAT_FILE "Greentea 批处理文件"
+    IDS_CMD_FILE "Greentea 命令脚本"
     IDS_COM_FILE "DOS 应用程序"
     IDS_CPL_FILE "控制面板项"
     IDS_CUR_FILE "光标"
@@ -817,7 +817,7 @@ BEGIN
     IDS_DEFAULT_CLUSTER_SIZE "默认分配大小"
     IDS_COPY_OF "副本"
 
-    IDS_SHLEXEC_NOASSOC "没有 ReactOS 程序配置为打开这种类型的文件。"
+    IDS_SHLEXEC_NOASSOC "没有 Greentea 程序配置为打开这种类型的文件。"
 
     IDS_FILE_DETAILS "'%S' 扩展的详细信息"
     IDS_FILE_DETAILSADV "文件扩展名为 '%s' 的类型 '%s'。若要更改会影响所有的 '%s' 文件的设置，请单击高级。"

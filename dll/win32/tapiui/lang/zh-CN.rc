@@ -314,7 +314,7 @@ END
 
 500 DIALOGEX 0, 0, 235, 88
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUPWINDOW | WS_CAPTION
-CAPTION "ReactOS 浏览器"
+CAPTION "Greentea 浏览器"
 FONT 8, "MS Shell Dlg"
 BEGIN
     ICON 504, 501, 13, 14, 21, 20
@@ -408,7 +408,7 @@ BEGIN
     80 "是否确实要删除此区号规则?"
     81 "您必须输入要拨打的号码。"
     82 "您输入的电话卡名称已在使用。请输入一个唯一的名称。"
-    83 "ReactOS 需要从中你将拨号的位置电话信息。如果您取消没有提供此信息，此程序可能无法正常拨号时。此外，一些应用程序响应您取消此对话框由立即重新发布它。\n确实要取消吗?"
+    83 "Greentea 需要从中你将拨号的位置电话信息。如果您取消没有提供此信息，此程序可能无法正常拨号时。此外，一些应用程序响应您取消此对话框由立即重新发布它。\n确实要取消吗?"
     84 "确认取消"
     85 "我的位置"
     86 "< 没有服务提供商可用于安装 >"
