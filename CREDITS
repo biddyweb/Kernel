@@ -1,4 +1,4 @@
-ReactOS is available thanks to the work of:
+Greentea and ReactOS are available thanks to the work of:
 
 Aleksey Bragin <aleksey at reactos org>
 Alex Ionescu <alex.ionescu@reactos.org>
@@ -16,6 +16,7 @@ Christoph von Wittich <christoph_vw@reactos.org>
 Colin Finck <colin@reactos.org>
 Daniel Reimer <reimer.daniel@freenet.de>
 David Welch <welch@cwcom.net>
+Denis Vasilyev <https://github.com/denis2dev>
 Dmitry Chapyshev <dmitry@reactos.org>
 Emanuele Aliberti <ea@iol.it>
 Eric Kohl
@@ -45,6 +46,7 @@ Jonathan Wilson <jonwil@tpgi.com.au>
 Jurgen van Gael <jurgen.vangael@student.kuleuven.ac.be>
 KJK::Hyperion <noog@libero.it>
 Klemens R. Friedl <klemens_friedl@gmx.net>
+Vsevolod Kulagin <https://github.com/k00lagin>
 Maarten Bosma <maarten.paul@bosma.de>
 Magnus Olsen <magnus@greatlord.com>
 Mark Tempel <mtempel@visi.com>
@@ -55,6 +57,8 @@ Matthias Kupfer <mkupfer@reactos.org>
 Matt Pyne
 Mike Nordell <"tamlin">
 Nathan Woods <npwoods@mess.org>
+Nicolo Altamura <https://github.com/xdev31>
+Oleg Petrenko <https://github.com/PeyTy> <alegorium@gmail.com>
 Pablo Borobia <pborobia@gmail.com>
 Paolo Pantaleo <paolopan@freemail.it>
 Peter Ward <dralnix@gmail.com>
@@ -66,7 +70,7 @@ Richard Campbell <betam4x@gmail.com>
 Robert Bergkvist <fragdance@hotmail.com>
 Robert Dickenson <robd@reactos.org>
 Royce Mitchell III <royce3@ev1.net>
-Samuel Serapión <samdwise51@gmail.com>
+Samuel SerapiÃ³n <samdwise51@gmail.com>
 Saveliy Tretiakov <saveliyt@mail.ru>
 Stefan Ginsberg <stefan.ginsberg@reactos.org>
 Steven Edwards <winehacker@gmail.com>
@@ -81,3 +85,5 @@ Graphic Design from
 Mindflyer <mf@mufunyo.net> 
 Tango Desktop Project <http://tango-project.org>
 Everaldo <http://everaldo.com>
+Elementary <http://elementary.io/>
+r57zone <https://github.com/r57zone>
