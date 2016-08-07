@@ -15,6 +15,7 @@
 *.diff
 *.patch
 *.xcf
+*.chm
 
 ## Systems temporal files
 *DS_Store
