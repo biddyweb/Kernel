@@ -12,6 +12,8 @@
 *.7z
 *.psd
 *.pdn
+*.diff
+*.patch
 
 ## Systems temporal files
 *DS_Store
