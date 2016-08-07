@@ -161,12 +161,17 @@ HRESULT STDMETHODCALLTYPE Volume_Init(_In_ CSysTray * pSysTray)
     Volume_IsMute();
 
     HICON icon;
-    if (g_IsMute)
+    WCHAR strTooltip[128];
+    if (g_IsMute) {
         icon = g_hIconMute;
-    else
+        LoadStringW(g_hInstance, IDS_VOL_MUTED, strTooltip, _countof(strTooltip));
+    }
+    else {
         icon = g_hIconVolume;
+        LoadStringW(g_hInstance, IDS_VOL_VOLUME, strTooltip, _countof(strTooltip));
+    }
 
-    return pSysTray->NotifyIcon(NIM_ADD, ID_ICON_VOLUME, icon, L"Volume Control");
+    return pSysTray->NotifyIcon(NIM_ADD, ID_ICON_VOLUME, icon, strTooltip);
 }
 
 HRESULT STDMETHODCALLTYPE Volume_Update(_In_ CSysTray * pSysTray)
