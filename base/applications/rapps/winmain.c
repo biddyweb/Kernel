@@ -21,6 +21,7 @@ SETTINGS_INFO SettingsInfo;
 
 WCHAR szSearchPattern[MAX_STR_LEN] = L"";
 BOOL SearchEnabled = TRUE;
+WCHAR szWindowName[MAX_STR_LEN];
 
 BOOL
 SearchPatternMatch(PCWSTR szHaystack, PCWSTR szNeedle)
@@ -488,7 +489,8 @@ MainWndOnCommand(HWND hwnd, WPARAM wParam, LPARAM lParam)
             break;
 
         case ID_ABOUT:
-            ShowAboutDialog();
+            LoadStringW(hInst, IDS_APPTITLE, szWindowName, _countof(szWindowName));
+            ShellAbout(hwnd, szWindowName, szWindowName, (HICON)GetClassLong(hwnd, GCL_HICON));
             break;
     }
 }

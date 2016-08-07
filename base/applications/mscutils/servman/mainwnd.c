@@ -590,11 +590,7 @@ MainWndCommand(PMAIN_WND_INFO Info,
         break;
 
         case ID_ABOUT:
-            DialogBox(hInstance,
-                      MAKEINTRESOURCE(IDD_ABOUTBOX),
-                      Info->hMainWnd,
-                      AboutDialogProc);
-            SetFocus(Info->hListView);
+            ShellAbout(Info->hMainWnd, L"Service Manager", L"Copyright (C) 2005-2007 Ged Murphy (gedmurphy@reactos.org)", (HICON)GetClassLong(Info->hMainWnd, GCL_HICON));
         break;
 
     }

@@ -22,6 +22,7 @@
 #define SEARCH_TIMER_ID 'SR'
 
 HWND hListView = NULL;
+WCHAR szWindowName[MAX_STR_LEN];
 
 class CMainToolbar :
     public CUiWindow< CToolbar<> >
@@ -1064,7 +1065,8 @@ private:
             break;
 
         case ID_ABOUT:
-            ShowAboutDialog();
+            LoadStringW(hInst, IDS_APPTITLE, szWindowName, _countof(szWindowName));
+            ShellAbout(m_hWnd, szWindowName, szWindowName, (HICON)GetClassLong(m_hWnd, GCL_HICON));
             break;
         }
     }

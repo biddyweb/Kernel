@@ -10,6 +10,7 @@
 
 #include <commctrl.h>
 #include <tchar.h>
+#include <shellapi.h>
 
 TCHAR szHelpPath[MAX_PATH];
 
@@ -384,7 +385,7 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
                 return 0;
 
             case IDM_HELP_ABOUT:
-                MessageBox(hwnd, MsgAbout, szAppName, MB_OK|MB_ICONINFORMATION);
+                ShellAbout(hwnd, szAppName, szAppName, (HICON)GetClassLong(hwnd, GCL_HICON));
                 return 0;
 
             case IDM_GAME_EXIT:

@@ -637,10 +637,7 @@ CDeviceManager::OnCommand(_In_ WPARAM wParam,
         case IDC_ABOUT:
         {
             // Apportion blame
-            MessageBoxW(m_hMainWnd,
-                        L"ReactOS Device Manager\r\nCopyright Ged Murphy 2015",
-                        L"About",
-                        MB_OK | MB_APPLMODAL);
+            ShellAbout(m_hMainWnd, L"Device Manager", L"Copyright (C) 2015 Ged Murphy (gedmurphy@reactos.org)", (HICON)GetClassLong(m_hMainWnd, GCL_HICON));
 
             // Set focus back to the treeview
             m_DeviceView->SetFocus();

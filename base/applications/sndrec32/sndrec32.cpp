@@ -608,7 +608,7 @@ WndProc(HWND hWnd,
                     break;
 
                 case ID_ABOUT:
-                    DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, AboutDlgProc);
+                    ShellAbout(hWnd, L"Sound Recorder", L"Version 1.0", (HICON)GetClassLong(hWnd, GCL_HICON));
                     return TRUE;
                     break;
 

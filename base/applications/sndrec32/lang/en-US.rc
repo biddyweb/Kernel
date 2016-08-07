@@ -55,7 +55,7 @@ BEGIN
         MENUITEM "&Add Echo", ID_EFFECTS_ECHO
         MENUITEM "&Reverse", ID_EFFECTS_REVERSE
     END
-    POPUP "&?"
+    POPUP "&Help"
     BEGIN
         MENUITEM "&About...", ID_ABOUT
     END
