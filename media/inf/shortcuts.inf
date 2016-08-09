@@ -1274,7 +1274,7 @@ COMMUNICATIONS=Связь
 GAMES=Игры
 
 README_TITLE=Прочти Меня
-README_DESC=файл приветствия для OS Greentea
+README_DESC=Файл приветствия для OS Greentea
 
 CMD_TITLE=Командная строка
 CMD_DESC=Используется для выполнения вводимых с клавиатуры команд.
