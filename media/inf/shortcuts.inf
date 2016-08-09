@@ -278,7 +278,7 @@ README_DESC=Lies-Mich Datei für ReactOS
 
 CMD_TITLE=Eingabeaufforderung
 CMD_DESC=Öffne Kommandozeilenfenster
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Starte Explorer
 RAPPS_TITLE=ReactOS Anwendungsmanager
 RAPPS_TITLE_SHORT=Anwendungsmanager
@@ -476,7 +476,7 @@ GAMES=Mängud
 
 CMD_TITLE=Command Prompt
 CMD_DESC=Ava käsurida
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Ava sirvija
 RAPPS_TITLE=ReactOS Applications Manager
 RAPPS_TITLE_SHORT=Applications Manager
@@ -676,7 +676,7 @@ GAMES=Játékok
 
 CMD_TITLE=Command Prompt
 CMD_DESC=Open command prompt
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Launch Explorer
 RAPPS_TITLE=ReactOS Applications Manager
 RAPPS_TITLE_SHORT=Applications Manager
@@ -741,7 +741,7 @@ GAMES=Games
 
 CMD_TITLE=Command Prompt
 CMD_DESC=Buka prompt perintah
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Jalankan Explorer
 RAPPS_TITLE=ReactOS Applications Manager
 RAPPS_TITLE_SHORT=Applications Manager
@@ -809,7 +809,7 @@ README_DESC=File Leggimi per ReactOS
 
 CMD_TITLE=Prompt dei comandi
 CMD_DESC=Apri la finestra dei comandi
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Avvia Explorer
 RAPPS_TITLE=ReactOS gestione applicazioni
 RAPPS_TITLE_SHORT=Gestione applicazioni
@@ -876,7 +876,7 @@ GAMES=ゲーム
 
 CMD_TITLE=コマンド プロンプト
 CMD_DESC=コマンド プロンプトを開きます
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=エクスプローラを起動します
 RAPPS_TITLE=ReactOS アプリケーション マネージャ
 RAPPS_TITLE_SHORT=アプリケーション マネージャ
@@ -944,7 +944,7 @@ README_DESC=LeesMij bestand voor ReactOS
 
 CMD_TITLE=Command Prompt
 CMD_DESC=Open command prompt
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Launch Explorer
 RAPPS_TITLE=ReactOS Applications Manager
 RAPPS_TITLE_SHORT=Applications Manager
@@ -1009,7 +1009,7 @@ GAMES=Spill
 
 CMD_TITLE=Command Prompt
 CMD_DESC=Åpne Kommandolinje
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Start Utforsker
 RAPPS_TITLE=ReactOS Applications Manager
 RAPPS_TITLE_SHORT=Applications Manager
@@ -1142,7 +1142,7 @@ README_DESC=Arquivo de informações para ReactOS
 
 CMD_TITLE=Command Prompt
 CMD_DESC=Abrir prompt de comando
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=Explorer
 EXPLORER_DESC=Iniciar Explorer
 RAPPS_TITLE=ReactOS Applications Manager
 RAPPS_TITLE_SHORT=Applications Manager

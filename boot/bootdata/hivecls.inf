@@ -655,7 +655,7 @@ AVIFILE="Video Clip"
 ;; Misc file types without friendly (localized in .dll resources) name
 CSSFILE="Cascading Style Sheet"
 OCXFILE="OLE Control Extension"
-SCFFILE="ReactOS Explorer Command"
+SCFFILE="Explorer Command"
 WMZFILE="Compressed Enhanced Metafile"
 
 :: For .reg files, right-click menu
