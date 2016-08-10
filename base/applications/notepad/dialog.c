@@ -28,7 +28,7 @@
 
 LRESULT CALLBACK EDIT_WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
-static const TCHAR helpfile[] = _T("notepad.hlp");
+//static const TCHAR helpfile[] = _T("notepad.hlp");
 static const TCHAR empty_str[] = _T("");
 static const TCHAR szDefaultExt[] = _T("txt");
 static const TCHAR txt_files[] = _T("*.txt");
@@ -1173,7 +1173,8 @@ VOID DIALOG_ViewStatusBar(VOID)
 
 VOID DIALOG_HelpContents(VOID)
 {
-    WinHelp(Globals.hMainWnd, helpfile, HELP_INDEX, 0);
+    ShellExecuteW(Globals.hMainWnd, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+    //WinHelp(Globals.hMainWnd, helpfile, HELP_INDEX, 0);
 }
 
 VOID DIALOG_HelpAboutNotepad(VOID)
@@ -1273,10 +1274,10 @@ static UINT_PTR CALLBACK DIALOG_PAGESETUP_Hook(HWND hDlg, UINT msg, WPARAM wPara
 
             case IDHELP:
                 {
-                    /* FIXME: Bring this to work */
-                    static const TCHAR sorry[] = _T("Sorry, no help available");
-                    static const TCHAR help[] = _T("Help");
-                    MessageBox(Globals.hMainWnd, sorry, help, MB_ICONEXCLAMATION);
+                    ShellExecuteW(hDlg, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+                    //static const TCHAR sorry[] = _T("Sorry, no help available");
+                    //static const TCHAR help[] = _T("Help");
+                    //MessageBox(Globals.hMainWnd, sorry, help, MB_ICONEXCLAMATION);
                     return TRUE;
                 }
 

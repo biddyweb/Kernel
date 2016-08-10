@@ -1348,8 +1348,9 @@ static INT_PTR CALLBACK DlgMainProc(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp)
             return TRUE;
         }
         case IDM_HELP_HELP:
+            ShellExecuteW(hWnd, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
 #ifndef DISABLE_HTMLHELP_SUPPORT
-            HtmlHelp(hWnd, HTMLHELP_PATH("/general_information.htm"), HH_DISPLAY_TOPIC, (DWORD_PTR)NULL);
+            //HtmlHelp(hWnd, HTMLHELP_PATH("/general_information.htm"), HH_DISPLAY_TOPIC, (DWORD_PTR)NULL);
 #endif
             return TRUE;
         case IDM_VIEW_STANDARD:

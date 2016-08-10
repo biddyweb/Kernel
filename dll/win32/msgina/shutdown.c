@@ -12,6 +12,7 @@
 #include <wingdi.h>
 #include <winreg.h>
 #include <stdlib.h>
+#include <shellapi.h>
 
 int g_shutdownCode = 0;
 BOOL g_logoffHideState = FALSE;
@@ -377,8 +378,10 @@ ShellShutdownDialog(
     /* Help file is called directly here */
     else if (dlgValue == IDHELP)
     {
-        FIXME("Help is not implemented yet.");
-        MessageBoxW(hParent, L"Help is not implemented yet.", L"Message", MB_OK | MB_ICONEXCLAMATION);
+        // Our help is online
+        ShellExecuteW(hParent, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+        //FIXME("Help is not implemented yet.");
+        //MessageBoxW(hParent, L"Help is not implemented yet.", L"Message", MB_OK | MB_ICONEXCLAMATION);
     }
     else if (dlgValue == -1)
     {

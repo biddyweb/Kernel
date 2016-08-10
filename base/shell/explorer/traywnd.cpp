@@ -2698,7 +2698,6 @@ HandleTrayContextMenu:
     LRESULT OnCommand(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
     {
         LRESULT Ret = FALSE;
-        LPCWSTR strPath = L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki";
 
         if ((HWND) lParam == m_StartButton.m_hWnd)
         {
@@ -2720,7 +2719,7 @@ HandleTrayContextMenu:
 
             case IDM_HELPANDSUPPORT:
                 // Our help is online
-                ShellExecuteW(m_hWnd, NULL, strPath, NULL, NULL, SW_SHOWNORMAL);
+                ShellExecuteW(m_hWnd, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
                 //ExecResourceCmd(IDS_HELP_COMMAND);
                 break;
 

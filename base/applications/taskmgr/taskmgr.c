@@ -354,7 +354,10 @@ TaskManagerWndProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
         case ID_SHUTDOWN_EJECT_COMPUTER:
             ShutDown_EjectComputer();
             break;
-
+        case ID_HELP_TOPICS:
+            // Our help is online
+            ShellExecuteW(hDlg, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+            break;
         case ID_HELP_ABOUT:
             OnAbout();
             break;

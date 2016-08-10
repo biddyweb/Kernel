@@ -342,7 +342,8 @@ LRESULT CMainWindow::OnCommand(UINT nMsg, WPARAM wParam, LPARAM lParam, BOOL& bH
             break;
         }
         case IDM_HELPHELPTOPICS:
-            HtmlHelp(m_hWnd, _T("help\\Paint.chm"), 0, 0);
+            ShellExecuteW(m_hWnd, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+            //HtmlHelp(m_hWnd, _T("help\\Paint.chm"), 0, 0);
             break;
         case IDM_FILEEXIT:
             SendMessage(WM_CLOSE, wParam, lParam);
