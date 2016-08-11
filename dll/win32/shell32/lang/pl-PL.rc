@@ -638,14 +638,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Plik"
+    IDS_SHV_COLUMN1 "Nazwa"
     IDS_SHV_COLUMN2 "Wielkość"
     IDS_SHV_COLUMN3 "Typ"
     IDS_SHV_COLUMN4 "Modyfikacja"
     IDS_SHV_COLUMN5 "Atrybuty"
     IDS_SHV_COLUMN6 "Wielkość"
     IDS_SHV_COLUMN7 "Dostępna wielkość"
-    IDS_SHV_COLUMN8 "Nazwa"
+    IDS_SHV_COLUMN8 "Plik"
     IDS_SHV_COLUMN9 "Komentarz"
     IDS_SHV_COLUMN10 "Właściciel"
     IDS_SHV_COLUMN11 "Grupa"

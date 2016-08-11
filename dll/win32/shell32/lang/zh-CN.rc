@@ -641,14 +641,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "文件"
+    IDS_SHV_COLUMN1 "名称"
     IDS_SHV_COLUMN2 "大小"
     IDS_SHV_COLUMN3 "类型"
     IDS_SHV_COLUMN4 "修改"
     IDS_SHV_COLUMN5 "属性"
     IDS_SHV_COLUMN6 "使用空间"
     IDS_SHV_COLUMN7 "剩余空间"
-    IDS_SHV_COLUMN8 "名称"
+    IDS_SHV_COLUMN8 "文件"
     IDS_SHV_COLUMN9 "评论"
     IDS_SHV_COLUMN10 "所有者"
     IDS_SHV_COLUMN11 "小组"

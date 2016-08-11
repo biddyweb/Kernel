@@ -634,14 +634,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "名前"
+    IDS_SHV_COLUMN1 "作成者"
     IDS_SHV_COLUMN2 "サイズ"
     IDS_SHV_COLUMN3 "種類"
     IDS_SHV_COLUMN4 "更新日時"
     IDS_SHV_COLUMN5 "属性"
     IDS_SHV_COLUMN6 "合計サイズ"
     IDS_SHV_COLUMN7 "空き容量"
-    IDS_SHV_COLUMN8 "作成者"
+    IDS_SHV_COLUMN8 "名前"
     IDS_SHV_COLUMN9 "コメント"
     IDS_SHV_COLUMN10 "所有者"
     IDS_SHV_COLUMN11 "グループ"

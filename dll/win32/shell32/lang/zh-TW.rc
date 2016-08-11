@@ -642,14 +642,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "檔案"
+    IDS_SHV_COLUMN1 "名稱"
     IDS_SHV_COLUMN2 "大小"
     IDS_SHV_COLUMN3 "類型"
     IDS_SHV_COLUMN4 "已修改"
     IDS_SHV_COLUMN5 "屬性"
     IDS_SHV_COLUMN6 "使用空間"
     IDS_SHV_COLUMN7 "剩餘空間"
-    IDS_SHV_COLUMN8 "名稱"
+    IDS_SHV_COLUMN8 "檔案"
     IDS_SHV_COLUMN9 "Comments"
     IDS_SHV_COLUMN10 "Owner"
     IDS_SHV_COLUMN11 "Group"

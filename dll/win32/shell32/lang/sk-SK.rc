@@ -634,14 +634,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Súbor"
+    IDS_SHV_COLUMN1 "Názov"
     IDS_SHV_COLUMN2 "Veľkosť"
     IDS_SHV_COLUMN3 "Typ"
     IDS_SHV_COLUMN4 "Modifikovaný"
     IDS_SHV_COLUMN5 "Atribúty"
     IDS_SHV_COLUMN6 "Veľkosť"
     IDS_SHV_COLUMN7 "Veľkosť k dispozícii"
-    IDS_SHV_COLUMN8 "Názov" //Name
+    IDS_SHV_COLUMN8 "Súbor" //Name
     IDS_SHV_COLUMN9 "Poznámky" //Comments
     IDS_SHV_COLUMN10 "Vlastník"
     IDS_SHV_COLUMN11 "Skupina"

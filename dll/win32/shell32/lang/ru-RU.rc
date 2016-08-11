@@ -636,14 +636,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Имя"
+    IDS_SHV_COLUMN1 "Название"
     IDS_SHV_COLUMN2 "Размер"
     IDS_SHV_COLUMN3 "Тип"
     IDS_SHV_COLUMN4 "Изменен"
     IDS_SHV_COLUMN5 "Атрибуты"
     IDS_SHV_COLUMN6 "Полный объем"
     IDS_SHV_COLUMN7 "Свободно"
-    IDS_SHV_COLUMN8 "Имя"
+    IDS_SHV_COLUMN8 "Файл"
     IDS_SHV_COLUMN9 "Комментарий"
     IDS_SHV_COLUMN10 "Владелец"
     IDS_SHV_COLUMN11 "Группа"

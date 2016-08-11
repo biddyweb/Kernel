@@ -634,14 +634,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Dosya"
+    IDS_SHV_COLUMN1 "Ad"
     IDS_SHV_COLUMN2 "Boyut"
     IDS_SHV_COLUMN3 "Tür"
     IDS_SHV_COLUMN4 "Düzenlenme"
     IDS_SHV_COLUMN5 "Öznitelikler"
     IDS_SHV_COLUMN6 "Boyut"
     IDS_SHV_COLUMN7 "Kullanılabilir Alan"
-    IDS_SHV_COLUMN8 "Ad"
+    IDS_SHV_COLUMN8 "Dosya"
     IDS_SHV_COLUMN9 "Açıklamalar"
     IDS_SHV_COLUMN10 "Sahip"
     IDS_SHV_COLUMN11 "Grup"

@@ -634,14 +634,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Tiedosto"
+    IDS_SHV_COLUMN1 "Nimi"
     IDS_SHV_COLUMN2 "Koko"
     IDS_SHV_COLUMN3 "Tyyppi"
     IDS_SHV_COLUMN4 "Muokattu"
     IDS_SHV_COLUMN5 "Ominaisuudet"
     IDS_SHV_COLUMN6 "Koko"
     IDS_SHV_COLUMN7 "Tilaa jäljellä"
-    IDS_SHV_COLUMN8 "Nimi"
+    IDS_SHV_COLUMN8 "Tiedosto"
     IDS_SHV_COLUMN9 "Kommentit"
     IDS_SHV_COLUMN10 "Omistaja"
     IDS_SHV_COLUMN11 "Ryhmä"

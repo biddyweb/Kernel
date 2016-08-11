@@ -638,14 +638,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Dokument"
+    IDS_SHV_COLUMN1 "Emri"
     IDS_SHV_COLUMN2 "Masë"
     IDS_SHV_COLUMN3 "Tipi"
     IDS_SHV_COLUMN4 "Modifikuar"
     IDS_SHV_COLUMN5 "Atribute"
     IDS_SHV_COLUMN6 "Masë"
     IDS_SHV_COLUMN7 "Masa në dispozicion"
-    IDS_SHV_COLUMN8 "Emri"
+    IDS_SHV_COLUMN8 "Dokument"
     IDS_SHV_COLUMN9 "Komente"
     IDS_SHV_COLUMN10 "Zotëruesi"
     IDS_SHV_COLUMN11 "Grup"

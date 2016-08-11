@@ -634,14 +634,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Állomány"
+    IDS_SHV_COLUMN1 "Név"
     IDS_SHV_COLUMN2 "Méret"
     IDS_SHV_COLUMN3 "Típus"
     IDS_SHV_COLUMN4 "Módosítva"
     IDS_SHV_COLUMN5 "Attribútumok"
     IDS_SHV_COLUMN6 "Méret"
     IDS_SHV_COLUMN7 "Rendelkezésre álló hely"
-    IDS_SHV_COLUMN8 "Név"
+    IDS_SHV_COLUMN8 "Állomány"
     IDS_SHV_COLUMN9 "Megjegyzések"
     IDS_SHV_COLUMN10 "Tulajdonos"
     IDS_SHV_COLUMN11 "Csoport"

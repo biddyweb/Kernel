@@ -634,14 +634,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Αρχείο"
+    IDS_SHV_COLUMN1 "Όνομα"
     IDS_SHV_COLUMN2 "Μέγεθος"
     IDS_SHV_COLUMN3 "Τύπος"
     IDS_SHV_COLUMN4 "Τροποποίηση"
     IDS_SHV_COLUMN5 "Χαρακτηριστικά"
     IDS_SHV_COLUMN6 "Μέγεθος"
     IDS_SHV_COLUMN7 "Ελεύθερος χώρος"
-    IDS_SHV_COLUMN8 "Όνομα"
+    IDS_SHV_COLUMN8 "Αρχείο"
     IDS_SHV_COLUMN9 "Σχόλια"
     IDS_SHV_COLUMN10 "Κάτοχος"
     IDS_SHV_COLUMN11 "Ομάδα"

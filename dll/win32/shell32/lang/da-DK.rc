@@ -640,14 +640,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Fil"
+    IDS_SHV_COLUMN1 "Navn"
     IDS_SHV_COLUMN2 "Størrelse"
     IDS_SHV_COLUMN3 "Type"
     IDS_SHV_COLUMN4 "Ændret"
     IDS_SHV_COLUMN5 "Attributer"
     IDS_SHV_COLUMN6 "Størrelse"
     IDS_SHV_COLUMN7 "Størrelse tilgængelig"
-    IDS_SHV_COLUMN8 "Navn"
+    IDS_SHV_COLUMN8 "Fil"
     IDS_SHV_COLUMN9 "Kommentar"
     IDS_SHV_COLUMN10 "Owner"
     IDS_SHV_COLUMN11 "Group"

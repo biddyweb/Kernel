@@ -636,14 +636,14 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Fișier"
+    IDS_SHV_COLUMN1 "Nume"
     IDS_SHV_COLUMN2 "Mărime"
     IDS_SHV_COLUMN3 "Tip"
     IDS_SHV_COLUMN4 "Modificat"
     IDS_SHV_COLUMN5 "Atribute"
     IDS_SHV_COLUMN6 "Capacitate"
     IDS_SHV_COLUMN7 "Disponibil"
-    IDS_SHV_COLUMN8 "Nume"
+    IDS_SHV_COLUMN8 "Fișier"
     IDS_SHV_COLUMN9 "Comentarii"
     IDS_SHV_COLUMN10 "Posesor"
     IDS_SHV_COLUMN11 "Grup"
