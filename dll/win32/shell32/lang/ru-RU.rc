@@ -639,7 +639,7 @@ BEGIN
     IDS_SHV_COLUMN1 "Название"
     IDS_SHV_COLUMN2 "Размер"
     IDS_SHV_COLUMN3 "Тип"
-    IDS_SHV_COLUMN4 "Изменен"
+    IDS_SHV_COLUMN4 "Дата изменения"
     IDS_SHV_COLUMN5 "Атрибуты"
     IDS_SHV_COLUMN6 "Полный объем"
     IDS_SHV_COLUMN7 "Свободно"
