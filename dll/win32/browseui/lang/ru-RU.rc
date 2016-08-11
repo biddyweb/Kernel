@@ -57,14 +57,14 @@ BEGIN
       END
       MENUITEM "&Обновить", IDM_VIEW_REFRESH
   END
-  POPUP "И&збранное", FCIDM_MENU_FAVORITES
+  POPUP "&Избранное", FCIDM_MENU_FAVORITES
   BEGIN
       MENUITEM "&Добавить в избранное...", IDM_FAVORITES_ADDTOFAVORITES
       MENUITEM "&Упорядочить избранное...", IDM_FAVORITES_ORGANIZEFAVORITES
       MENUITEM "", -1, MFT_SEPARATOR
       MENUITEM "(пусто)", IDM_FAVORITES_EMPTY
   END
-  POPUP "&Сервис", FCIDM_MENU_TOOLS
+  POPUP "С&ервис", FCIDM_MENU_TOOLS
   BEGIN
       MENUITEM "Подключить &сетевой диск...", IDM_TOOLS_MAPNETWORKDRIVE
       MENUITEM "&Отключить сетевой диск...", IDM_TOOLS_DISCONNECTNETWORKDRIVE
