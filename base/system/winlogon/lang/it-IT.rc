@@ -31,11 +31,11 @@ BEGIN
     IDS_RUNNINGLOGONSCRIPTS "Esecuzione scripts di connessione..."
     IDS_LOADINGYOURPERSONALSETTINGS "Caricamento delle impostazioni personali..."
     IDS_CLOSINGNETWORKCONNECTIONS "Chiusura connessioni di rete..."
-    IDS_REACTOSISSHUTTINGDOWN "ReactOS Sta spegnendosi..."
+    IDS_REACTOSISSHUTTINGDOWN "GreenteaOS Sta spegnendosi..."
     IDS_PREPARETOSTANDBY "Preparazione Standby..."
     IDS_PREPARETOHIBERNATE "Preparazione  Hibernate..."
     IDS_SAVEYOURSETTINGS "Salvataggio delle impostazioni personali..."
-    IDS_REACTOSISSTARTINGUP "ReactOS sta avviandosi..."
+    IDS_REACTOSISSTARTINGUP "GreenteaOS  sta avviandosi..."
 END
 
 STRINGTABLE
