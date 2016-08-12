@@ -637,7 +637,7 @@ BEGIN
     IDS_SHV_COLUMN1 "Name"
     IDS_SHV_COLUMN2 "Size"
     IDS_SHV_COLUMN3 "Type"
-    IDS_SHV_COLUMN4 "Data Modified"
+    IDS_SHV_COLUMN4 "Date Modified"
     IDS_SHV_COLUMN5 "Attributes"
     IDS_SHV_COLUMN6 "Size"
     IDS_SHV_COLUMN7 "Size available"
