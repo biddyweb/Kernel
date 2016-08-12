@@ -634,7 +634,7 @@ END
 STRINGTABLE
 BEGIN
     /* columns in the shellview */
-    IDS_SHV_COLUMN1 "Назва"
+    IDS_SHV_COLUMN1 "Ім'я"
     IDS_SHV_COLUMN2 "Розмір"
     IDS_SHV_COLUMN3 "Тип"
     IDS_SHV_COLUMN4 "Змінено"
