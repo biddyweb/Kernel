@@ -10610,16 +10610,17 @@ static BOOL LISTVIEW_NCPaint(const LISTVIEW_INFO *infoPtr, HRGN region)
        return DefWindowProcW (infoPtr->hwndSelf, WM_NCPAINT, (WPARAM)region, 0);
 
     GetWindowRect(infoPtr->hwndSelf, &r);
-
     cliprgn = CreateRectRgn (r.left + cxEdge, r.top + cyEdge,
         r.right - cxEdge, r.bottom - cyEdge);
     if (region != (HRGN)1)
         CombineRgn (cliprgn, cliprgn, region, RGN_AND);
     OffsetRect(&r, -r.left, -r.top);
-
-    dc = GetDCEx(infoPtr->hwndSelf, region, DCX_WINDOW|DCX_INTERSECTRGN);
-    OffsetRect(&r, -r.left, -r.top);
-
+    
+    dc = GetWindowDC(infoPtr->hwndSelf);
+    /* Exclude client part */
+    ExcludeClipRect(dc, r.left + cxEdge, r.top + cyEdge,
+        r.right - cxEdge, r.bottom -cyEdge);
+    
     if (IsThemeBackgroundPartiallyTransparent (theme, 0, 0))
         DrawThemeParentBackground(infoPtr->hwndSelf, dc, &r);
     DrawThemeBackground (theme, dc, 0, 0, &r, 0);
