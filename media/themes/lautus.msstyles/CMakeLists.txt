@@ -1,7 +1,5 @@
 
 list(APPEND TEXTFILES
-    textfiles/ExtraLargeNormal.INI
-    textfiles/LargeFontsNormal.INI
     textfiles/NormalNormal.INI)
 
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/textfiles)
