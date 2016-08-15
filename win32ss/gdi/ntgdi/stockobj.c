@@ -206,13 +206,16 @@ VOID FASTCALL
 IntSetSysColors(UINT nColors, CONST INT *Elements, CONST COLORREF *Colors)
 {
     UINT i;
+    COLORREF color;
 
     for (i = 0; i < nColors; i++)
     {
         if ((UINT)(*Elements) < NUM_SYSCOLORS)
         {
-            gpsi->argbSystem[*Elements] = *Colors;
-            IntGdiSetSolidBrushColor(gpsi->ahbrSystem[*Elements], *Colors);
+            color = SysColors[*Elements];
+            if(*Colors) color = *Colors;
+            gpsi->argbSystem[*Elements] = color;
+            IntGdiSetSolidBrushColor(gpsi->ahbrSystem[*Elements], gpsi->argbSystem[*Elements]);
         }
         Elements++;
         Colors++;
