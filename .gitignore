@@ -6,6 +6,7 @@
 .vscode
 
 ## This should NOT be here!
+output-*/
 *.dll
 *.exe
 *.iso
