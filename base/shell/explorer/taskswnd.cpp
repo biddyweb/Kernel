@@ -193,6 +193,7 @@ class CTaskSwitchWnd :
     HTHEME m_Theme;
     UINT m_ButtonsPerLine;
     WORD m_ButtonCount;
+    BYTE m_TaskbarGlomLevel;
 
     HIMAGELIST m_ImageList;
 
@@ -415,7 +416,10 @@ public:
 
         if (GetWndTextFromTaskItem(TaskItem, windowText, _countof(windowText)) > 0)
         {
-            tbbi.pszText = windowText;
+            if (m_TaskbarGlomLevel == 1 || m_TaskbarGlomLevel == 2)
+            {
+                tbbi.pszText = windowText;
+            }
         }
 
         icon = GetWndIcon(TaskItem->hWnd);
@@ -575,7 +579,10 @@ public:
 
         if (GetWndTextFromTaskItem(TaskItem, windowText, _countof(windowText)) > 0)
         {
-            tbBtn.iString = (DWORD_PTR) windowText;
+            if (m_TaskbarGlomLevel == 1 || m_TaskbarGlomLevel == 2)
+            {
+                tbBtn.iString = (DWORD_PTR) windowText;
+            }
         }
 
         /* Find out where to insert the new button */
@@ -1163,7 +1170,14 @@ public:
                 uiMin = GetSystemMetrics(SM_CXSIZE) + (2 * GetSystemMetrics(SM_CXEDGE));
                 if (Horizontal)
                 {
-                    uiMax = GetSystemMetrics(SM_CXMINIMIZED);
+                    if (m_TaskbarGlomLevel == 1 || m_TaskbarGlomLevel == 2)
+                    {
+                        uiMax = GetSystemMetrics(SM_CXMINIMIZED);
+                    }
+                    else
+                    {
+                        uiMax = GetSystemMetrics(SM_CXSIZE) + (2 * GetSystemMetrics(SM_CXEDGE));
+                    }
 
                     /* Calculate the ideal width and make sure it's within the allowed range */
                     NewBtnSize = (rcClient.right - (uiBtnsPerLine * cxButtonSpacing)) / uiBtnsPerLine;
@@ -1292,6 +1306,18 @@ public:
 
         m_ImageList = ImageList_Create(16, 16, ILC_COLOR32 | ILC_MASK, 0, 1000);
         m_TaskBar.SetImageList(m_ImageList);
+
+        HKEY hKey;
+        char szBuf[MAX_PATH];
+        DWORD dwBufLen = MAX_PATH;
+        if (RegOpenKeyEx(HKEY_CURRENT_USER, TEXT("Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"), 0, KEY_ALL_ACCESS, &hKey) == ERROR_SUCCESS)
+        {
+            if (RegQueryValueEx(hKey, TEXT("TaskbarGlomLevel"), NULL, NULL, (LPBYTE)&szBuf, &dwBufLen) == ERROR_SUCCESS)
+            {
+                m_TaskbarGlomLevel = (INT)szBuf[0];
+            }
+            RegCloseKey(hKey);
+        }
 
         /* Calculate the default button size. Don't save this in m_ButtonSize.cx so that
         the actual button width gets updated correctly on the first recalculation */
