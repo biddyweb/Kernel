@@ -2719,7 +2719,7 @@ HandleTrayContextMenu:
 
             case IDM_HELPANDSUPPORT:
                 // Our help is online
-                ShellExecuteW(m_hWnd, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+                ShellExecuteW(m_hWnd, NULL, L"http://github.com/GreenteaOS/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
                 //ExecResourceCmd(IDS_HELP_COMMAND);
                 break;
 

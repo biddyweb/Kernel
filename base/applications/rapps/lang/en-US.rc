@@ -187,7 +187,7 @@ BEGIN
     IDS_APPS_COUNT "Applications count: %d"
     IDS_WELCOME_TITLE "Welcome to Applications Manager!\n\n"
     IDS_WELCOME_TEXT "Choose a category on the left, then choose an application to install or uninstall.\nWeb Site: "
-    IDS_WELCOME_URL "http://osgreentea.github.io/"
+    IDS_WELCOME_URL "http://greenteaos.github.io/"
     IDS_INSTALLED "Installed"
     IDS_AVAILABLEFORINST "Available for installation"
     IDS_UPDATES "Updates"

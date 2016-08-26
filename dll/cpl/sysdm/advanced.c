@@ -10,7 +10,7 @@
 
 #include "precomp.h"
 
-static TCHAR BugLink[] = _T("http://github.com/OSGreentea/Greentea/issues");
+static TCHAR BugLink[] = _T("http://github.com/GreenteaOS/Greentea/issues");
 static TCHAR ReportAsWorkstationKey[] = _T("SYSTEM\\CurrentControlSet\\Control\\ReactOS\\Settings\\Version");
 
 

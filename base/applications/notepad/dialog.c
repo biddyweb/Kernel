@@ -1173,7 +1173,7 @@ VOID DIALOG_ViewStatusBar(VOID)
 
 VOID DIALOG_HelpContents(VOID)
 {
-    ShellExecuteW(Globals.hMainWnd, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+    ShellExecuteW(Globals.hMainWnd, NULL, L"http://github.com/GreenteaOS/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
     //WinHelp(Globals.hMainWnd, helpfile, HELP_INDEX, 0);
 }
 
@@ -1274,7 +1274,7 @@ static UINT_PTR CALLBACK DIALOG_PAGESETUP_Hook(HWND hDlg, UINT msg, WPARAM wPara
 
             case IDHELP:
                 {
-                    ShellExecuteW(hDlg, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+                    ShellExecuteW(hDlg, NULL, L"http://github.com/GreenteaOS/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
                     //static const TCHAR sorry[] = _T("Sorry, no help available");
                     //static const TCHAR help[] = _T("Help");
                     //MessageBox(Globals.hMainWnd, sorry, help, MB_ICONEXCLAMATION);

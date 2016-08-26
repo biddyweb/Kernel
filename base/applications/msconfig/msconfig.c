@@ -259,7 +259,7 @@ MsConfigWndProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
             if (LOWORD(wParam) == IDC_BTN_HELP) 
             {
-                ShellExecuteW(hDlg, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+                ShellExecuteW(hDlg, NULL, L"http://github.com/GreenteaOS/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
             }
 
             if (LOWORD(wParam) == IDOK || LOWORD(wParam) == IDCANCEL) {

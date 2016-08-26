@@ -379,7 +379,7 @@ ShellShutdownDialog(
     else if (dlgValue == IDHELP)
     {
         // Our help is online
-        ShellExecuteW(hParent, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+        ShellExecuteW(hParent, NULL, L"http://github.com/GreenteaOS/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
         //FIXME("Help is not implemented yet.");
         //MessageBoxW(hParent, L"Help is not implemented yet.", L"Message", MB_OK | MB_ICONEXCLAMATION);
     }

@@ -1099,7 +1099,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
 FONT 8, "MS Shell Dlg"
 BEGIN
     LTEXT "输入的名称或你正在连接的路由器的 IP 地址。", 1535, 10, 8, 289, 18
-    LTEXT "主机名或 IP 地址 (如 osgreentea.github.io 或 145.52.0.1):(&H)", 1537, 21, 35, 285, 8
+    LTEXT "主机名或 IP 地址 (如 greenteaos.github.io 或 145.52.0.1):(&H)", 1537, 21, 35, 285, 8
     EDITTEXT 1536, 21, 47, 285, 14, ES_AUTOHSCROLL
 END
 
@@ -1455,7 +1455,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
 CAPTION "常规"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT "主机名或 IP 地址的目标 (如 osgreentea.github.io 或 145.52.0.1):(&H)", 1430, 7, 5, 217, 18
+    LTEXT "主机名或 IP 地址的目标 (如 greenteaos.github.io 或 145.52.0.1):(&H)", 1430, 7, 5, 217, 18
     EDITTEXT 1427, 7, 25, 215, 14, ES_AUTOHSCROLL
     GROUPBOX "第一次连接", 1431, 9, 48, 213, 78
     LTEXT "Greentea 可以第一次连接公共网络，例如互联网之前试图建立此虚拟连接。", 1432, 17, 63, 199, 24
@@ -1488,7 +1488,7 @@ STYLE DS_SHELLFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
 FONT 8, "MS Shell Dlg"
 BEGIN
     LTEXT "键入的主机名或您连接到的计算机的互联网协议 (IP) 地址。", -1, 10, 6, 275, 16
-    LTEXT "主机名或 IP 地址 (例如，osgreentea.github.io 或 145.52.0.1):(&H)", -1, 21, 28, 277, 11
+    LTEXT "主机名或 IP 地址 (例如，greenteaos.github.io 或 145.52.0.1):(&H)", -1, 21, 28, 277, 11
     EDITTEXT 1433, 21, 42, 275, 14, ES_AUTOHSCROLL
 END
 

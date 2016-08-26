@@ -356,7 +356,7 @@ TaskManagerWndProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
             break;
         case ID_HELP_TOPICS:
             // Our help is online
-            ShellExecuteW(hDlg, NULL, L"http://github.com/OSGreentea/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
+            ShellExecuteW(hDlg, NULL, L"http://github.com/GreenteaOS/Greentea/blob/master/README.md#wiki", NULL, NULL, SW_SHOWNORMAL);
             break;
         case ID_HELP_ABOUT:
             OnAbout();

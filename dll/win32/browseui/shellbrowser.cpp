@@ -3621,7 +3621,7 @@ LRESULT CShellBrowser::OnIsThisLegal(WORD wNotifyCode, WORD wID, HWND hWndCtl, B
 {
     /* TODO: Implement properly */
 
-    LPCWSTR strSite = L"https://osgreentea.github.io/";
+    LPCWSTR strSite = L"https://greenteaos.github.io/";
 
     /* TODO: Make localizable */
     LPCWSTR strCaption = L"Sorry";

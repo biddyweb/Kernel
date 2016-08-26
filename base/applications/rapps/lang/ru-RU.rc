@@ -187,7 +187,7 @@ BEGIN
     IDS_APPS_COUNT "Количество: %d"
     IDS_WELCOME_TITLE "Добро пожаловать в ""Менеджер приложений""!\n\n"
     IDS_WELCOME_TEXT "Выберите категорию слева и приложение для установки или удаления.\nСайт проекта: "
-    IDS_WELCOME_URL "https://osgreentea.github.io/"
+    IDS_WELCOME_URL "https://greenteaos.github.io/"
     IDS_INSTALLED "Установленные"
     IDS_AVAILABLEFORINST "Доступно для установки"
     IDS_UPDATES "Обновления"

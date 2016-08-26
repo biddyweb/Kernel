@@ -13,9 +13,9 @@ ReactOS™ is an Open Source effort to develop a quality operating system that i
 compatible with applications and drivers written for the Microsoft® Windows™ NT
 family of operating systems (NT4, 2000, XP, 2003, Vista, Seven).
 
-Please visit this link for more information https://github.com/OSGreentea/Greentea
+Please visit this link for more information https://github.com/GreenteaOS/Greentea
 
 Contributors
 ---
 
-For credits, visit [CREDITS](https://github.com/OSGreentea/Kernel/blob/master/CREDITS) file, github's [list of contributors](https://github.com/OSGreentea/Kernel/graphs/contributors) and our [team page](https://github.com/orgs/OSGreentea/people).
+For credits, visit [CREDITS](https://github.com/GreenteaOS/Kernel/blob/master/CREDITS) file, github's [list of contributors](https://github.com/GreenteaOS/Kernel/graphs/contributors) and our [team page](https://github.com/orgs/GreenteaOS/people).

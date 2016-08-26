@@ -31,7 +31,7 @@
   #define CERT_SUBJECT_INFO "Domain Control Validated\r\n*.reactos.org"
 #endif
 
-#define APPLICATION_DATABASE_URL L"http://osgreentea.github.io/packages/rappmgr.cab"
+#define APPLICATION_DATABASE_URL L"http://greenteaos.github.io/packages/rappmgr.cab"
 
 #define SPLIT_WIDTH 4
 #define MAX_STR_LEN 256
