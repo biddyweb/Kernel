@@ -112,7 +112,7 @@ static MUI_ENTRY ruRUWelcomePageEntries[] =
     {
         6,
         24,
-        "https://osgreentea.github.io",
+        "https://greenteaos.github.io",
         TEXT_STYLE_HIGHLIGHT
     },
     {

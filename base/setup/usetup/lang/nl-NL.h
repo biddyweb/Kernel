@@ -127,7 +127,7 @@ static MUI_ENTRY nlNLWelcomePageEntries[] =
     {
         6,
         25,
-        "http://osgreentea.github.io/",
+        "http://greenteaos.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {
