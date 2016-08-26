@@ -112,7 +112,7 @@ static MUI_ENTRY elGRWelcomePageEntries[] =
     {
         5,
         24,
-        "http://osgreentea.github.io/",
+        "https://greenteaos.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {

@@ -115,7 +115,7 @@ static MUI_ENTRY trTRWelcomePageEntries[] =
     {
         6,
         24,
-        "http://osgreentea.github.io/",
+        "https://greenteaos.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {

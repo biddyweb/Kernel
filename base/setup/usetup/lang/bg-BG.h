@@ -120,7 +120,7 @@ static MUI_ENTRY bgBGWelcomePageEntries[] =
     {
         6,
         25,
-        "http://osgreentea.github.io/",
+        "https://greenteaos.github.io/",
         TEXT_STYLE_HIGHLIGHT
     },
     {

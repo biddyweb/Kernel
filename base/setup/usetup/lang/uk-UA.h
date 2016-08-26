@@ -1,6 +1,6 @@
 /*
  *      translated by Artem Reznikov, Igor Paliychuk, 2010
- *      http://osgreentea.github.io//uk/
+ *      https://greenteaos.github.io/
  */ 
 
 #pragma once
@@ -117,7 +117,7 @@ static MUI_ENTRY ukUAWelcomePageEntries[] =
     {
         6,
         24,
-        "http://osgreentea.github.io//uk/",
+        "https://greenteaos.github.io",
         TEXT_STYLE_HIGHLIGHT
     },
     {
