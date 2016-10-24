@@ -181,7 +181,7 @@
         pfrface->face_flags |= FT_FACE_FLAG_KERNING;
 
       /* If no family name was found in the `undocumented' auxiliary
-       * data, use the font ID instead.  Better than
+       * data, use the font ID instead.  This sucks but is better than
        * nothing.
        */
       pfrface->family_name = phy_font->family_name;
