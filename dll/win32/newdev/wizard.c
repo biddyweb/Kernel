@@ -913,6 +913,13 @@ NoDriverDlgProc(
             EnableWindow(
                 GetDlgItem(hwndDlg, IDC_DONOTSHOWDLG),
                 DisableableDevice);
+
+            if(DisableableDevice) SendDlgItemMessage(
+                hwndDlg,
+                IDC_DONOTSHOWDLG,
+                BM_SETCHECK,
+                (WPARAM)TRUE,
+                (LPARAM)0);
             break;
         }
 
