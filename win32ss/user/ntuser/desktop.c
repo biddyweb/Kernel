@@ -1250,6 +1250,34 @@ IntPaintDesktop(HDC hDC)
 
                 hOldBitmap = NtGdiSelectBitmap(hWallpaperDC, gspv.hbmWallpaper);
 
+                // Fill
+                if ((gspv.WallpaperMode == wmStretch) && (gspv.WallpaperMode != wmTile))
+                {
+                    FLOAT desktopWidth = sz.cx;
+                    FLOAT desktopHeight = sz.cy;
+                    FLOAT w = desktopWidth / (FLOAT)gspv.cxWallpaper;
+                    FLOAT h = desktopHeight / (FLOAT)gspv.cyWallpaper;
+                    FLOAT max = (w > h)? w : h;
+                    int cxWallpaperScaled = (int)((FLOAT)gspv.cxWallpaper * max);
+                    int cyWallpaperScaled = (int)((FLOAT)gspv.cyWallpaper * max);
+
+                    x = (sz.cx / 2) - (cxWallpaperScaled / 2);
+                    y = (sz.cy / 2) - (cyWallpaperScaled / 2);
+
+                    if (Rect.right && Rect.bottom)
+                        NtGdiStretchBlt(hDC,
+                                        x,
+                                        y,
+                                        cxWallpaperScaled,
+                                        cyWallpaperScaled,
+                                        hWallpaperDC,
+                                        0,
+                                        0,
+                                        gspv.cxWallpaper,
+                                        gspv.cyWallpaper,
+                                        SRCCOPY,
+                                        0);
+                } else
                 if (gspv.WallpaperMode == wmStretch)
                 {
                     if (Rect.right && Rect.bottom)
