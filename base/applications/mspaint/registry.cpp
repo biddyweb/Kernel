@@ -13,6 +13,16 @@
 #include <winreg.h>
 
 /* FUNCTIONS ********************************************************/
+static DWORD ReadDWORD(HKEY hKey, LPCTSTR lpName, DWORD *pdwValue, BOOL bCheckForDef)
+{
+    DWORD dwPrev = *pdwValue;
+    DWORD cbData = sizeof(DWORD);
+    if (ERROR_SUCCESS != RegQueryValueEx(hKey, lpName, 0, NULL, (LPBYTE) pdwValue, &cbData))
+        *pdwValue = dwPrev;
+    if (bCheckForDef && *pdwValue == 0)
+        *pdwValue = dwPrev;
+    return dwPrev;
+}
 
 void RegistrySettings::SetWallpaper(TCHAR * FileName, DWORD dwStyle, DWORD dwTile) //FIXME: Has to be called 2x to apply the pattern (tiled/stretched) too
 {
@@ -56,7 +66,7 @@ void RegistrySettings::LoadPresets()
     ThumbYPos = 200;
     UnitSetting = 0;
     const WINDOWPLACEMENT DefaultWindowPlacement = {
-        sizeof(WINDOWPLACEMENT), 
+        sizeof(WINDOWPLACEMENT),
         0,
         SW_SHOWNORMAL,
         {0, 0},
@@ -76,27 +86,19 @@ void RegistrySettings::Load()
     {
         DWORD cbData;
         cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("BMPHeight"), 0, NULL, (LPBYTE) &BMPHeight, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("BMPWidth"), 0, NULL, (LPBYTE) &BMPWidth, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("GridExtent"), 0, NULL, (LPBYTE) &GridExtent, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("NoStretching"), 0, NULL, (LPBYTE) &NoStretching, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("ShowThumbnail"), 0, NULL, (LPBYTE) &ShowThumbnail, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("SnapToGrid"), 0, NULL, (LPBYTE) &SnapToGrid, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("ThumbHeight"), 0, NULL, (LPBYTE) &ThumbHeight, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("ThumbWidth"), 0, NULL, (LPBYTE) &ThumbWidth, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("ThumbXPos"), 0, NULL, (LPBYTE) &ThumbXPos, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("ThumbYPos"), 0, NULL, (LPBYTE) &ThumbYPos, &cbData);
-        cbData = sizeof(DWORD);
-        RegQueryValueEx(hView, _T("UnitSetting"), 0, NULL, (LPBYTE) &UnitSetting, &cbData);
+
+        ReadDWORD(hView, _T("BMPHeight"),     &BMPHeight,     TRUE);
+        ReadDWORD(hView, _T("BMPWidth"),      &BMPWidth,      TRUE);
+        ReadDWORD(hView, _T("GridExtent"),    &GridExtent,    FALSE);
+        ReadDWORD(hView, _T("NoStretching"),  &NoStretching,  FALSE);
+        ReadDWORD(hView, _T("ShowThumbnail"), &ShowThumbnail, FALSE);
+        ReadDWORD(hView, _T("SnapToGrid"),    &SnapToGrid,    FALSE);
+        ReadDWORD(hView, _T("ThumbHeight"),   &ThumbHeight,   TRUE);
+        ReadDWORD(hView, _T("ThumbWidth"),    &ThumbWidth,    TRUE);
+        ReadDWORD(hView, _T("ThumbXPos"),     &ThumbXPos,     TRUE);
+        ReadDWORD(hView, _T("ThumbYPos"),     &ThumbYPos,     TRUE);
+        ReadDWORD(hView, _T("UnitSetting"),   &UnitSetting,   FALSE);
+
         cbData = sizeof(WINDOWPLACEMENT);
         RegQueryValueEx(hView, _T("WindowPlacement"), 0, NULL, (LPBYTE) &WindowPlacement, &cbData);
     }
