@@ -6,7 +6,6 @@ list(APPEND SOURCE
     ffs.c
     fs_rec.c
     ntfs.c
-    reiserfs.c
     udfs.c
     fs_rec.h)
 

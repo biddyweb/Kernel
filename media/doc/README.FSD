@@ -8,4 +8,3 @@ reactos/drivers/filesystems/ext2            # Synced to 0.66
 The following FSD are shared with: http://www.acc.umu.se/~bosse/
 
 reactos/drivers/filesystems/ffs             # Synced to 0.5.2
-reactos/drivers/filesystems/reiserfs        # Synced to 0.26
