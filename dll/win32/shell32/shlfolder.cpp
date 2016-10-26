@@ -396,7 +396,7 @@ HRESULT SHELL32_GetDisplayNameOfGUIDItem(IShellFolder2* psf, LPCWSTR pszFolderPa
         return E_INVALIDARG;
 
     /* First of all check if we need to query the name from the child item */
-    if (GET_SHGDN_FOR (dwFlags) == SHGDN_FORPARSING && 
+    if (GET_SHGDN_FOR (dwFlags) == SHGDN_FORPARSING &&
         GET_SHGDN_RELATION (dwFlags) == SHGDN_NORMAL)
     {
         int bWantsForParsing = FALSE;
@@ -780,6 +780,27 @@ SHOpenFolderAndSelectItems(LPITEMIDLIST pidlFolder,
                            PCUITEMID_CHILD_ARRAY apidl,
                            DWORD dwFlags)
 {
-    FIXME("SHOpenFolderAndSelectItems() stub\n");
+    FIXME("SHOpenFolderAndSelectItems() partially implemented\n");
+    /*
+        SHOpenFolderAndSelectItems looks for an existing shell window (using =
+        IShellWindows::FindWindowSW). If it can't find one, it creates a new one =
+        (using ShellExecuteEx) and waits for it to appear. Then it queries for =
+        IWebBrowserApp, calls get_Document, queries the document object for =
+        IShellFolderViewDual, and finally calls SelectItem.
+    */
+
+    TCHAR pszFolderToOpen[MAX_PATH];
+    SHGetPathFromIDList(pidlFolder, pszFolderToOpen);
+
+    SHELLEXECUTEINFOW sei;
+    memset(&sei, 0, sizeof sei);
+    sei.cbSize = sizeof sei;
+    sei.fMask = SEE_MASK_WAITFORINPUTIDLE;
+    sei.lpFile = pszFolderToOpen;
+
+    if(ShellExecuteExW(&sei))
+        return S_OK;
+    else
+        return E_FAIL;
     return E_NOTIMPL;
 }

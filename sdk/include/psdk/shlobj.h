@@ -84,6 +84,15 @@ typedef struct
 DECLARE_HANDLE(HPSXA);
 #endif
 
+HRESULT
+WINAPI
+SHOpenFolderAndSelectItems(
+  _In_ LPITEMIDLIST pidlFolder,
+  UINT cidl,
+  _In_opt_ PCUITEMID_CHILD_ARRAY apidl,
+  DWORD dwFlags
+  );
+
 UINT
 WINAPI
 SHAddFromPropSheetExtArray(

@@ -2000,9 +2000,9 @@ INT_PTR CALLBACK CShellLink::SH_ShellLinkDlgProc(HWND hwndDlg, UINT uMsg, WPARAM
                 WCHAR newpath[2*MAX_PATH] = L"\0";
                 if (wcschr(pThis->sPath, ' '))
                     StringCchPrintfExW(newpath, 2*MAX_PATH, NULL, NULL, 0, L"\"%ls\"", pThis->sPath);
-                else 
+                else
                     StringCchCopyExW(newpath, 2*MAX_PATH, pThis->sPath, NULL, NULL, 0);
-                
+
                 if (pThis->sArgs && pThis->sArgs[0])
                 {
                     StringCchCatW(newpath, 2*MAX_PATH, L" ");
@@ -2034,7 +2034,7 @@ INT_PTR CALLBACK CShellLink::SH_ShellLinkDlgProc(HWND hwndDlg, UINT uMsg, WPARAM
                 LPWSTR lpszArgs = NULL;
                 LPWSTR unquoted = strdupW(wszBuf);
                 StrTrimW(unquoted, L" ");
-                if (!PathFileExistsW(unquoted)) 
+                if (!PathFileExistsW(unquoted))
                 {
                     lpszArgs = PathGetArgsW(unquoted);
                     PathRemoveArgsW(unquoted);
@@ -2060,11 +2060,11 @@ INT_PTR CALLBACK CShellLink::SH_ShellLinkDlgProc(HWND hwndDlg, UINT uMsg, WPARAM
                     SetWindowLongPtr(hwndDlg, DWL_MSGRESULT, PSNRET_INVALID_NOCHANGEPAGE);
                     return TRUE;
                 }
-                
+
                 pThis->SetPath(unquoted);
                 if (lpszArgs)
                     pThis->SetArguments(lpszArgs);
-                else 
+                else
                     pThis->SetArguments(L"\0");
 
                 HeapFree(GetProcessHeap(), 0, unquoted);
@@ -2079,11 +2079,21 @@ INT_PTR CALLBACK CShellLink::SH_ShellLinkDlgProc(HWND hwndDlg, UINT uMsg, WPARAM
             switch(LOWORD(wParam))
             {
                 case 14020:
-                    ///
-                    /// FIXME
-                    /// open target directory
-                    ///
+                {
+                    /* Find Target */
+                    CoInitializeEx(NULL, COINIT_MULTITHREADED);
+                    ITEMIDLIST *pIDL = ILCreateFromPath(pThis->sPath);
+                    if (NULL != pIDL)
+                    {
+                        HRESULT hRet = SHOpenFolderAndSelectItems(pIDL, 0, NULL, 0);
+                        if (hRet != S_OK)
+                            ERR("SHOpenFolderAndSelectItems FAILED: 0x%lx\n", hRet);
+                        ILFree(pIDL);
+                    }
+                    //CoUninitialize();
                     return TRUE;
+                }
+
                 case 14021:
                 {
                     WCHAR wszPath[MAX_PATH] = L"";
@@ -2183,7 +2193,7 @@ HRESULT WINAPI CShellLink::DragEnter(IDataObject *pDataObject,
 
         if (SUCCEEDED(hr))
             hr = mDropTarget->DragEnter(pDataObject, dwKeyState, pt, pdwEffect);
-        else 
+        else
             *pdwEffect = DROPEFFECT_NONE;
     }
     else
