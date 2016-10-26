@@ -271,10 +271,6 @@ LoadProvider(
     {
       RtlInitUnicodeString(&ProviderDll, L"uext2.dll");
     }
-    else if (wcscmp(FileSystem, L"Btrfs") == 0)
-    {
-      RtlInitUnicodeString(&ProviderDll, L"ubtrfs.dll");
-    }
     else if (wcscmp(FileSystem, L"RFSD") == 0)
     {
       RtlInitUnicodeString(&ProviderDll, L"ureiserfs.dll");

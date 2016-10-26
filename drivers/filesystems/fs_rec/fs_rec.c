@@ -164,12 +164,6 @@ FsRecFsControl(IN PDEVICE_OBJECT DeviceObject,
             Status = FsRecExt2FsControl(DeviceObject, Irp);
             break;
 
-        case FS_TYPE_BTRFS:
-
-            /* Send BTRFS command */
-            Status = FsRecBtrfsFsControl(DeviceObject, Irp);
-            break;
-
         case FS_TYPE_REISERFS:
 
             /* Send REISERFS command */
@@ -397,16 +391,6 @@ DriverEntry(IN PDRIVER_OBJECT DriverObject,
                              L"\\Ext2fs",
                              L"\\FileSystem\\Ext2Recognizer",
                              FS_TYPE_EXT2,
-                             FILE_DEVICE_DISK_FILE_SYSTEM);
-    if (NT_SUCCESS(Status)) DeviceCount++;
-
-    /* Register BTRFS */
-    Status = FsRecRegisterFs(DriverObject,
-                             NULL,
-                             NULL,
-                             L"\\Btrfs",
-                             L"\\FileSystem\\BtrfsRecognizer",
-                             FS_TYPE_BTRFS,
                              FILE_DEVICE_DISK_FILE_SYSTEM);
     if (NT_SUCCESS(Status)) DeviceCount++;
 
