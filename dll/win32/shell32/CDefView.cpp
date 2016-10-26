@@ -987,7 +987,8 @@ LRESULT CDefView::OnCreate(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL &bHandl
     {
         if (InitList())
         {
-            FillList();
+            if(FAILED(FillList()))
+                return -1;
         }
     }
 
@@ -1203,7 +1204,7 @@ HRESULT CDefView::OpenSelectedItems()
         return hResult;
 
     hMenu = CreatePopupMenu();
-    if (!hMenu) 
+    if (!hMenu)
         return E_FAIL;
 
     hResult = GetItemObject(SVGIO_SELECTION, IID_PPV_ARG(IContextMenu, &m_pCM));
@@ -1224,7 +1225,7 @@ HRESULT CDefView::OpenSelectedItems()
     InvokeContextMenuCommand(uCommand);
 
 cleanup:
-    
+
     if (hMenu)
         DestroyMenu(hMenu);
 
@@ -1254,7 +1255,7 @@ LRESULT CDefView::OnContextMenu(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL &b
     TRACE("(%p)->(0x%08x 0x%08x) stub\n", this, x, y);
 
     hMenu = CreatePopupMenu();
-    if (!hMenu) 
+    if (!hMenu)
         return E_FAIL;
 
     m_cidl = m_ListView.GetSelectedCount();
@@ -1294,7 +1295,7 @@ LRESULT CDefView::OnExplorerCommand(UINT uCommand, BOOL bUseSelection)
     HMENU hMenu;
 
     hMenu = CreatePopupMenu();
-    if (!hMenu) 
+    if (!hMenu)
         return 0;
 
     hResult = GetItemObject( bUseSelection ? SVGIO_SELECTION : SVGIO_BACKGROUND, IID_PPV_ARG(IContextMenu, &m_pCM));
@@ -1527,7 +1528,7 @@ LRESULT CDefView::OnCommand(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL &bHand
     DWORD dwCmdID;
     DWORD dwCmd;
     HWND  hwndCmd;
-    int   nCount; 
+    int   nCount;
 
     dwCmdID = GET_WM_COMMAND_ID(wParam, lParam);
     dwCmd = GET_WM_COMMAND_CMD(wParam, lParam);
@@ -1779,7 +1780,7 @@ LRESULT CDefView::OnNotify(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL &bHandl
                             dwEffect |= DROPEFFECT_LINK;
                         }
                     }
-                    
+
                     CComPtr<IAsyncOperation> piaso;
                     if (SUCCEEDED(pda->QueryInterface(IID_PPV_ARG(IAsyncOperation, &piaso))))
                     {
@@ -1980,7 +1981,7 @@ LRESULT CDefView::OnInitMenuPopup(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL 
     HMENU hSubmenu = (HMENU) wParam;
 
     TRACE("OnInitMenuPopup lParam=%d\n", lParam);
-    
+
     mii.cbSize = sizeof(mii);
     mii.fMask = MIIM_ID | MIIM_SUBMENU;
 
@@ -2153,7 +2154,7 @@ HRESULT WINAPI CDefView::CreateViewWindow(IShellView *lpPrevView, LPCFOLDERSETTI
 
     Create(m_hWndParent, prcView, NULL, WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_TABSTOP, 0, 0U);
     if (m_hWnd == NULL)
-        return E_FAIL;
+        return HRESULT_FROM_WIN32(ERROR_CANCELLED);
 
     *phWnd = m_hWnd;
 
@@ -2451,7 +2452,7 @@ HRESULT STDMETHODCALLTYPE CDefView::GetSpacing(POINT *ppt)
 {
     TRACE("(%p)->(%p)\n", this, ppt);
 
-    if (!m_ListView) 
+    if (!m_ListView)
         return S_FALSE;
 
     if (ppt)
@@ -2649,7 +2650,7 @@ HRESULT STDMETHODCALLTYPE CDefView::GetSelectedObjects(PCUITEMID_CHILD **pidl, U
         {
             return E_OUTOFMEMORY;
         }
-        
+
         /* it's documented that caller shouldn't PIDLs, only array itself */
         memcpy(*pidl, m_apidl, *items * sizeof(PCUITEMID_CHILD));
     }
@@ -2734,7 +2735,7 @@ HRESULT STDMETHODCALLTYPE CDefView::SetAutomationObject(IDispatch *disp)
     FIXME("(%p)->(%p) stub\n", this, disp);
     return E_NOTIMPL;
 }
- 
+
 /**********************************************************
  * ISVOleCmdTarget_QueryStatus (IOleCommandTarget)
  */
@@ -2945,10 +2946,10 @@ HRESULT WINAPI CDefView::Drop(IDataObject* pDataObject, DWORD grfKeyState, POINT
 {
     ERR("GetKeyState(VK_LBUTTON): %d\n", GetKeyState(VK_LBUTTON));
 
-    if ((m_iDragOverItem == -1) && 
-        (*pdwEffect & DROPEFFECT_MOVE) && 
+    if ((m_iDragOverItem == -1) &&
+        (*pdwEffect & DROPEFFECT_MOVE) &&
         (GetKeyState(VK_LBUTTON) != 0) &&
-        (m_pSourceDataObject.p) && 
+        (m_pSourceDataObject.p) &&
         (SHIsSameObject(pDataObject, m_pSourceDataObject)))
     {
         ERR("Should implement moving items here!\n");
@@ -2965,7 +2966,7 @@ HRESULT WINAPI CDefView::Drop(IDataObject* pDataObject, DWORD grfKeyState, POINT
         m_pCurDropTarget.Release();
     }
 
-    m_pCurDataObject.Release();    
+    m_pCurDataObject.Release();
     m_iDragOverItem = 0;
     return S_OK;
 }

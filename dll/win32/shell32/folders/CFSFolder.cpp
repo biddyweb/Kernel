@@ -208,7 +208,7 @@ HRESULT WINAPI CFSFolder::ParseDisplayName(HWND hwndOwner,
         if (pidlTemp != NULL)
         {
             /* We are creating an id list without ensuring that the items exist.
-               If we have a remaining path, this must be a folder. 
+               If we have a remaining path, this must be a folder.
                We have to do it now because it is set as a file by default */
             if (szNext)
             {
@@ -267,6 +267,16 @@ HRESULT WINAPI CFSFolder::EnumObjects(
     DWORD dwFlags,
     LPENUMIDLIST *ppEnumIDList)
 {
+    HRESULT hr;
+    if (FAILED(SHFindFirstFile(sPathTarget)))
+    {
+        RETRY_DATA* retryData;
+        retryData = (RETRY_DATA*)SHAlloc(sizeof(RETRY_DATA));
+        StringCchCopyW(retryData->szDrive, MAX_PATH, sPathTarget);
+        hr = DialogBoxParamW(shell32_hInstance, MAKEINTRESOURCE(1024), hwndOwner, RetryDlgProc, (LPARAM)retryData);
+        if (hr == IDCANCEL)
+            return HRESULT_FROM_WIN32(ERROR_CANCELLED);
+    }
     return ShellObjectCreatorInit<CFileSysEnum>(sPathTarget, dwFlags, IID_IEnumIDList, ppEnumIDList);
 }
 
@@ -345,7 +355,7 @@ HRESULT WINAPI CFSFolder::CompareIDs(LPARAM lParam,
         case 2: /* Type */
             pExtension1 = PathFindExtensionW(pDataW1->wszName);
             pExtension2 = PathFindExtensionW(pDataW2->wszName);
-            result = wcsicmp(pExtension1, pExtension2); 
+            result = wcsicmp(pExtension1, pExtension2);
             break;
         case 1: /* Size */
             result = pData1->u.file.dwFileSize - pData2->u.file.dwFileSize;
@@ -505,7 +515,7 @@ HRESULT WINAPI CFSFolder::GetUIObjectOf(HWND hwndOwner,
         }
         else if (IsEqualIID (riid, IID_IDataObject))
         {
-            if (cidl >= 1) 
+            if (cidl >= 1)
             {
                 hr = IDataObject_Constructor (hwndOwner, pidlRoot, apidl, cidl, (IDataObject **)&pObj);
             }
@@ -630,7 +640,7 @@ HRESULT WINAPI CFSFolder::GetDisplayNameOf(PCUITEMID_CHILD pidl,
     else if (!pidl->mkid.cb) /* empty pidl */
     {
         /* If it is an empty pidl return only the path of the folder */
-        if ((GET_SHGDN_FOR(dwFlags) & SHGDN_FORPARSING) && 
+        if ((GET_SHGDN_FOR(dwFlags) & SHGDN_FORPARSING) &&
             (GET_SHGDN_RELATION(dwFlags) != SHGDN_INFOLDER) &&
             sPathTarget)
         {
@@ -638,7 +648,7 @@ HRESULT WINAPI CFSFolder::GetDisplayNameOf(PCUITEMID_CHILD pidl,
         }
         return E_INVALIDARG;
     }
-    
+
     int len = 0;
     LPWSTR pszPath = (LPWSTR)CoTaskMemAlloc((MAX_PATH + 1) * sizeof(WCHAR));
     if (!pszPath)
@@ -1168,7 +1178,7 @@ CFSFolder::GetUniqueFileName(LPWSTR pwszBasePath, LPCWSTR pwszExt, LPWSTR pwszTa
  */
 BOOL CFSFolder::QueryDrop(DWORD dwKeyState, LPDWORD pdwEffect)
 {
-    /* TODO Windows does different drop effects if dragging across drives. 
+    /* TODO Windows does different drop effects if dragging across drives.
     i.e., it will copy instead of move if the directories are on different disks. */
 
     DWORD dwEffect = DROPEFFECT_MOVE;
@@ -1235,7 +1245,7 @@ HRESULT WINAPI CFSFolder::Drop(IDataObject *pDataObject,
                                DWORD dwKeyState, POINTL pt, DWORD *pdwEffect)
 {
     TRACE("(%p) object dropped, effect %u\n", this, *pdwEffect);
-    
+
     BOOL fIsOpAsync = FALSE;
     CComPtr<IAsyncOperation> pAsyncOperation;
 
@@ -1339,7 +1349,7 @@ HRESULT WINAPI CFSFolder::_DoDrop(IDataObject *pDataObject,
             /* use desktop shell folder */
             psfFrom = psfDesktop;
         }
-        else 
+        else
         {
             hr = psfDesktop->BindToObject(pidl, NULL, IID_PPV_ARG(IShellFolder, &psfFrom));
             if (FAILED(hr))
@@ -1369,14 +1379,14 @@ HRESULT WINAPI CFSFolder::_DoDrop(IDataObject *pDataObject,
                 {
                     hr = psfDesktop->GetDisplayNameOf(targetpidl, SHGDN_FORPARSING, &strFile);
                     ILFree(targetpidl);
-                    if (SUCCEEDED(hr)) 
+                    if (SUCCEEDED(hr))
                     {
                         hr = StrRetToBufW(&strFile, NULL, wszTargetPath, _countof(wszTargetPath));
                     }
                 }
             }
 
-            if (FAILED(hr)) 
+            if (FAILED(hr))
             {
                 ERR("Error obtaining target path");
             }
@@ -1389,14 +1399,14 @@ HRESULT WINAPI CFSFolder::_DoDrop(IDataObject *pDataObject,
                 //Find out which file we're copying
                 STRRET strFile;
                 hr = psfFrom->GetDisplayNameOf(apidl[i], SHGDN_FORPARSING, &strFile);
-                if (FAILED(hr)) 
+                if (FAILED(hr))
                 {
                     ERR("Error source obtaining path");
                     break;
                 }
 
                 hr = StrRetToBufW(&strFile, apidl[i], wszPath, _countof(wszPath));
-                if (FAILED(hr)) 
+                if (FAILED(hr))
                 {
                     ERR("Error putting source path into buffer");
                     break;
@@ -1413,11 +1423,11 @@ HRESULT WINAPI CFSFolder::_DoDrop(IDataObject *pDataObject,
                 LPWSTR placementPath = PathCombineW(lpStr1, wszTargetPath, pwszFileName);
                 CComPtr<IPersistFile> ppf;
 
-                //Check to see if it's already a link. 
+                //Check to see if it's already a link.
                 if (!wcsicmp(pwszExt, L".lnk"))
                 {
                     //It's a link so, we create a new one which copies the old.
-                    if(!GetUniqueFileName(placementPath, pwszExt, wszTarget, TRUE)) 
+                    if(!GetUniqueFileName(placementPath, pwszExt, wszTarget, TRUE))
                     {
                         ERR("Error getting unique file name");
                         hr = E_FAIL;
@@ -1475,7 +1485,7 @@ HRESULT WINAPI CFSFolder::_DoDrop(IDataObject *pDataObject,
                 }
             }
         }
-        else 
+        else
         {
             hr = this->CopyItems(psfFrom, lpcida->cidl, (LPCITEMIDLIST*)apidl, bCopy);
         }
@@ -1511,7 +1521,7 @@ HRESULT WINAPI CFSFolder::_DoDrop(IDataObject *pDataObject,
                 {
                     hr = psfDesktop->GetDisplayNameOf(targetpidl, SHGDN_FORPARSING, &strFile);
                     ILFree(targetpidl);
-                    if (SUCCEEDED(hr)) 
+                    if (SUCCEEDED(hr))
                     {
                         hr = StrRetToBufW(&strFile, NULL, wszTargetPath, _countof(wszTargetPath));
                         //Double NULL terminate.
@@ -1519,7 +1529,7 @@ HRESULT WINAPI CFSFolder::_DoDrop(IDataObject *pDataObject,
                     }
                 }
             }
-            if (FAILED(hr)) 
+            if (FAILED(hr))
             {
                 ERR("Error obtaining target path");
                 return E_FAIL;
@@ -1548,11 +1558,11 @@ HRESULT WINAPI CFSFolder::_DoDrop(IDataObject *pDataObject,
         ERR("Error calling GetData\n");
         hr = E_FAIL;
     }
-    else 
+    else
     {
         ERR("No viable drop format.\n");
         hr = E_FAIL;
-    }    
+    }
     return hr;
 }
 
@@ -1628,7 +1638,7 @@ HRESULT WINAPI CFSFolder::_GetDropTarget(LPCITEMIDLIST pidl, LPVOID *ppvOut) {
     return hr;
 }
 
-HRESULT WINAPI CFSFolder::_LoadDynamicDropTargetHandlerForKey(HKEY hRootKey, LPCWSTR pwcsname, LPVOID *ppvOut) 
+HRESULT WINAPI CFSFolder::_LoadDynamicDropTargetHandlerForKey(HKEY hRootKey, LPCWSTR pwcsname, LPVOID *ppvOut)
 {
     TRACE("CFSFolder::_LoadDynamicDropTargetHandlerForKey entered\n");
 
@@ -1686,4 +1696,59 @@ HRESULT WINAPI CFSFolder::_LoadDynamicDropTargetHandler(const CLSID *pclsid, LPC
         return hr;
     }
     return hr;
+}
+
+INT_PTR CALLBACK RetryDlgProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
+{
+    SHFILEINFOW* psfi;
+    RETRY_DATA* retryData;
+    WCHAR szFormat[MAX_PATH] = {0};
+    WCHAR szDrive[MAX_PATH] = {0};
+    retryData = (RETRY_DATA*)GetWindowLong(hwndDlg, DWL_USER);
+    switch (uMsg)
+    {
+        case WM_INITDIALOG:
+            retryData = reinterpret_cast<RETRY_DATA*>(lParam);
+            retryData->hDlg = hwndDlg;
+            SetWindowLong(hwndDlg, DWL_USER, lParam);
+            /* set message text */
+            GetDlgItemTextW(hwndDlg, 12291, szFormat, MAX_PATH);
+            StringCchPrintfW(szDrive, MAX_PATH, szFormat, retryData->szDrive[0]);
+            SetDlgItemTextW(hwndDlg, 12291, szDrive);
+            /* set icon */
+            StringCchCopyW(szDrive, MAX_PATH, retryData->szDrive);
+            PathStripToRoot(szDrive);
+            psfi = (SHFILEINFOW*)HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, sizeof(SHFILEINFOW));
+            SHGetFileInfoW(szDrive, FILE_ATTRIBUTE_DIRECTORY, psfi, sizeof(SHFILEINFOW), SHGFI_ICON | SHGFI_ADDOVERLAYS);
+            SendDlgItemMessageW(hwndDlg, 12297, STM_SETICON, (WPARAM)psfi->hIcon, 0);
+            HeapFree(GetProcessHeap(), 0, psfi);
+            SetTimer(hwndDlg, 1, 2000, NULL);
+            break;
+        case WM_COMMAND:
+            if (wParam == IDCANCEL)
+                EndDialog(hwndDlg, IDCANCEL);
+            break;
+        case WM_TIMER:
+            if(SUCCEEDED(SHFindFirstFile(retryData->szDrive)))
+                EndDialog(retryData->hDlg, 4);
+            break;
+        default:
+            return false;
+    }
+    return true;
+}
+HRESULT SHFindFirstFile(LPCWSTR lpFilePath)
+{
+    WIN32_FIND_DATAW stffile;
+    HANDLE hFile;
+    WCHAR szPath[MAX_PATH];
+    wcscpy(szPath, lpFilePath);
+    PathAddBackslashW(szPath);
+    wcscat(szPath, L"*.*");
+    hFile = FindFirstFileW(szPath, &stffile);
+    if (hFile == INVALID_HANDLE_VALUE)
+        return E_FAIL;
+    else
+        FindClose(hFile);
+    return S_OK;
 }

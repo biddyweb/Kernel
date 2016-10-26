@@ -44,9 +44,9 @@ BEGIN
     "A", FCIDM_SHVIEW_SELECTALL, VIRTKEY, CONTROL
     VK_F1, FCIDM_SHVIEW_HELP, VIRTKEY
 
-    /* FIXME: the following accelerator doesn't belong here. This accelerator 
+    /* FIXME: the following accelerator doesn't belong here. This accelerator
      * table is used by the shell view control. F5 should be handled by the
-     * a different accelerator table thats translated in IShellBrowser::TranslateAcceleratorSB 
+     * a different accelerator table thats translated in IShellBrowser::TranslateAcceleratorSB
      * but will put it here until the shell work fine */
     VK_F5, FCIDM_SHVIEW_REFRESH, VIRTKEY
 END
@@ -80,6 +80,17 @@ END
 #include <reactos/manifest_dll.rc>
 
 1 TYPELIB "shell32_shldisp.tlb"
+
+// FIXME: Translations
+1024 DIALOGEX 0, 0, 227, 69
+STYLE DS_SHELLFONT | DS_MODALFRAME | DS_NOIDLEMSG | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_VISIBLE
+CAPTION "Insert disk"
+FONT 8, "MS Shell Dlg"
+BEGIN
+   ICON 12297, 12297, 7, 7, 21, 20
+   LTEXT "Please insert a disk into drive %c:.", 12291, 70, 7, 152, 23
+   PUSHBUTTON "Cancel", 2, 169, 47, 50, 14
+END
 
 /*
  * Everything specific to any language goes

@@ -23,6 +23,13 @@
 #ifndef _CFSFOLDER_H_
 #define _CFSFOLDER_H_
 
+struct RETRY_DATA
+{
+    HWND    hDlg;
+    WCHAR   szDrive[MAX_PATH];
+};
+INT_PTR CALLBACK RetryDlgProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
+HRESULT SHFindFirstFile(LPCWSTR lpFilePath);
 WCHAR *BuildPathsList(LPCWSTR wszBasePath, int cidl, LPCITEMIDLIST *pidls);
 
 class CFSFolder :
@@ -56,7 +63,7 @@ class CFSFolder :
     public:
         CFSFolder();
         ~CFSFolder();
-        
+
 
         // IShellFolder
         virtual HRESULT WINAPI ParseDisplayName(HWND hwndOwner, LPBC pbc, LPOLESTR lpszDisplayName, DWORD *pchEaten, PIDLIST_RELATIVE *ppidl, DWORD *pdwAttributes);
@@ -118,7 +125,7 @@ struct _DoDropData {
     CFSFolder *This;
     IStream *pStream;
     DWORD dwKeyState;
-    POINTL pt; 
+    POINTL pt;
     DWORD pdwEffect;
 };
 

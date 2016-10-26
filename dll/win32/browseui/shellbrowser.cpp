@@ -793,7 +793,7 @@ HRESULT CShellBrowser::Initialize(LPITEMIDLIST pidl, long b, long c, long d)
     fStatusBarVisible = true;
 
 
-    // browse 
+    // browse
     hResult = BrowseToPIDL(pidl, BTP_UPDATE_NEXT_HISTORY);
     if (FAILED_UNEXPECTEDLY(hResult))
         return hResult;
@@ -996,6 +996,7 @@ HRESULT CShellBrowser::BrowseToPath(IShellFolder *newShellFolder,
         ::SendMessage(fCurrentShellViewWindow, WM_SETREDRAW, 1, 0);
         if (windowUpdateIsLocked)
             LockWindowUpdate(FALSE);
+        ::RedrawWindow(fCurrentShellViewWindow, NULL, NULL, RDW_INVALIDATE);
         SetCursor(saveCursor);
         return hResult;
     }
@@ -1126,10 +1127,10 @@ HRESULT CShellBrowser::GetBaseBar(bool vertical, IUnknown **theBaseBar)
         hResult = CreateBaseBarSite(IID_PPV_ARG(IUnknown, &newBaseBarSite), vertical);
         if (FAILED_UNEXPECTEDLY(hResult))
             return hResult;
-    
+
         // we have to store our basebar into cache now
         *cache = newBaseBar;
-        
+
         // tell the new base bar about the shell browser
         hResult = IUnknown_SetSite(newBaseBar, static_cast<IDropTarget *>(this));
         if (FAILED_UNEXPECTEDLY(hResult))
@@ -1222,7 +1223,7 @@ HRESULT CShellBrowser::ShowBand(const CLSID &classID, bool vertical)
     hResult = GetBaseBar(vertical, (IUnknown **)&theBaseBar);
     if (FAILED_UNEXPECTEDLY(hResult))
         return hResult;
-    
+
     hResult = theBaseBar->QueryInterface(IID_PPV_ARG(IDeskBar, &deskBar));
     if (FAILED_UNEXPECTEDLY(hResult))
         return hResult;
@@ -1234,7 +1235,7 @@ HRESULT CShellBrowser::ShowBand(const CLSID &classID, bool vertical)
     hResult = theBaseBar->QueryInterface(IID_PPV_ARG(IDockingWindow, &dockingWindow));
     if (FAILED_UNEXPECTEDLY(hResult))
         return hResult;
-    
+
     if (!IsBandLoaded(classID, vertical, &dwBandID))
     {
 #if USE_CUSTOM_EXPLORERBAND
@@ -1753,7 +1754,7 @@ HRESULT CShellBrowser::BuildExplorerBandMenu()
     if (!nbFound)
     {
         // Remove separator
-        DeleteMenu(hBandsMenu, IDM_EXPLORERBAR_SEPARATOR, MF_BYCOMMAND); 
+        DeleteMenu(hBandsMenu, IDM_EXPLORERBAR_SEPARATOR, MF_BYCOMMAND);
     }
     // Remove media menu since XP does it (according to API Monitor)
     DeleteMenu(hBandsMenu, IDM_EXPLORERBAR_MEDIA, MF_BYCOMMAND);
@@ -2209,6 +2210,11 @@ HRESULT STDMETHODCALLTYPE CShellBrowser::TranslateAcceleratorSB(MSG *pmsg, WORD 
 
 HRESULT STDMETHODCALLTYPE CShellBrowser::BrowseObject(LPCITEMIDLIST pidl, UINT wFlags)
 {
+    HRESULT hr;
+    hr = BrowseToPIDL(pidl, BTP_UPDATE_CUR_HISTORY | BTP_UPDATE_NEXT_HISTORY);
+    if (hr == HRESULT_FROM_WIN32(ERROR_CANCELLED))
+        return S_OK;
+    return hr;
     return BrowseToPIDL(pidl, BTP_UPDATE_CUR_HISTORY | BTP_UPDATE_NEXT_HISTORY);
 }
 
@@ -3389,14 +3395,14 @@ LRESULT CShellBrowser::OnDestroy(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL &
             CComPtr<IDeskBar> bar;
             CComPtr<IUnknown> pBarSite;
             CComPtr<IDeskBarClient> pClient;
- 
+
             if (fClientBars[i].clientBar == NULL)
                 continue;
 
             hr = fClientBars[i].clientBar->QueryInterface(IID_PPV_ARG(IDockingWindow, &pdw));
             if (FAILED_UNEXPECTEDLY(hr))
                 continue;
-            
+
             /* We should destroy our basebarsite too */
             hr = pdw->QueryInterface(IID_PPV_ARG(IDeskBar, &bar));
             if (SUCCEEDED(hr))
@@ -3759,13 +3765,13 @@ static HRESULT ExplorerMessageLoop(IEThreadParamBlock * parameters)
     // Tell the thread ref we are using it.
     if (parameters && parameters->offsetF8)
         parameters->offsetF8->AddRef();
-    
+
     ATLTRY(theCabinet = new CComObject<CShellBrowser>);
     if (theCabinet == NULL)
     {
         return E_OUTOFMEMORY;
     }
-    
+
     hResult = theCabinet->Initialize(parameters->directoryPIDL, 0, 0, 0);
     if (FAILED_UNEXPECTEDLY(hResult))
         return E_OUTOFMEMORY;
