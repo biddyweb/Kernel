@@ -70,7 +70,7 @@ add_livecd_shortcut("Multimedia Player" mplay32.exe "Profiles/All Users/Start Me
 add_livecd_shortcut("Volume Control" sndvol32.exe "Profiles/All Users/Start Menu/Programs/Entertainment")
 add_livecd_shortcut("Solitaire" sol.exe "Profiles/All Users/Start Menu/Programs/Games")
 add_livecd_shortcut("Spider Solitaire" spider.exe "Profiles/All Users/Start Menu/Programs/Games")
-add_livecd_shortcut("WineMine" winmine.exe "Profiles/All Users/Start Menu/Programs/Games")
+add_livecd_shortcut("Mine" winmine.exe "Profiles/All Users/Start Menu/Programs/Games")
 add_livecd_shortcut("Character Map" charmap.exe "Profiles/All Users/Start Menu/Programs/System Tools")
 add_livecd_shortcut("Clipboard Viewer" clipbrd.exe "Profiles/All Users/Start Menu/Programs/System Tools")
 add_livecd_shortcut("Keyboard Layout Switcher" kbswitch.exe "Profiles/All Users/Start Menu/Programs/System Tools")

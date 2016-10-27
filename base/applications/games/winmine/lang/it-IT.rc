@@ -2,7 +2,7 @@ LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
 
 STRINGTABLE
 BEGIN
-    IDS_APPNAME "WinMine"
+    IDS_APPNAME "Mine"
     IDS_NOBODY "Nessuno"
     IDS_ABOUT "Copyright 2000 Joshua Thielen"
 END
@@ -25,7 +25,7 @@ BEGIN
     POPUP "&Informazioni"
     BEGIN
         MENUITEM "&Tempi migliori", IDM_TIMES
-        MENUITEM "&Riguardo a WineMine", IDM_ABOUT
+        MENUITEM "&Riguardo a Mine", IDM_ABOUT
     END
 END
 

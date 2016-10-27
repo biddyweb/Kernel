@@ -1,4 +1,4 @@
-/* TRANSLATOR : Ardit Dani (Ard1t) (ardit.dani@gmail.com) 
+/* TRANSLATOR : Ardit Dani (Ard1t) (ardit.dani@gmail.com)
  * DATE OF TR:  29-11-2013
 */
 
@@ -6,7 +6,7 @@ LANGUAGE LANG_ALBANIAN, SUBLANG_NEUTRAL
 
 STRINGTABLE
 BEGIN
-    IDS_APPNAME "WineMine"
+    IDS_APPNAME "Mine"
     IDS_NOBODY "Asnje"
     IDS_ABOUT "Te Drejtat 2000 Joshua Thielen"
 END

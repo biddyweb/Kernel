@@ -2,8 +2,8 @@ LANGUAGE LANG_UKRAINIAN, SUBLANG_DEFAULT
 
 STRINGTABLE
 BEGIN
-    IDS_APPNAME "WineMine"
-    IDS_NOBODY "Nobody"
+    IDS_APPNAME "Mine"
+    IDS_NOBODY "Гравець"
     IDS_ABOUT "Copyright 2000 Joshua Thielen"
 END
 

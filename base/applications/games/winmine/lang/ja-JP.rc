@@ -2,7 +2,7 @@ LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
 
 STRINGTABLE
 BEGIN
-    IDS_APPNAME "WineMine"
+    IDS_APPNAME "Mine"
     IDS_NOBODY "Nobody"
     IDS_ABOUT "Copyright 2000 Joshua Thielen"
 END
@@ -25,7 +25,7 @@ BEGIN
     POPUP "情報(&I)"
     BEGIN
         MENUITEM "ハイスコア(&F)", IDM_TIMES
-        MENUITEM "WineMine について(&A)", IDM_ABOUT
+        MENUITEM "Mine について(&A)", IDM_ABOUT
     END
 END
 
